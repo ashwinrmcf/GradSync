@@ -6,6 +6,7 @@ import HeroSection from '@/components/HeroSection'
 import FeaturesSection from '@/components/FeaturesSection'
 import AlumniSpotlight from '@/components/AlumniSpotlight'
 import StatsSection from '@/components/StatsSection'
+import BatchesSection from '@/components/BatchesSection'
 import CTASection from '@/components/CTASection'
 import Footer from '@/components/Footer'
 
@@ -16,6 +17,7 @@ export default function Home() {
       <HeroSection />
       <StatsSection />
       <FeaturesSection />
+      <BatchesSection />
       <AlumniSpotlight />
       <CTASection />
       <Footer />

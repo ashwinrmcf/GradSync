@@ -2,16 +2,20 @@
 
 import { useState } from 'react'
 import { motion } from 'framer-motion'
-import { Menu, X, User, LogIn } from 'lucide-react'
+import { Menu, X, User, LogIn, LogOut, Settings } from 'lucide-react'
 import Link from 'next/link'
+import { useAuth } from '@/contexts/AuthContext'
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const [showUserMenu, setShowUserMenu] = useState(false)
+  const { user, isAuthenticated, logout } = useAuth()
 
   const navItems = [
-    { name: 'Home', href: '#home' },
-    { name: 'Network', href: '#network' },
-    { name: 'Jobs', href: '#jobs' },
+    { name: 'Home', href: '/' },
+    { name: 'Directory', href: '/directory' },
+    { name: 'Batches', href: '/batches' },
+    { name: 'Jobs', href: '/jobs' },
     { name: 'Events', href: '#events' },
     { name: 'About', href: '#about' },
   ]
@@ -38,39 +42,106 @@ export default function Header() {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             {navItems.map((item, index) => (
-              <motion.a
+              <motion.div
                 key={item.name}
-                href={item.href}
                 initial={{ opacity: 0, y: -10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
-                className="nav-link"
               >
-                {item.name}
-              </motion.a>
+                <Link href={item.href} className="nav-link">
+                  {item.name}
+                </Link>
+              </motion.div>
             ))}
           </nav>
 
           {/* Desktop Auth Buttons */}
           <div className="hidden md:flex items-center space-x-4">
-            <motion.button
-              initial={{ opacity: 0, x: 20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ delay: 0.3 }}
-              className="btn-ghost flex items-center space-x-2"
-            >
-              <LogIn size={18} />
-              <span>Sign In</span>
-            </motion.button>
-            <motion.button
-              initial={{ opacity: 0, x: 20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ delay: 0.4 }}
-              className="btn-primary flex items-center space-x-2"
-            >
-              <User size={18} />
-              <span>Join Network</span>
-            </motion.button>
+            {isAuthenticated ? (
+              <div className="relative">
+                <motion.button
+                  initial={{ opacity: 0, x: 20 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ delay: 0.3 }}
+                  onClick={() => setShowUserMenu(!showUserMenu)}
+                  className="flex items-center space-x-3 p-2 rounded-lg hover:bg-gray-100 transition-colors"
+                >
+                  <img
+                    src={user?.profileImage || `https://ui-avatars.com/api/?name=${user?.firstName}+${user?.lastName}&background=1e40af&color=fff`}
+                    alt={`${user?.firstName} ${user?.lastName}`}
+                    className="w-8 h-8 rounded-full object-cover"
+                  />
+                  <div className="text-left">
+                    <div className="text-sm font-medium text-gray-900">
+                      {user?.firstName} {user?.lastName}
+                    </div>
+                    <div className="text-xs text-gray-500">
+                      {user?.currentCompany}
+                    </div>
+                  </div>
+                </motion.button>
+
+                {/* User Dropdown Menu */}
+                {showUserMenu && (
+                  <motion.div
+                    initial={{ opacity: 0, y: 10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    className="absolute right-0 mt-2 w-48 bg-white rounded-lg shadow-lg border border-gray-100 py-2 z-50"
+                  >
+                    <Link
+                      href="/dashboard"
+                      className="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                      onClick={() => setShowUserMenu(false)}
+                    >
+                      <User size={16} className="mr-3" />
+                      Dashboard
+                    </Link>
+                    <Link
+                      href="/profile"
+                      className="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                      onClick={() => setShowUserMenu(false)}
+                    >
+                      <Settings size={16} className="mr-3" />
+                      Profile Settings
+                    </Link>
+                    <hr className="my-2" />
+                    <button
+                      onClick={() => {
+                        logout()
+                        setShowUserMenu(false)
+                      }}
+                      className="flex items-center w-full px-4 py-2 text-sm text-red-600 hover:bg-red-50"
+                    >
+                      <LogOut size={16} className="mr-3" />
+                      Sign Out
+                    </button>
+                  </motion.div>
+                )}
+              </div>
+            ) : (
+              <>
+                <motion.div
+                  initial={{ opacity: 0, x: 20 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ delay: 0.3 }}
+                >
+                  <Link href="/auth/login" className="btn-ghost flex items-center space-x-2">
+                    <LogIn size={18} />
+                    <span>Sign In</span>
+                  </Link>
+                </motion.div>
+                <motion.div
+                  initial={{ opacity: 0, x: 20 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ delay: 0.4 }}
+                >
+                  <Link href="/auth/register" className="btn-primary flex items-center space-x-2">
+                    <User size={18} />
+                    <span>Join Network</span>
+                  </Link>
+                </motion.div>
+              </>
+            )}
           </div>
 
           {/* Mobile Menu Button */}

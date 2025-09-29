@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
+import { AuthProvider } from '@/contexts/AuthContext'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -25,9 +26,11 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body className={inter.className}>
-        <div className="min-h-screen bg-white">
-          {children}
-        </div>
+        <AuthProvider>
+          <div className="min-h-screen bg-white">
+            {children}
+          </div>
+        </AuthProvider>
       </body>
     </html>
   )
