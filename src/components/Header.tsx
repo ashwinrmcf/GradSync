@@ -16,8 +16,8 @@ export default function Header() {
     { name: 'Directory', href: '/directory' },
     { name: 'Batches', href: '/batches' },
     { name: 'Jobs', href: '/jobs' },
-    { name: 'Events', href: '#events' },
-    { name: 'About', href: '#about' },
+    { name: 'Events', href: '/events' },
+    { name: 'About', href: '/about' },
   ]
 
   return (
@@ -162,16 +162,16 @@ export default function Header() {
             className="md:hidden border-t border-gray-100 py-4"
           >
             <nav className="flex flex-col space-y-4">
-              {navItems.map((item) => (
-                <a
-                  key={item.name}
-                  href={item.href}
-                  className="nav-link block"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  {item.name}
-                </a>
-              ))}
+                {navItems.map((item) => (
+                  <Link
+                    key={item.name}
+                    href={item.href}
+                    className="nav-link block"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    {item.name}
+                  </Link>
+                ))}
               <div className="flex flex-col space-y-2 pt-4 border-t border-gray-100">
                 <button className="btn-ghost justify-start">
                   <LogIn size={18} className="mr-2" />
