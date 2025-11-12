@@ -1,0 +1,37 @@
+GradSync Migration Package - Import Instructions
+==============================================
+
+This package contains:
+- MongoDB data: 46 alumni with placement records
+- MySQL data: Authentication and user management
+- Profile images: 42 real student photos
+- Configuration files: Application settings
+
+To import on new device:
+
+1. Install Prerequisites:
+   - Java 21
+   - Node.js 18+
+   - MongoDB
+   - MySQL
+   - Maven
+
+2. Import MongoDB:
+   mongoimport --host localhost:27017 --db gradsyncdb --collection users --file mongodb_backup/gradsyncdb_users.json --jsonArray
+   mongoimport --host localhost:27017 --db gradsyncdb --collection batches --file mongodb_backup/gradsyncdb_batches.json --jsonArray
+
+3. Import MySQL:
+   mysql -u root -p -e "CREATE DATABASE gradsync_db;"
+   mysql -u root -p gradsync_db < mysql_backup/gradsync_db_complete.sql
+
+4. Copy Profile Images:
+   Copy profile_images/* to backend/src/main/resources/static/images/profiles/
+
+5. Copy Configuration:
+   Copy application_config/* to backend/src/main/resources/
+
+6. Start Application:
+   cd backend
+   mvn spring-boot:run
+
+Login: admin@piemr.edu.in / password
