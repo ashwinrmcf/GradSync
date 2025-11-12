@@ -1,0 +1,35 @@
+### Test NBA 2025 Data Import - CSE Department Placement Records
+### Make sure your Spring Boot application is running on localhost:8080
+
+### 1. First, login as admin to get JWT token
+POST http://localhost:8080/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "admin@piemr.edu.in",
+  "password": "admin123"
+}
+
+### 2. Preview NBA 2025.xlsx file structure (use token from login response)
+GET http://localhost:8080/api/admin/validate/preview-nba2025
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
+
+### 3. Check data processing status (use token from login response)
+GET http://localhost:8080/api/admin/data/status
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
+
+### 4. Process NBA 2025 Excel data - CSE Batch 2018-2022 (use token from login response)
+POST http://localhost:8080/api/admin/data/process-nba2025
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
+
+### 5. Verify imported users
+GET http://localhost:8080/api/admin/users?page=0&size=10
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
+
+### 6. Check CSE batch statistics for 2022
+GET http://localhost:8080/api/batches/2022/CSE
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
+
+### 7. Search for specific students
+GET http://localhost:8080/api/admin/users/search?query=18CS
+Authorization: Bearer YOUR_JWT_TOKEN_HERE

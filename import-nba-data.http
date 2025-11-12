@@ -1,0 +1,47 @@
+### Import NBA 2025 Data - Complete Process
+### Run these in sequence to import your CSE placement data
+
+### Step 1: Login as Admin
+POST http://localhost:8080/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "admin@piemr.edu.in",
+  "password": "admin123"
+}
+
+### Step 2: Preview the Excel file structure
+GET http://localhost:8080/api/admin/validate/preview-nba2025
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
+
+### Step 3: Import NBA 2025 data (46 CSE students)
+POST http://localhost:8080/api/admin/data/process-nba2025
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
+
+### Step 4: Verify the import - Check all alumni
+GET http://localhost:8080/api/alumni?page=0&size=50
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
+
+### Step 5: Check CSE 2022 batch specifically
+GET http://localhost:8080/api/alumni/batch/2022/CSE
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
+
+### Step 6: Get batch statistics
+GET http://localhost:8080/api/batches/2022/CSE
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
+
+### Step 7: Test search functionality
+GET http://localhost:8080/api/alumni/search?q=Abhinay
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
+
+### Step 8: Check company-wise alumni (e.g., Zehntech)
+GET http://localhost:8080/api/alumni/company/Zehntech
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
+
+### Step 9: Get all batches for the website
+GET http://localhost:8080/api/batches
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
+
+### Step 10: Get placement trends for analytics
+GET http://localhost:8080/api/batches/trends
+Authorization: Bearer YOUR_JWT_TOKEN_HERE

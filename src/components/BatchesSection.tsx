@@ -1,7 +1,8 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
+import { useRouter } from 'next/navigation'
 import { GraduationCap, Users, Calendar, TrendingUp, Award, Building } from 'lucide-react'
 
 interface BatchData {
@@ -22,26 +23,86 @@ interface BatchesSectionProps {
 
 const BatchesSection = ({ showAll = false, maxBatches = 6 }: BatchesSectionProps) => {
   const [selectedBatch, setSelectedBatch] = useState<number | null>(null)
+  const [batches, setBatches] = useState<BatchData[]>([])
+  const [loading, setLoading] = useState(true)
+  const router = useRouter()
 
-  // Generate batch data from 2012 to 2026
+  // Fetch real batch data from API
+  useEffect(() => {
+    const fetchRealBatches = async () => {
+      try {
+        const response = await fetch('http://localhost:8080/api/batches')
+        const data = await response.json()
+        
+        if (data.batches && data.batches.length > 0) {
+          // Transform API data to match our interface
+          const transformedBatches = data.batches.map((batch: any) => ({
+            year: batch.admissionYear,
+            graduationYear: batch.graduationYear,
+            totalStudents: batch.totalStudents || 0,
+            placedStudents: batch.placedStudents || 0,
+            averagePackage: batch.averagePackage ? `${batch.averagePackage} LPA` : '0 LPA',
+            topCompanies: batch.topRecruiters || ['TCS', 'Infosys', 'Wipro'],
+            isActive: batch.isActive,
+            achievements: batch.achievements || ['100% Placement Record']
+          }))
+          setBatches(transformedBatches)
+        } else {
+          // Fallback to generated data if API fails
+          setBatches(generateBatchData())
+        }
+      } catch (error) {
+        console.error('Error fetching batches:', error)
+        // Fallback to generated data
+        setBatches(generateBatchData())
+      } finally {
+        setLoading(false)
+      }
+    }
+
+    fetchRealBatches()
+  }, [])
+
+  // Generate batch data from 2012 to 2026 (fallback)
   const generateBatchData = (): BatchData[] => {
     const batches: BatchData[] = []
     const currentYear = new Date().getFullYear()
     
+    // Predefined data for consistent server/client rendering
+    const batchData = [
+      { totalStudents: 280, placedStudents: 245, avgPackage: 8.2, companies: 5 },
+      { totalStudents: 265, placedStudents: 232, avgPackage: 7.8, companies: 4 },
+      { totalStudents: 295, placedStudents: 268, avgPackage: 9.1, companies: 6 },
+      { totalStudents: 220, placedStudents: 198, avgPackage: 6.5, companies: 4 },
+      { totalStudents: 310, placedStudents: 285, avgPackage: 9.8, companies: 7 },
+      { totalStudents: 275, placedStudents: 251, avgPackage: 8.4, companies: 5 },
+      { totalStudents: 240, placedStudents: 216, avgPackage: 7.2, companies: 4 },
+      { totalStudents: 320, placedStudents: 298, avgPackage: 10.5, companies: 8 },
+      { totalStudents: 285, placedStudents: 262, avgPackage: 8.9, companies: 6 },
+      { totalStudents: 255, placedStudents: 229, avgPackage: 7.6, companies: 5 },
+      { totalStudents: 300, placedStudents: 275, avgPackage: 9.3, companies: 7 },
+      { totalStudents: 270, placedStudents: 248, avgPackage: 8.1, companies: 5 },
+      { totalStudents: 290, placedStudents: 267, avgPackage: 8.7, companies: 6 },
+      { totalStudents: 260, placedStudents: 238, avgPackage: 7.9, companies: 5 },
+      { totalStudents: 305, placedStudents: 282, avgPackage: 9.6, companies: 7 }
+    ]
+    
     for (let year = 2012; year <= 2026; year++) {
       const isGraduated = year <= currentYear
       const isActive = year > currentYear - 4 && year <= currentYear
+      const dataIndex = (year - 2012) % batchData.length
+      const data = batchData[dataIndex]
       
       batches.push({
         year: year - 4, // Admission year (4 years before graduation)
         graduationYear: year,
-        totalStudents: Math.floor(Math.random() * 200) + 150, // 150-350 students
-        placedStudents: Math.floor(Math.random() * 180) + 120, // 120-300 placed
-        averagePackage: `${(Math.random() * 8 + 4).toFixed(1)} LPA`, // 4-12 LPA
+        totalStudents: data.totalStudents,
+        placedStudents: data.placedStudents,
+        averagePackage: `${data.avgPackage} LPA`,
         topCompanies: [
           'TCS', 'Infosys', 'Wipro', 'Cognizant', 'Accenture', 
           'Microsoft', 'Google', 'Amazon', 'IBM', 'HCL'
-        ].slice(0, Math.floor(Math.random() * 3) + 3),
+        ].slice(0, data.companies),
         isActive,
         achievements: isGraduated ? [
           '100% Placement Record',
@@ -54,9 +115,8 @@ const BatchesSection = ({ showAll = false, maxBatches = 6 }: BatchesSectionProps
     return batches.reverse() // Show latest first
   }
 
-  const allBatches = generateBatchData()
-  const batches = showAll ? allBatches : allBatches.slice(0, maxBatches)
-  const totalAlumni = allBatches.filter(b => b.graduationYear <= new Date().getFullYear()).reduce((sum, b) => sum + b.totalStudents, 0)
+  const displayBatches = showAll ? batches : batches.slice(0, maxBatches)
+  const totalAlumni = batches.filter(b => b.graduationYear <= new Date().getFullYear()).reduce((sum, b) => sum + b.totalStudents, 0)
 
   return (
     <section className="py-20 bg-gradient-to-br from-blue-50 via-white to-indigo-50">
@@ -152,9 +212,9 @@ const BatchesSection = ({ showAll = false, maxBatches = 6 }: BatchesSectionProps
               className="md:col-span-2 lg:col-span-3 text-center mb-4"
             >
               <p className="text-gray-600">
-                Showing {batches.length} of {allBatches.length} batches • 
+                Showing {displayBatches.length} of {batches.length} batches • 
                 <a href="/batches" className="text-blue-600 hover:text-blue-800 font-medium ml-1">
-                  View all {allBatches.length} batches →
+                  View all {batches.length} batches →
                 </a>
               </p>
             </motion.div>
@@ -163,7 +223,15 @@ const BatchesSection = ({ showAll = false, maxBatches = 6 }: BatchesSectionProps
         
         {/* Batches Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {batches.map((batch, index) => (
+          {loading ? (
+            // Loading skeleton
+            Array.from({ length: 3 }).map((_, index) => (
+              <div key={index} className="animate-pulse">
+                <div className="bg-gray-200 rounded-xl h-64"></div>
+              </div>
+            ))
+          ) : (
+            displayBatches.map((batch, index) => (
             <motion.div
               key={batch.graduationYear}
               initial={{ opacity: 0, y: 20 }}
@@ -323,7 +391,10 @@ const BatchesSection = ({ showAll = false, maxBatches = 6 }: BatchesSectionProps
                     )}
                     
                     <div className="pt-3 border-t border-gray-200">
-                      <button className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium">
+                      <button 
+                        onClick={() => router.push(`/directory?batch=${batch.graduationYear}&branch=${batch.year === 2018 ? 'CSE' : 'All'}`)}
+                        className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
+                      >
                         View Batch Directory
                       </button>
                     </div>
@@ -331,7 +402,8 @@ const BatchesSection = ({ showAll = false, maxBatches = 6 }: BatchesSectionProps
                 </motion.div>
               )}
             </motion.div>
-          ))}
+          ))
+          )}
         </div>
 
         {/* Call to Action */}
@@ -354,7 +426,10 @@ const BatchesSection = ({ showAll = false, maxBatches = 6 }: BatchesSectionProps
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               {showAll ? (
                 <>
-                  <button className="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors">
+                  <button 
+                    onClick={() => router.push('/directory')}
+                    className="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
+                  >
                     Browse Alumni Directory
                   </button>
                   <button className="border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors">
@@ -363,12 +438,18 @@ const BatchesSection = ({ showAll = false, maxBatches = 6 }: BatchesSectionProps
                 </>
               ) : (
                 <>
-                  <a href="/batches" className="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors">
+                  <button 
+                    onClick={() => router.push('/batches')}
+                    className="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
+                  >
                     View All Batches
-                  </a>
-                  <a href="/directory" className="border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors">
+                  </button>
+                  <button 
+                    onClick={() => router.push('/directory')}
+                    className="border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors"
+                  >
                     Alumni Directory
-                  </a>
+                  </button>
                 </>
               )}
             </div>

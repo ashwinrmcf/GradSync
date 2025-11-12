@@ -1,6 +1,7 @@
 'use client'
 
-import { useState, useMemo } from 'react'
+import { useState, useMemo, useEffect } from 'react'
+import { useSearchParams } from 'next/navigation'
 import { motion } from 'framer-motion'
 import { 
   Search, 
@@ -18,12 +19,76 @@ import Header from '@/components/Header'
 import { mockAlumni, User } from '@/contexts/AuthContext'
 
 export default function AlumniDirectoryPage() {
+  const searchParams = useSearchParams()
   const [searchTerm, setSearchTerm] = useState('')
   const [selectedBatch, setSelectedBatch] = useState('')
   const [selectedBranch, setSelectedBranch] = useState('')
   const [selectedCompany, setSelectedCompany] = useState('')
   const [selectedLocation, setSelectedLocation] = useState('')
   const [showFilters, setShowFilters] = useState(false)
+  const [alumni, setAlumni] = useState<User[]>([])
+  const [loading, setLoading] = useState(true)
+  const [stats, setStats] = useState<any>(null)
+
+  // Handle URL parameters for filtering
+  useEffect(() => {
+    const batchParam = searchParams.get('batch')
+    const branchParam = searchParams.get('branch')
+    
+    if (batchParam) {
+      setSelectedBatch(batchParam)
+      setShowFilters(true) // Show filters if coming from batch page
+    }
+    if (branchParam && branchParam !== 'All') {
+      setSelectedBranch(branchParam)
+    }
+  }, [searchParams])
+
+  // Fetch real alumni data from API
+  useEffect(() => {
+    const fetchRealAlumni = async () => {
+      try {
+        // Get all 46 alumni
+        const alumniResponse = await fetch('http://localhost:8080/api/alumni?size=50')
+        const alumniData = await alumniResponse.json()
+        
+        if (alumniData.alumni) {
+          // Transform API data to match User interface
+          const transformedAlumni: User[] = alumniData.alumni.map((person: any) => ({
+            id: person.id.toString(),
+            firstName: person.firstName || person.name?.split(' ')[0] || 'Unknown',
+            lastName: person.lastName || person.name?.split(' ').slice(1).join(' ') || '',
+            email: person.email,
+            batchYear: person.graduationYear?.toString() || '2022',
+            branch: person.branch || 'CSE',
+            rollNumber: person.rollNumber,
+            currentCompany: person.currentCompany,
+            position: person.designation || 'Software Engineer',
+            location: person.location || person.workLocation || 'India',
+            profileImage: person.profileImage || `https://ui-avatars.com/api/?name=${encodeURIComponent(person.name || 'User')}&background=3b82f6&color=fff`,
+            role: 'alumni' as const,
+            isVerified: true,
+            joinedAt: new Date(person.createdAt || '2022-06-01')
+          }))
+          setAlumni(transformedAlumni)
+        }
+
+        // Get batch statistics
+        const statsResponse = await fetch('http://localhost:8080/api/batches/2022/CSE')
+        const statsData = await statsResponse.json()
+        setStats(statsData)
+        
+      } catch (error) {
+        console.error('Error fetching alumni:', error)
+        // Fallback to mock data
+        setAlumni(extendedAlumni)
+      } finally {
+        setLoading(false)
+      }
+    }
+
+    fetchRealAlumni()
+  }, [])
 
   // Extended mock data for directory
   const extendedAlumni: User[] = [
@@ -56,7 +121,7 @@ export default function AlumniDirectoryPage() {
       position: 'Senior Product Manager',
       location: 'Bangalore, India',
       profileImage: 'https://images.unsplash.com/photo-1494790108755-2616b612b786?w=400&h=400&fit=crop&crop=face',
-      role: 'alumni',
+      role: 'alumni' as const,
       isVerified: true,
       joinedAt: new Date('2024-02-15')
     },
@@ -72,21 +137,21 @@ export default function AlumniDirectoryPage() {
       position: 'Technical Lead',
       location: 'Pune, India',
       profileImage: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face',
-      role: 'alumni',
+      role: 'alumni' as const,
       isVerified: true,
-      joinedAt: new Date('2024-01-20')
+      joinedAt: new Date('2024-01-15')
     }
   ]
 
   // Get unique values for filters
-  const batches = Array.from(new Set(extendedAlumni.map(alumni => alumni.batchYear))).sort((a, b) => b.localeCompare(a))
-  const branches = Array.from(new Set(extendedAlumni.map(alumni => alumni.branch)))
-  const companies = Array.from(new Set(extendedAlumni.map(alumni => alumni.currentCompany).filter(Boolean)))
-  const locations = Array.from(new Set(extendedAlumni.map(alumni => alumni.location).filter(Boolean)))
+  const batches = Array.from(new Set(alumni.map(alumni => alumni.batchYear))).sort((a, b) => b.localeCompare(a))
+  const branches = Array.from(new Set(alumni.map(alumni => alumni.branch)))
+  const companies = Array.from(new Set(alumni.map(alumni => alumni.currentCompany).filter(Boolean)))
+  const locations = Array.from(new Set(alumni.map(alumni => alumni.location).filter(Boolean)))
 
   // Filter alumni based on search and filters
   const filteredAlumni = useMemo(() => {
-    return extendedAlumni.filter(alumni => {
+    return alumni.filter(alumni => {
       const matchesSearch = searchTerm === '' || 
         `${alumni.firstName} ${alumni.lastName}`.toLowerCase().includes(searchTerm.toLowerCase()) ||
         alumni.currentCompany?.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -99,7 +164,7 @@ export default function AlumniDirectoryPage() {
 
       return matchesSearch && matchesBatch && matchesBranch && matchesCompany && matchesLocation
     })
-  }, [searchTerm, selectedBatch, selectedBranch, selectedCompany, selectedLocation, extendedAlumni])
+  }, [searchTerm, selectedBatch, selectedBranch, selectedCompany, selectedLocation, alumni])
 
   const clearFilters = () => {
     setSearchTerm('')
@@ -243,7 +308,7 @@ export default function AlumniDirectoryPage() {
         <div className="container-custom py-8">
           <div className="flex items-center justify-between mb-6">
             <p className="text-gray-600">
-              Showing {filteredAlumni.length} of {extendedAlumni.length} alumni
+              {loading ? 'Loading alumni...' : `Showing ${filteredAlumni.length} of ${alumni.length} alumni`}
             </p>
             <div className="flex items-center space-x-2">
               <Users size={16} className="text-gray-400" />
@@ -252,13 +317,31 @@ export default function AlumniDirectoryPage() {
           </div>
 
           {/* Alumni Grid */}
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.2 }}
-            className="grid md:grid-cols-2 lg:grid-cols-3 gap-6"
-          >
-            {filteredAlumni.map((alumni, index) => (
+          {loading ? (
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {Array.from({ length: 6 }).map((_, index) => (
+                <div key={index} className="animate-pulse">
+                  <div className="bg-white rounded-lg shadow-md p-6">
+                    <div className="flex items-center space-x-4">
+                      <div className="w-16 h-16 bg-gray-200 rounded-full"></div>
+                      <div className="flex-1 space-y-2">
+                        <div className="h-4 bg-gray-200 rounded w-3/4"></div>
+                        <div className="h-3 bg-gray-200 rounded w-1/2"></div>
+                        <div className="h-3 bg-gray-200 rounded w-2/3"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          ) : (
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.2 }}
+              className="grid md:grid-cols-2 lg:grid-cols-3 gap-6"
+            >
+              {filteredAlumni.map((alumni, index) => (
               <motion.div
                 key={alumni.id}
                 initial={{ opacity: 0, y: 20 }}
@@ -269,11 +352,11 @@ export default function AlumniDirectoryPage() {
                 {/* Profile Header */}
                 <div className="relative">
                   <div className="h-24 bg-gradient-to-r from-primary-500 to-golden-500"></div>
-                  <div className="absolute -bottom-8 left-6">
+                  <div className="absolute -bottom-12 left-6">
                     <img
                       src={alumni.profileImage}
                       alt={`${alumni.firstName} ${alumni.lastName}`}
-                      className="w-16 h-16 rounded-full object-cover border-4 border-white"
+                      className="w-24 h-24 rounded-full object-cover border-4 border-white shadow-lg"
                     />
                   </div>
                   {alumni.isVerified && (
@@ -288,7 +371,7 @@ export default function AlumniDirectoryPage() {
                 </div>
 
                 {/* Profile Content */}
-                <div className="pt-10 p-6">
+                <div className="pt-14 p-6">
                   <div className="mb-4">
                     <h3 className="text-xl font-bold text-gray-900 group-hover:text-primary-600 transition-colors">
                       {alumni.firstName} {alumni.lastName}
@@ -329,9 +412,10 @@ export default function AlumniDirectoryPage() {
               </motion.div>
             ))}
           </motion.div>
+          )}
 
           {/* Empty State */}
-          {filteredAlumni.length === 0 && (
+          {!loading && filteredAlumni.length === 0 && (
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}

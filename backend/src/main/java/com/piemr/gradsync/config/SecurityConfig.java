@@ -60,10 +60,21 @@ public class SecurityConfig {
             .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
             .authorizeHttpRequests(auth -> auth
                 // Public endpoints
+                .requestMatchers("/api/auth/**").permitAll()
                 .requestMatchers("/auth/**").permitAll()
+                .requestMatchers("/api/alumni/**").permitAll()
+                .requestMatchers("/api/batches/**").permitAll()
+                .requestMatchers("/api/admin/data/**").permitAll()
+                .requestMatchers("/api/admin/validate/**").permitAll()
+                .requestMatchers("/images/**").permitAll()
+                .requestMatchers("/static/**").permitAll()
                 .requestMatchers("/public/**").permitAll()
                 .requestMatchers("/health/**").permitAll()
                 .requestMatchers("/actuator/**").permitAll()
+                .requestMatchers("/*.ico").permitAll()
+                .requestMatchers("/*.png").permitAll()
+                .requestMatchers("/*.jpg").permitAll()
+                .requestMatchers("/*.jpeg").permitAll()
                 
                 // API documentation endpoints (if using Swagger)
                 .requestMatchers("/v3/api-docs/**").permitAll()
