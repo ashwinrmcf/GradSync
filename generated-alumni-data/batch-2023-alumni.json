@@ -1,0 +1,1073 @@
+[
+  {
+    "email": "vihaan.sharma@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Vihaan",
+    "lastName": "Sharma",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2019,
+      "graduationYear": 2023,
+      "branch": "EEE",
+      "rollNumber": "086323EEE001",
+      "cgpa": 9.82
+    },
+    "professional": {
+      "currentCompany": "Infosys",
+      "designation": "System Engineer",
+      "currentSalary": 4,
+      "workType": "FULL_TIME",
+      "workLocation": "Hyderabad, India",
+      "experienceYears": 2,
+      "skills": [
+        "MATLAB",
+        "PLC Programming",
+        "Electrical Design",
+        "Control Systems"
+      ]
+    },
+    "contact": {
+      "phone": "+919128696337",
+      "address": {
+        "city": "Hyderabad",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_vihaan_sharma.jpeg",
+      "bio": "Vihaan is a dedicated System Engineer at Infosys with 2 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/vihaan-sharma",
+      "github": "https://github.com/vihaansharma",
+      "portfolio": "https://vihaansharma.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": false,
+      "profileVerified": true
+    },
+    "createdAt": "2025-11-13T19:13:38.742Z",
+    "updatedAt": "2025-11-13T19:13:38.747Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "aditya.sharma@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Aditya",
+    "lastName": "Sharma",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2019,
+      "graduationYear": 2023,
+      "branch": "MECH",
+      "rollNumber": "086323MECH002",
+      "cgpa": 7.53
+    },
+    "professional": {
+      "currentCompany": "TCS",
+      "designation": "Software Engineer",
+      "currentSalary": 3.5,
+      "workType": "FULL_TIME",
+      "workLocation": "Pune, India",
+      "experienceYears": 2,
+      "skills": [
+        "CATIA",
+        "Manufacturing"
+      ]
+    },
+    "contact": {
+      "phone": "+917298178326",
+      "address": {
+        "city": "Pune",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_aditya_sharma.jpeg",
+      "bio": "Aditya is a dedicated Software Engineer at TCS with 2 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/aditya-sharma",
+      "github": "https://github.com/adityasharma",
+      "portfolio": "https://adityasharma.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": true,
+      "profileVerified": true
+    },
+    "createdAt": "2025-11-13T19:13:38.747Z",
+    "updatedAt": "2025-11-13T19:13:38.747Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "diya.verma@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Diya",
+    "lastName": "Verma",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2019,
+      "graduationYear": 2023,
+      "branch": "EEE",
+      "rollNumber": "086323EEE003",
+      "cgpa": 6.29
+    },
+    "professional": {
+      "currentCompany": "Wipro",
+      "designation": "Project Engineer",
+      "currentSalary": 3.8,
+      "workType": "FULL_TIME",
+      "workLocation": "Mumbai, India",
+      "experienceYears": 2,
+      "skills": [
+        "AutoCAD",
+        "Electrical Design",
+        "PLC Programming",
+        "Control Systems"
+      ]
+    },
+    "contact": {
+      "phone": "+911296599716",
+      "address": {
+        "city": "Mumbai",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_diya_verma.jpeg",
+      "bio": "Diya is a dedicated Project Engineer at Wipro with 2 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/diya-verma",
+      "github": "https://github.com/diyaverma",
+      "portfolio": "https://diyaverma.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": true,
+      "profileVerified": true
+    },
+    "createdAt": "2025-11-13T19:13:38.747Z",
+    "updatedAt": "2025-11-13T19:13:38.747Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "kiara.goel@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Kiara",
+    "lastName": "Goel",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2019,
+      "graduationYear": 2023,
+      "branch": "CIVIL",
+      "rollNumber": "086323CIVIL004",
+      "cgpa": 7.04
+    },
+    "professional": {
+      "currentCompany": "Wipro",
+      "designation": "Project Engineer",
+      "currentSalary": 3.8,
+      "workType": "FULL_TIME",
+      "workLocation": "Coimbatore, India",
+      "experienceYears": 2,
+      "skills": [
+        "Surveying",
+        "Construction Management",
+        "AutoCAD",
+        "Structural Analysis"
+      ]
+    },
+    "contact": {
+      "phone": "+915491820484",
+      "address": {
+        "city": "Coimbatore",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_kiara_goel.jpeg",
+      "bio": "Kiara is a dedicated Project Engineer at Wipro with 2 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/kiara-goel",
+      "github": "https://github.com/kiaragoel",
+      "portfolio": "https://kiaragoel.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": false,
+      "profileVerified": true
+    },
+    "createdAt": "2025-11-13T19:13:38.747Z",
+    "updatedAt": "2025-11-13T19:13:38.747Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "saanvi.iyer@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Saanvi",
+    "lastName": "Iyer",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2019,
+      "graduationYear": 2023,
+      "branch": "CIVIL",
+      "rollNumber": "086323CIVIL005",
+      "cgpa": 8.92
+    },
+    "professional": {
+      "currentCompany": "Wipro",
+      "designation": "Project Engineer",
+      "currentSalary": 3.8,
+      "workType": "FULL_TIME",
+      "workLocation": "Pune, India",
+      "experienceYears": 2,
+      "skills": [
+        "Structural Analysis",
+        "AutoCAD",
+        "Project Management"
+      ]
+    },
+    "contact": {
+      "phone": "+911472102526",
+      "address": {
+        "city": "Pune",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_saanvi_iyer.jpeg",
+      "bio": "Saanvi is a dedicated Project Engineer at Wipro with 2 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/saanvi-iyer",
+      "github": "https://github.com/saanviiyer",
+      "portfolio": "https://saanviiyer.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": false,
+      "profileVerified": true
+    },
+    "createdAt": "2025-11-13T19:13:38.748Z",
+    "updatedAt": "2025-11-13T19:13:38.748Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "pari.mishra@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Pari",
+    "lastName": "Mishra",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2019,
+      "graduationYear": 2023,
+      "branch": "MECH",
+      "rollNumber": "086323MECH006",
+      "cgpa": 9.54
+    },
+    "professional": {
+      "currentCompany": "Infosys",
+      "designation": "System Engineer",
+      "currentSalary": 4,
+      "workType": "FULL_TIME",
+      "workLocation": "Kolkata, India",
+      "experienceYears": 2,
+      "skills": [
+        "Thermodynamics",
+        "AutoCAD",
+        "CATIA"
+      ]
+    },
+    "contact": {
+      "phone": "+917405716804",
+      "address": {
+        "city": "Kolkata",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_pari_mishra.jpeg",
+      "bio": "Pari is a dedicated System Engineer at Infosys with 2 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/pari-mishra",
+      "github": "https://github.com/parimishra",
+      "portfolio": "https://parimishra.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": false,
+      "profileVerified": true
+    },
+    "createdAt": "2025-11-13T19:13:38.748Z",
+    "updatedAt": "2025-11-13T19:13:38.748Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "ayaan.verma@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Ayaan",
+    "lastName": "Verma",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2019,
+      "graduationYear": 2023,
+      "branch": "ECE",
+      "rollNumber": "086323ECE007",
+      "cgpa": 7.75
+    },
+    "professional": {
+      "currentCompany": "Accenture",
+      "designation": "Application Developer",
+      "currentSalary": 4.5,
+      "workType": "FULL_TIME",
+      "workLocation": "Coimbatore, India",
+      "experienceYears": 2,
+      "skills": [
+        "VLSI Design",
+        "MATLAB",
+        "Signal Processing",
+        "Verilog"
+      ]
+    },
+    "contact": {
+      "phone": "+913774368242",
+      "address": {
+        "city": "Coimbatore",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_ayaan_verma.jpeg",
+      "bio": "Ayaan is a dedicated Application Developer at Accenture with 2 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/ayaan-verma",
+      "github": "https://github.com/ayaanverma",
+      "portfolio": "https://ayaanverma.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": false,
+      "profileVerified": true
+    },
+    "createdAt": "2025-11-13T19:13:38.748Z",
+    "updatedAt": "2025-11-13T19:13:38.748Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "reyansh.iyer@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Reyansh",
+    "lastName": "Iyer",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2019,
+      "graduationYear": 2023,
+      "branch": "EEE",
+      "rollNumber": "086323EEE008",
+      "cgpa": 9.58
+    },
+    "professional": {
+      "currentCompany": "Wipro",
+      "designation": "Project Engineer",
+      "currentSalary": 3.8,
+      "workType": "FULL_TIME",
+      "workLocation": "Ahmedabad, India",
+      "experienceYears": 2,
+      "skills": [
+        "Power Systems",
+        "PLC Programming",
+        "Electrical Design"
+      ]
+    },
+    "contact": {
+      "phone": "+911104418284",
+      "address": {
+        "city": "Ahmedabad",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_reyansh_iyer.jpeg",
+      "bio": "Reyansh is a dedicated Project Engineer at Wipro with 2 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/reyansh-iyer",
+      "github": "https://github.com/reyanshiyer",
+      "portfolio": "https://reyanshiyer.dev"
+    },
+    "verification": {
+      "emailVerified": false,
+      "phoneVerified": true,
+      "profileVerified": false
+    },
+    "createdAt": "2025-11-13T19:13:38.748Z",
+    "updatedAt": "2025-11-13T19:13:38.748Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "myra.nair@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Myra",
+    "lastName": "Nair",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2019,
+      "graduationYear": 2023,
+      "branch": "CSE",
+      "rollNumber": "086323CSE009",
+      "cgpa": 9.91
+    },
+    "professional": {
+      "currentCompany": "Capgemini",
+      "designation": "Analyst",
+      "currentSalary": 4.1,
+      "workType": "FULL_TIME",
+      "workLocation": "Bangalore, India",
+      "experienceYears": 2,
+      "skills": [
+        "AWS",
+        "Node.js",
+        "MySQL"
+      ]
+    },
+    "contact": {
+      "phone": "+919259568388",
+      "address": {
+        "city": "Bangalore",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_myra_nair.jpeg",
+      "bio": "Myra is a dedicated Analyst at Capgemini with 2 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/myra-nair",
+      "github": "https://github.com/myranair",
+      "portfolio": "https://myranair.dev"
+    },
+    "verification": {
+      "emailVerified": false,
+      "phoneVerified": true,
+      "profileVerified": true
+    },
+    "createdAt": "2025-11-13T19:13:38.749Z",
+    "updatedAt": "2025-11-13T19:13:38.749Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "shaurya.malhotra@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Shaurya",
+    "lastName": "Malhotra",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2019,
+      "graduationYear": 2023,
+      "branch": "IT",
+      "rollNumber": "086323IT010",
+      "cgpa": 7.97
+    },
+    "professional": {
+      "currentCompany": "Cognizant",
+      "designation": "Programmer Analyst",
+      "currentSalary": 4.2,
+      "workType": "FULL_TIME",
+      "workLocation": "Noida, India",
+      "experienceYears": 2,
+      "skills": [
+        "C++",
+        "Database Management",
+        "Java",
+        "Network Security"
+      ]
+    },
+    "contact": {
+      "phone": "+917111374623",
+      "address": {
+        "city": "Noida",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_shaurya_malhotra.jpeg",
+      "bio": "Shaurya is a dedicated Programmer Analyst at Cognizant with 2 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/shaurya-malhotra",
+      "github": "https://github.com/shauryamalhotra",
+      "portfolio": "https://shauryamalhotra.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": false,
+      "profileVerified": false
+    },
+    "createdAt": "2025-11-13T19:13:38.749Z",
+    "updatedAt": "2025-11-13T19:13:38.749Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "aarav.chopra@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Aarav",
+    "lastName": "Chopra",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2019,
+      "graduationYear": 2023,
+      "branch": "ECE",
+      "rollNumber": "086323ECE011",
+      "cgpa": 7.01
+    },
+    "professional": {
+      "currentCompany": "Cognizant",
+      "designation": "Programmer Analyst",
+      "currentSalary": 4.2,
+      "workType": "FULL_TIME",
+      "workLocation": "Pune, India",
+      "experienceYears": 2,
+      "skills": [
+        "Embedded Systems",
+        "MATLAB",
+        "PCB Design"
+      ]
+    },
+    "contact": {
+      "phone": "+911143938451",
+      "address": {
+        "city": "Pune",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_aarav_chopra.jpeg",
+      "bio": "Aarav is a dedicated Programmer Analyst at Cognizant with 2 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/aarav-chopra",
+      "github": "https://github.com/aaravchopra",
+      "portfolio": "https://aaravchopra.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": false,
+      "profileVerified": true
+    },
+    "createdAt": "2025-11-13T19:13:38.749Z",
+    "updatedAt": "2025-11-13T19:13:38.749Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "ishaan.nair@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Ishaan",
+    "lastName": "Nair",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2019,
+      "graduationYear": 2023,
+      "branch": "ECE",
+      "rollNumber": "086323ECE012",
+      "cgpa": 8.75
+    },
+    "professional": {
+      "currentCompany": "Wipro",
+      "designation": "Project Engineer",
+      "currentSalary": 3.8,
+      "workType": "FULL_TIME",
+      "workLocation": "Ahmedabad, India",
+      "experienceYears": 2,
+      "skills": [
+        "Embedded Systems",
+        "PCB Design",
+        "MATLAB"
+      ]
+    },
+    "contact": {
+      "phone": "+912095407844",
+      "address": {
+        "city": "Ahmedabad",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_ishaan_nair.jpeg",
+      "bio": "Ishaan is a dedicated Project Engineer at Wipro with 2 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/ishaan-nair",
+      "github": "https://github.com/ishaannair",
+      "portfolio": "https://ishaannair.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": false,
+      "profileVerified": true
+    },
+    "createdAt": "2025-11-13T19:13:38.749Z",
+    "updatedAt": "2025-11-13T19:13:38.749Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "saanvi.pandey@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Saanvi",
+    "lastName": "Pandey",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2019,
+      "graduationYear": 2023,
+      "branch": "IT",
+      "rollNumber": "086323IT013",
+      "cgpa": 6.69
+    },
+    "professional": {
+      "currentCompany": "HCL Technologies",
+      "designation": "Software Developer",
+      "currentSalary": 3.6,
+      "workType": "FULL_TIME",
+      "workLocation": "Delhi, India",
+      "experienceYears": 2,
+      "skills": [
+        "Network Security",
+        "Java",
+        "System Administration",
+        "C++"
+      ]
+    },
+    "contact": {
+      "phone": "+917161545632",
+      "address": {
+        "city": "Delhi",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_saanvi_pandey.jpeg",
+      "bio": "Saanvi is a dedicated Software Developer at HCL Technologies with 2 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/saanvi-pandey",
+      "github": "https://github.com/saanvipandey",
+      "portfolio": "https://saanvipandey.dev"
+    },
+    "verification": {
+      "emailVerified": false,
+      "phoneVerified": false,
+      "profileVerified": false
+    },
+    "createdAt": "2025-11-13T19:13:38.749Z",
+    "updatedAt": "2025-11-13T19:13:38.749Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "ayaan.iyer@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Ayaan",
+    "lastName": "Iyer",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2019,
+      "graduationYear": 2023,
+      "branch": "ECE",
+      "rollNumber": "086323ECE014",
+      "cgpa": 7.15
+    },
+    "professional": {
+      "currentCompany": "Capgemini",
+      "designation": "Analyst",
+      "currentSalary": 4.1,
+      "workType": "FULL_TIME",
+      "workLocation": "Chennai, India",
+      "experienceYears": 2,
+      "skills": [
+        "Embedded Systems",
+        "PCB Design",
+        "Verilog"
+      ]
+    },
+    "contact": {
+      "phone": "+915710839754",
+      "address": {
+        "city": "Chennai",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_ayaan_iyer.jpeg",
+      "bio": "Ayaan is a dedicated Analyst at Capgemini with 2 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/ayaan-iyer",
+      "github": "https://github.com/ayaaniyer",
+      "portfolio": "https://ayaaniyer.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": false,
+      "profileVerified": true
+    },
+    "createdAt": "2025-11-13T19:13:38.749Z",
+    "updatedAt": "2025-11-13T19:13:38.749Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "vedant.nair@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Vedant",
+    "lastName": "Nair",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2019,
+      "graduationYear": 2023,
+      "branch": "ECE",
+      "rollNumber": "086323ECE015",
+      "cgpa": 7.66
+    },
+    "professional": {
+      "currentCompany": "Tech Mahindra",
+      "designation": "Associate Software Engineer",
+      "currentSalary": 3.7,
+      "workType": "FULL_TIME",
+      "workLocation": "Coimbatore, India",
+      "experienceYears": 2,
+      "skills": [
+        "MATLAB",
+        "PCB Design",
+        "VLSI Design",
+        "Verilog"
+      ]
+    },
+    "contact": {
+      "phone": "+913456727438",
+      "address": {
+        "city": "Coimbatore",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_vedant_nair.jpeg",
+      "bio": "Vedant is a dedicated Associate Software Engineer at Tech Mahindra with 2 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/vedant-nair",
+      "github": "https://github.com/vedantnair",
+      "portfolio": "https://vedantnair.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": true,
+      "profileVerified": true
+    },
+    "createdAt": "2025-11-13T19:13:38.749Z",
+    "updatedAt": "2025-11-13T19:13:38.749Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "diya.nair@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Diya",
+    "lastName": "Nair",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2019,
+      "graduationYear": 2023,
+      "branch": "CIVIL",
+      "rollNumber": "086323CIVIL016",
+      "cgpa": 7
+    },
+    "professional": {
+      "currentCompany": "TCS",
+      "designation": "Software Engineer",
+      "currentSalary": 3.5,
+      "workType": "FULL_TIME",
+      "workLocation": "Pune, India",
+      "experienceYears": 2,
+      "skills": [
+        "Surveying",
+        "Construction Management",
+        "Structural Analysis",
+        "AutoCAD"
+      ]
+    },
+    "contact": {
+      "phone": "+911824785479",
+      "address": {
+        "city": "Pune",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_diya_nair.jpeg",
+      "bio": "Diya is a dedicated Software Engineer at TCS with 2 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/diya-nair",
+      "github": "https://github.com/diyanair",
+      "portfolio": "https://diyanair.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": false,
+      "profileVerified": false
+    },
+    "createdAt": "2025-11-13T19:13:38.749Z",
+    "updatedAt": "2025-11-13T19:13:38.749Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "shaurya.bansal@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Shaurya",
+    "lastName": "Bansal",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2019,
+      "graduationYear": 2023,
+      "branch": "CIVIL",
+      "rollNumber": "086323CIVIL017",
+      "cgpa": 9.14
+    },
+    "professional": {
+      "currentCompany": "Wipro",
+      "designation": "Project Engineer",
+      "currentSalary": 3.8,
+      "workType": "FULL_TIME",
+      "workLocation": "Hyderabad, India",
+      "experienceYears": 2,
+      "skills": [
+        "AutoCAD",
+        "Surveying",
+        "Construction Management",
+        "Project Management"
+      ]
+    },
+    "contact": {
+      "phone": "+919493671625",
+      "address": {
+        "city": "Hyderabad",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_shaurya_bansal.jpeg",
+      "bio": "Shaurya is a dedicated Project Engineer at Wipro with 2 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/shaurya-bansal",
+      "github": "https://github.com/shauryabansal",
+      "portfolio": "https://shauryabansal.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": false,
+      "profileVerified": true
+    },
+    "createdAt": "2025-11-13T19:13:38.749Z",
+    "updatedAt": "2025-11-13T19:13:38.749Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "navya.rao@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Navya",
+    "lastName": "Rao",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2019,
+      "graduationYear": 2023,
+      "branch": "ECE",
+      "rollNumber": "086323ECE018",
+      "cgpa": 8.22
+    },
+    "professional": {
+      "currentCompany": "Wipro",
+      "designation": "Project Engineer",
+      "currentSalary": 3.8,
+      "workType": "FULL_TIME",
+      "workLocation": "Mumbai, India",
+      "experienceYears": 2,
+      "skills": [
+        "VLSI Design",
+        "Embedded Systems",
+        "Signal Processing",
+        "PCB Design",
+        "Verilog"
+      ]
+    },
+    "contact": {
+      "phone": "+911080486824",
+      "address": {
+        "city": "Mumbai",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_navya_rao.jpeg",
+      "bio": "Navya is a dedicated Project Engineer at Wipro with 2 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/navya-rao",
+      "github": "https://github.com/navyarao",
+      "portfolio": "https://navyarao.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": false,
+      "profileVerified": true
+    },
+    "createdAt": "2025-11-13T19:13:38.752Z",
+    "updatedAt": "2025-11-13T19:13:38.752Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "aadhya.goel@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Aadhya",
+    "lastName": "Goel",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2019,
+      "graduationYear": 2023,
+      "branch": "EEE",
+      "rollNumber": "086323EEE019",
+      "cgpa": 9.68
+    },
+    "professional": {
+      "currentCompany": "HCL Technologies",
+      "designation": "Software Developer",
+      "currentSalary": 3.6,
+      "workType": "FULL_TIME",
+      "workLocation": "Pune, India",
+      "experienceYears": 2,
+      "skills": [
+        "AutoCAD",
+        "PLC Programming",
+        "Electrical Design"
+      ]
+    },
+    "contact": {
+      "phone": "+913811420848",
+      "address": {
+        "city": "Pune",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_aadhya_goel.jpeg",
+      "bio": "Aadhya is a dedicated Software Developer at HCL Technologies with 2 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/aadhya-goel",
+      "github": "https://github.com/aadhyagoel",
+      "portfolio": "https://aadhyagoel.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": true,
+      "profileVerified": true
+    },
+    "createdAt": "2025-11-13T19:13:38.752Z",
+    "updatedAt": "2025-11-13T19:13:38.752Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "shaurya.malhotra@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Shaurya",
+    "lastName": "Malhotra",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2019,
+      "graduationYear": 2023,
+      "branch": "EEE",
+      "rollNumber": "086323EEE020",
+      "cgpa": 9.81
+    },
+    "professional": {
+      "currentCompany": "Wipro",
+      "designation": "Project Engineer",
+      "currentSalary": 3.8,
+      "workType": "FULL_TIME",
+      "workLocation": "Coimbatore, India",
+      "experienceYears": 2,
+      "skills": [
+        "AutoCAD",
+        "Electrical Design",
+        "Control Systems",
+        "Power Systems"
+      ]
+    },
+    "contact": {
+      "phone": "+918426486750",
+      "address": {
+        "city": "Coimbatore",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_shaurya_malhotra.jpeg",
+      "bio": "Shaurya is a dedicated Project Engineer at Wipro with 2 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/shaurya-malhotra",
+      "github": "https://github.com/shauryamalhotra",
+      "portfolio": "https://shauryamalhotra.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": true,
+      "profileVerified": false
+    },
+    "createdAt": "2025-11-13T19:13:38.752Z",
+    "updatedAt": "2025-11-13T19:13:38.752Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  }
+]
