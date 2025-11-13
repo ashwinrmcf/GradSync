@@ -16,6 +16,7 @@ import {
   ChevronDown
 } from 'lucide-react'
 import Header from '@/components/Header'
+import ContactModal from '@/components/ContactModal'
 import { mockAlumni, User } from '@/contexts/AuthContext'
 
 export default function AlumniDirectoryPage() {
@@ -29,6 +30,8 @@ export default function AlumniDirectoryPage() {
   const [alumni, setAlumni] = useState<User[]>([])
   const [loading, setLoading] = useState(true)
   const [stats, setStats] = useState<any>(null)
+  const [selectedAlumni, setSelectedAlumni] = useState<User | null>(null)
+  const [isContactModalOpen, setIsContactModalOpen] = useState(false)
 
   // Handle URL parameters for filtering
   useEffect(() => {
@@ -172,6 +175,16 @@ export default function AlumniDirectoryPage() {
     setSelectedBranch('')
     setSelectedCompany('')
     setSelectedLocation('')
+  }
+
+  const handleConnectClick = (alumni: User) => {
+    setSelectedAlumni(alumni)
+    setIsContactModalOpen(true)
+  }
+
+  const handleCloseModal = () => {
+    setIsContactModalOpen(false)
+    setSelectedAlumni(null)
   }
 
   return (
@@ -397,7 +410,10 @@ export default function AlumniDirectoryPage() {
 
                   {/* Action Buttons */}
                   <div className="flex space-x-2">
-                    <button className="flex-1 btn-primary text-sm py-2 flex items-center justify-center space-x-1">
+                    <button 
+                      onClick={() => handleConnectClick(alumni)}
+                      className="flex-1 btn-primary text-sm py-2 flex items-center justify-center space-x-1 hover:bg-primary-700 transition-colors"
+                    >
                       <Users size={14} />
                       <span>Connect</span>
                     </button>
@@ -438,6 +454,15 @@ export default function AlumniDirectoryPage() {
           )}
         </div>
       </div>
+
+      {/* Contact Modal */}
+      {selectedAlumni && (
+        <ContactModal
+          isOpen={isContactModalOpen}
+          onClose={handleCloseModal}
+          alumni={selectedAlumni}
+        />
+      )}
     </div>
   )
 }

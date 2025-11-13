@@ -6,11 +6,13 @@ import { Eye, EyeOff, Mail, Lock, User, Calendar, Building, ArrowLeft } from 'lu
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import { useAuth } from '@/contexts/AuthContext'
+import PasswordValidator from '@/components/PasswordValidator'
 
 export default function RegisterPage() {
   const [showPassword, setShowPassword] = useState(false)
   const [showConfirmPassword, setShowConfirmPassword] = useState(false)
   const [step, setStep] = useState(1)
+  const [isPasswordValid, setIsPasswordValid] = useState(false)
   const { register } = useAuth()
   const router = useRouter()
   const [formData, setFormData] = useState({
@@ -48,6 +50,13 @@ export default function RegisterPage() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
+    
+    // Validate password on step 1
+    if (step === 1 && !isPasswordValid) {
+      alert('Please ensure your password meets all requirements and passwords match.')
+      return
+    }
+    
     if (step < 3) {
       setStep(step + 1)
     } else {
@@ -199,6 +208,13 @@ export default function RegisterPage() {
             )}
           </button>
         </div>
+        
+        {/* Password Validation */}
+        <PasswordValidator
+          password={formData.password}
+          confirmPassword={formData.confirmPassword}
+          onValidationChange={setIsPasswordValid}
+        />
       </div>
     </div>
   )
@@ -451,7 +467,12 @@ export default function RegisterPage() {
             )}
             <button
               type="submit"
-              className="flex-1 btn-primary py-3"
+              disabled={step === 1 && !isPasswordValid}
+              className={`flex-1 py-3 transition-colors ${
+                step === 1 && !isPasswordValid 
+                  ? 'bg-gray-300 text-gray-500 cursor-not-allowed' 
+                  : 'btn-primary'
+              }`}
             >
               {step === 3 ? 'Create Account' : 'Next'}
             </button>
