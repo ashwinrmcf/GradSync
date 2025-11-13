@@ -1,0 +1,3595 @@
+[{
+  "_id": {
+    "$oid": "6914eca321cbfc17dd664829"
+  },
+  "email": "admin@piemr.edu.in",
+  "password": "$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewfhllQdHqByU1uq",
+  "firstName": "Admin",
+  "lastName": "User",
+  "role": "ADMIN",
+  "status": "ACTIVE",
+  "batchInfo": {
+    "admissionYear": 2020,
+    "graduationYear": 2024,
+    "branch": "CSE",
+    "rollNumber": "ADMIN001"
+  },
+  "verification": {
+    "emailVerified": true,
+    "phoneVerified": true,
+    "profileVerified": true
+  },
+  "createdAt": {
+    "$date": "2025-11-12T20:22:59.157Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-12T20:22:59.158Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6914f473c3bda37689fb4661"
+  },
+  "email": "0863me181002@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Abhinay",
+  "lastName": "Sharma",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2018,
+    "graduationYear": 2022,
+    "branch": "CSE",
+    "rollNumber": "0863ME181002"
+  },
+  "professional": {
+    "currentCompany": "iLEAD Group",
+    "designation": "Software Engineer",
+    "currentSalary": 4.5,
+    "workType": "FULL_TIME",
+    "skills": [
+      "Appointment Info: Mon Jan 03 00:00:00 IST 2022"
+    ]
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/6914f473c3bda37689fb4661_abhinaysharma_synapsesxtl.jpeg"
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "6914f473c3bda37689fb4664"
+  },
+  "email": "0863cs181002@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Aman",
+  "lastName": "Kumar Bamaliya",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2018,
+    "graduationYear": 2022,
+    "branch": "CSE",
+    "rollNumber": "0863CS181002"
+  },
+  "professional": {
+    "currentCompany": "Systematix Infotech Pvt Ltd",
+    "designation": "Software Engineer",
+    "currentSalary": 4.5,
+    "workType": "FULL_TIME",
+    "skills": [
+      "Appointment Info: SIPL/OFR/2022-053"
+    ]
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/6914f473c3bda37689fb4664_amankumarbamaliya_aspiremarketingsolutions.jpeg"
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "6914f473c3bda37689fb4667"
+  },
+  "email": "0863cs181003@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Anirudh",
+  "lastName": "Kulkarni",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2018,
+    "graduationYear": 2022,
+    "branch": "CSE",
+    "rollNumber": "0863CS181003"
+  },
+  "professional": {
+    "currentCompany": "Amazon Customer Service",
+    "designation": "Software Engineer",
+    "currentSalary": 4.5,
+    "workType": "FULL_TIME",
+    "skills": [
+      "Appointment Info: Thu May 23 00:00:00 IST 2024"
+    ]
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/6914f473c3bda37689fb4667_anirudhkulkarni_careerdreams.jpeg"
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "6914f473c3bda37689fb466a"
+  },
+  "email": "0863cs193d02@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Anish",
+  "lastName": "Shrivastva",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2018,
+    "graduationYear": 2022,
+    "branch": "CSE",
+    "rollNumber": "0863CS193D02"
+  },
+  "professional": {
+    "currentCompany": "Web Widers Software Solutions",
+    "designation": "Software Engineer",
+    "currentSalary": 4.5,
+    "workType": "FULL_TIME",
+    "skills": [
+      "Appointment Info: WSS/05-02/44"
+    ]
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/6914f473c3bda37689fb466a_anishshrivastava.jpg"
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "6914f473c3bda37689fb466d"
+  },
+  "email": "0863cs181004@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Anjali",
+  "lastName": "Dubey",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2018,
+    "graduationYear": 2022,
+    "branch": "CSE",
+    "rollNumber": "0863CS181004"
+  },
+  "professional": {
+    "currentCompany": "Zehntech Technologies Pvt Ltd",
+    "designation": "Software Engineer",
+    "currentSalary": 4.5,
+    "workType": "FULL_TIME",
+    "skills": [
+      "Appointment Info: Tue Dec 14 00:00:00 IST 2021"
+    ]
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/6914f473c3bda37689fb466d_anjalidubey_infosys.jpeg"
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "6914f473c3bda37689fb4670"
+  },
+  "email": "0863cs193d03@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Ankur",
+  "lastName": "Nagle",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2018,
+    "graduationYear": 2022,
+    "branch": "CSE",
+    "rollNumber": "0863CS193D03"
+  },
+  "professional": {
+    "currentCompany": "Infosys",
+    "designation": "Software Engineer",
+    "currentSalary": 4.5,
+    "workType": "FULL_TIME",
+    "skills": [
+      "Appointment Info: Fri Jun 17 00:00:00 IST 2022"
+    ]
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/6914f473c3bda37689fb4670_ankurnagle_infosys.jpeg"
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "6914f473c3bda37689fb4673"
+  },
+  "email": "0863cs181006@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Arslan",
+  "lastName": "Shaikh",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2018,
+    "graduationYear": 2022,
+    "branch": "CSE",
+    "rollNumber": "0863CS181006"
+  },
+  "professional": {
+    "currentCompany": "Rakuten Symphony",
+    "designation": "Software Engineer",
+    "currentSalary": 4.5,
+    "workType": "FULL_TIME",
+    "skills": [
+      "Appointment Info: Fri Dec 31 00:00:00 IST 2021"
+    ]
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/6914f473c3bda37689fb4673_arslanshaikh_softude.jpeg"
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb4676"
+  },
+  "email": "0863cs181007@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Ashish",
+  "lastName": "Bercha",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2018,
+    "graduationYear": 2022,
+    "branch": "CSE",
+    "rollNumber": "0863CS181007"
+  },
+  "professional": {
+    "currentCompany": "Scores &Levels Unipessoal Lda",
+    "designation": "Software Engineer",
+    "currentSalary": 4.5,
+    "workType": "FULL_TIME",
+    "skills": [
+      "Appointment Info: Wed Sep 01 00:00:00 IST 2021"
+    ]
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/6914f474c3bda37689fb4676_ashishbercha.png"
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb4679"
+  },
+  "email": "0863cs181008@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Ashutosh",
+  "lastName": "Soni",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2018,
+    "graduationYear": 2022,
+    "branch": "CSE",
+    "rollNumber": "0863CS181008"
+  },
+  "professional": {
+    "currentCompany": "Capegimini Technologies Services India Ltd",
+    "designation": "Software Engineer",
+    "currentSalary": 4.5,
+    "workType": "FULL_TIME",
+    "skills": [
+      "Appointment Info: 6515323/1512796"
+    ]
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/6914f474c3bda37689fb4679_ashutoshsoni_capgemini.jpeg"
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb467c"
+  },
+  "email": "0863cs181009@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Ashwini",
+  "lastName": "Rawat",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2018,
+    "graduationYear": 2022,
+    "branch": "CSE",
+    "rollNumber": "0863CS181009"
+  },
+  "professional": {
+    "currentCompany": "Wipro Limited",
+    "designation": "Software Engineer",
+    "currentSalary": 4.5,
+    "workType": "FULL_TIME",
+    "skills": [
+      "Appointment Info: Wed Feb 02 00:00:00 IST 2022"
+    ]
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/6914f474c3bda37689fb467c_ashwinirawat_yardi.jpeg"
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb467f"
+  },
+  "email": "0863cs181011@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Chandan",
+  "lastName": "Rajput",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2018,
+    "graduationYear": 2022,
+    "branch": "CSE",
+    "rollNumber": "0863CS181011"
+  },
+  "professional": {
+    "currentCompany": "Webkorps Sevices India Pvt Ltd",
+    "designation": "Software Engineer",
+    "currentSalary": 4.5,
+    "workType": "FULL_TIME",
+    "skills": [
+      "Appointment Info: Mon Jul 18 00:00:00 IST 2022"
+    ]
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/6914f474c3bda37689fb467f_chandanrajput_rakuten.jpeg"
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb4682"
+  },
+  "email": "0863cs181012@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Chetan",
+  "lastName": "Solanki",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2018,
+    "graduationYear": 2022,
+    "branch": "CSE",
+    "rollNumber": "0863CS181012"
+  },
+  "professional": {
+    "currentCompany": "Rakuten Symphony",
+    "designation": "Software Engineer",
+    "currentSalary": 4.5,
+    "workType": "FULL_TIME",
+    "skills": [
+      "Appointment Info: Mon Jan 10 00:00:00 IST 2022"
+    ]
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/6914f474c3bda37689fb4682_chetan_solanki.png"
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb4684"
+  },
+  "email": "0863cs181014@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Danish",
+  "lastName": "Ullah",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2018,
+    "graduationYear": 2022,
+    "branch": "CSE",
+    "rollNumber": "0863CS181014"
+  },
+  "professional": {
+    "currentCompany": "Bitcot Technology Pvt Ltd",
+    "designation": "Software Engineer",
+    "currentSalary": 4.5,
+    "workType": "FULL_TIME",
+    "skills": [
+      "Appointment Info: Tue Mar 07 00:00:00 IST 2023"
+    ]
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/6914f474c3bda37689fb4684_danishullah_bitcot.jpeg"
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb4687"
+  },
+  "email": "0863cs181015@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Dhairya",
+  "lastName": "Savaner",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2018,
+    "graduationYear": 2022,
+    "branch": "CSE",
+    "rollNumber": "0863CS181015"
+  },
+  "professional": {
+    "currentCompany": "Amadeus Labs",
+    "designation": "Software Engineer",
+    "currentSalary": 4.5,
+    "workType": "FULL_TIME",
+    "skills": [
+      "Appointment Info: Thu Jun 09 00:00:00 IST 2022"
+    ]
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/6914f474c3bda37689fb4687_dhairyasavaner_pbo.jpeg"
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb468a"
+  },
+  "email": "0863cs181017@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Eklavya",
+  "lastName": "Malviya",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2018,
+    "graduationYear": 2022,
+    "branch": "CSE",
+    "rollNumber": "0863CS181017"
+  },
+  "professional": {
+    "currentCompany": "Celebal Technologies",
+    "designation": "Software Engineer",
+    "currentSalary": 4.5,
+    "workType": "FULL_TIME",
+    "skills": [
+      "Appointment Info: Thu Oct 07 00:00:00 IST 2021"
+    ]
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/6914f474c3bda37689fb468a_eklavyamalviya.jpg"
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb468d"
+  },
+  "email": "0863cs181018@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Garvit",
+  "lastName": "Sharma",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2018,
+    "graduationYear": 2022,
+    "branch": "CSE",
+    "rollNumber": "0863CS181018"
+  },
+  "professional": {
+    "currentCompany": "Potomac Technologies",
+    "designation": "Software Engineer",
+    "currentSalary": 4.5,
+    "workType": "FULL_TIME",
+    "skills": [
+      "Appointment Info: Tue Feb 22 00:00:00 IST 2022"
+    ]
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/6914f474c3bda37689fb468d_garvitsharma_thoughtwinitsolution.jpeg"
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb4690"
+  },
+  "email": "0863cs181024@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Ishika",
+  "lastName": "Bangar",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2018,
+    "graduationYear": 2022,
+    "branch": "CSE",
+    "rollNumber": "0863CS181024"
+  },
+  "professional": {
+    "currentCompany": "Zehntech Technologies Pvt Ltd",
+    "designation": "Software Engineer",
+    "currentSalary": 4.5,
+    "workType": "FULL_TIME",
+    "skills": [
+      "Appointment Info: Tue Dec 14 00:00:00 IST 2021"
+    ]
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/6914f474c3bda37689fb4690_ishikabangar.jpg"
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb4692"
+  },
+  "email": "0863cs181025@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Jai",
+  "lastName": "Kumar Raghuwanshi",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2018,
+    "graduationYear": 2022,
+    "branch": "CSE",
+    "rollNumber": "0863CS181025"
+  },
+  "professional": {
+    "currentCompany": "Icici Lombard",
+    "designation": "Software Engineer",
+    "currentSalary": 4.5,
+    "workType": "FULL_TIME",
+    "skills": [
+      "Appointment Info: Wed Dec 13 00:00:00 IST 2023"
+    ]
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/6914f474c3bda37689fb4692_jaikumarraghuwanshi_icici_lombard.jpeg"
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb4695"
+  },
+  "email": "0863cs181026@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Jayesh",
+  "lastName": "Agrawal",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2018,
+    "graduationYear": 2022,
+    "branch": "CSE",
+    "rollNumber": "0863CS181026"
+  },
+  "professional": {
+    "currentCompany": "Livegage",
+    "designation": "Software Engineer",
+    "currentSalary": 4.5,
+    "workType": "FULL_TIME",
+    "skills": [
+      "Appointment Info: Mon Nov 15 00:00:00 IST 2021"
+    ]
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/6914f474c3bda37689fb4695_jayeshagrawal_livegageinc.jpeg"
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb4698"
+  },
+  "email": "0863cs181030@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Kuldeep",
+  "lastName": "",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2018,
+    "graduationYear": 2022,
+    "branch": "CSE",
+    "rollNumber": "0863CS181030"
+  },
+  "professional": {
+    "currentCompany": "Paragon Business Solutions Ltd",
+    "designation": "Software Engineer",
+    "currentSalary": 4.5,
+    "workType": "FULL_TIME",
+    "skills": [
+      "Appointment Info: Mon Dec 20 00:00:00 IST 2021"
+    ]
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/6914f474c3bda37689fb4698_kuldeep.jpg"
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb469b"
+  },
+  "email": "0863cs181031@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Lakhan",
+  "lastName": "Singh Thakur",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2018,
+    "graduationYear": 2022,
+    "branch": "CSE",
+    "rollNumber": "0863CS181031"
+  },
+  "professional": {
+    "currentCompany": "Zehntech Technologies Pvt Ltd",
+    "designation": "Software Engineer",
+    "currentSalary": 4.5,
+    "workType": "FULL_TIME",
+    "skills": [
+      "Appointment Info: Wed Nov 17 00:00:00 IST 2021"
+    ]
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/6914f474c3bda37689fb469b_lakhansinghthakur_itechcloudsolutions.jpeg"
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb469d"
+  },
+  "email": "0863cs181032@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Mainka",
+  "lastName": "Rajput",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2018,
+    "graduationYear": 2022,
+    "branch": "CSE",
+    "rollNumber": "0863CS181032"
+  },
+  "professional": {
+    "currentCompany": "Xoriant Solutions Pvt Ltd",
+    "designation": "Software Engineer",
+    "currentSalary": 4.5,
+    "workType": "FULL_TIME",
+    "skills": [
+      "Appointment Info: Tue Mar 01 00:00:00 IST 2022"
+    ]
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/6914f474c3bda37689fb469d_mainkarajput.jpg"
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46a0"
+  },
+  "email": "0863ec181027@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Meet",
+  "lastName": "Singh Chouhan",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2018,
+    "graduationYear": 2022,
+    "branch": "CSE",
+    "rollNumber": "0863EC181027"
+  },
+  "professional": {
+    "currentCompany": "Xoriant Solutions Pvt Ltd",
+    "designation": "Software Engineer",
+    "currentSalary": 4.5,
+    "workType": "FULL_TIME",
+    "skills": [
+      "Appointment Info: Fri Mar 11 00:00:00 IST 2022"
+    ]
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/6914f474c3bda37689fb46a0_meet_chauhan.jpg"
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46a2"
+  },
+  "email": "0863cs181035@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Nandini",
+  "lastName": "Sharma",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2018,
+    "graduationYear": 2022,
+    "branch": "CSE",
+    "rollNumber": "0863CS181035"
+  },
+  "professional": {
+    "currentCompany": "Accenture Solutions Pvt Ltd",
+    "designation": "Software Engineer",
+    "currentSalary": 4.5,
+    "workType": "FULL_TIME",
+    "skills": [
+      "Appointment Info: C07848877"
+    ]
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/6914f474c3bda37689fb46a2_nandiniwadekar_zelite.jpeg"
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46a5"
+  },
+  "email": "0863cs181036@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Nandini",
+  "lastName": "Wadekar",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2018,
+    "graduationYear": 2022,
+    "branch": "CSE",
+    "rollNumber": "0863CS181036"
+  },
+  "professional": {
+    "currentCompany": "Bytesfarms Technologies",
+    "designation": "Software Engineer",
+    "currentSalary": 4.5,
+    "workType": "FULL_TIME",
+    "skills": [
+      "Appointment Info: Mon Apr 22 00:00:00 IST 2024"
+    ]
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46a8"
+  },
+  "email": "0863cs181037@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Nirali",
+  "lastName": "Upadhyay",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2018,
+    "graduationYear": 2022,
+    "branch": "CSE",
+    "rollNumber": "0863CS181037"
+  },
+  "professional": {
+    "currentCompany": "Rakuten Symphony",
+    "designation": "Software Engineer",
+    "currentSalary": 4.5,
+    "workType": "FULL_TIME",
+    "skills": [
+      "Appointment Info: Mon Mar 14 00:00:00 IST 2022"
+    ]
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/6914f474c3bda37689fb46a8_niraliupadhyay_rakuten.jpeg"
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46aa"
+  },
+  "email": "0863cs181038@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Piyush",
+  "lastName": "Jain",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2018,
+    "graduationYear": 2022,
+    "branch": "CSE",
+    "rollNumber": "0863CS181038"
+  },
+  "professional": {
+    "currentCompany": "Rakuten Symphony",
+    "designation": "Software Engineer",
+    "currentSalary": 4.5,
+    "workType": "FULL_TIME",
+    "skills": [
+      "Appointment Info: Fri Feb 11 00:00:00 IST 2022"
+    ]
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/6914f474c3bda37689fb46aa_piyushjain.jpg"
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46ac"
+  },
+  "email": "0863cs181039@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Prachi",
+  "lastName": "Gangwani",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2018,
+    "graduationYear": 2022,
+    "branch": "CSE",
+    "rollNumber": "0863CS181039"
+  },
+  "professional": {
+    "currentCompany": "The Snaptech Project",
+    "designation": "Software Engineer",
+    "currentSalary": 4.5,
+    "workType": "FULL_TIME",
+    "skills": [
+      "Appointment Info: Mon Feb 17 00:00:00 IST 2025"
+    ]
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/6914f474c3bda37689fb46ac_prachisahu_webiworktechnologies.jpeg"
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46af"
+  },
+  "email": "0863cs181040@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Prachi",
+  "lastName": "Sahu",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2018,
+    "graduationYear": 2022,
+    "branch": "CSE",
+    "rollNumber": "0863CS181040"
+  },
+  "professional": {
+    "currentCompany": "Backbencher Technologies Pvt Ltd",
+    "designation": "Software Engineer",
+    "currentSalary": 4.5,
+    "workType": "FULL_TIME",
+    "skills": [
+      "Appointment Info: Thu May 30 00:00:00 IST 2024"
+    ]
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46b2"
+  },
+  "email": "0863cs181041@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Pradyum",
+  "lastName": "Dharwa",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2018,
+    "graduationYear": 2022,
+    "branch": "CSE",
+    "rollNumber": "0863CS181041"
+  },
+  "professional": {
+    "currentCompany": "Innogent Infinite Possibilities",
+    "designation": "Software Engineer",
+    "currentSalary": 4.5,
+    "workType": "FULL_TIME",
+    "skills": [
+      "Appointment Info: Mon Oct 18 00:00:00 IST 2021"
+    ]
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/6914f474c3bda37689fb46b2_pradyum_dharva.jpg"
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46b5"
+  },
+  "email": "0863cs181042@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Pragati",
+  "lastName": "Chouhan",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2018,
+    "graduationYear": 2022,
+    "branch": "CSE",
+    "rollNumber": "0863CS181042"
+  },
+  "professional": {
+    "currentCompany": "Livegage Technologies Pvt Ltd",
+    "designation": "Software Engineer",
+    "currentSalary": 4.5,
+    "workType": "FULL_TIME",
+    "skills": [
+      "Appointment Info: Mon Nov 08 00:00:00 IST 2021"
+    ]
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46b8"
+  },
+  "email": "0863cs181046@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Radhe",
+  "lastName": "Shree Patil",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2018,
+    "graduationYear": 2022,
+    "branch": "CSE",
+    "rollNumber": "0863CS181046"
+  },
+  "professional": {
+    "currentCompany": "Shriffle Technologies Pvt Ltd",
+    "designation": "Software Engineer",
+    "currentSalary": 4.5,
+    "workType": "FULL_TIME",
+    "skills": [
+      "Appointment Info: Mon Jun 13 00:00:00 IST 2022"
+    ]
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/6914f474c3bda37689fb46b8_radheshreepatil_fittoniatechnologies.jpeg"
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46bb"
+  },
+  "email": "0863cs181048@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Raja",
+  "lastName": "Khan",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2018,
+    "graduationYear": 2022,
+    "branch": "CSE",
+    "rollNumber": "0863CS181048"
+  },
+  "professional": {
+    "currentCompany": "Zehntech Technologies Pvt Ltd",
+    "designation": "Software Engineer",
+    "currentSalary": 4.5,
+    "workType": "FULL_TIME",
+    "skills": [
+      "Appointment Info: Tue Dec 14 00:00:00 IST 2021"
+    ]
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/6914f474c3bda37689fb46bb_rajakhan_visionwaves.jpeg"
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46bd"
+  },
+  "email": "0863cs181049@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Ritik",
+  "lastName": "Khatri",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2018,
+    "graduationYear": 2022,
+    "branch": "CSE",
+    "rollNumber": "0863CS181049"
+  },
+  "professional": {
+    "currentCompany": "Oracle",
+    "designation": "Software Engineer",
+    "currentSalary": 4.5,
+    "workType": "FULL_TIME",
+    "skills": [
+      "Appointment Info: 262539"
+    ]
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/6914f474c3bda37689fb46bd_ritikkhatri_oracle.jpeg"
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46c0"
+  },
+  "email": "0863cs181050@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Rohan",
+  "lastName": "Khera",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2018,
+    "graduationYear": 2022,
+    "branch": "CSE",
+    "rollNumber": "0863CS181050"
+  },
+  "professional": {
+    "currentCompany": "Livegage Technologies Pvt Ltd",
+    "designation": "Software Engineer",
+    "currentSalary": 4.5,
+    "workType": "FULL_TIME",
+    "skills": [
+      "Appointment Info: Mon Nov 08 00:00:00 IST 2021"
+    ]
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/6914f474c3bda37689fb46c0_rohankhera_globallogicindia.jpeg"
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46c2"
+  },
+  "email": "0863cs181051@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Rupali",
+  "lastName": "Nimbalkar",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2018,
+    "graduationYear": 2022,
+    "branch": "CSE",
+    "rollNumber": "0863CS181051"
+  },
+  "professional": {
+    "currentCompany": "Zehntech Technologies Pvt Ltd",
+    "designation": "Software Engineer",
+    "currentSalary": 4.5,
+    "workType": "FULL_TIME",
+    "skills": [
+      "Appointment Info: Tue Dec 14 00:00:00 IST 2021"
+    ]
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/6914f474c3bda37689fb46c2_rupalinimbalkar_zehntech.jpeg"
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46c4"
+  },
+  "email": "0863cs181052@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Sagar",
+  "lastName": "Sankhere",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2018,
+    "graduationYear": 2022,
+    "branch": "CSE",
+    "rollNumber": "0863CS181052"
+  },
+  "professional": {
+    "currentCompany": "Zehntech Technologies Pvt Ltd",
+    "designation": "Software Engineer",
+    "currentSalary": 4.5,
+    "workType": "FULL_TIME",
+    "skills": [
+      "Appointment Info: Tue Dec 14 00:00:00 IST 2021"
+    ]
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/6914f474c3bda37689fb46c4_sagarsankhere.png"
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46c6"
+  },
+  "email": "0863cs181053@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Sakshi",
+  "lastName": "Kothari",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2018,
+    "graduationYear": 2022,
+    "branch": "CSE",
+    "rollNumber": "0863CS181053"
+  },
+  "professional": {
+    "currentCompany": "Mennta E-Learning",
+    "designation": "Software Engineer",
+    "currentSalary": 4.5,
+    "workType": "FULL_TIME",
+    "skills": [
+      "Appointment Info: Sat Oct 23 00:00:00 IST 2021"
+    ]
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/6914f474c3bda37689fb46c6_sakshikothari.jpg"
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46c9"
+  },
+  "email": "0863cs181054@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Shantanu",
+  "lastName": "Mishra",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2018,
+    "graduationYear": 2022,
+    "branch": "CSE",
+    "rollNumber": "0863CS181054"
+  },
+  "professional": {
+    "currentCompany": "Ifortis Worldwide",
+    "designation": "Software Engineer",
+    "currentSalary": 4.5,
+    "workType": "FULL_TIME",
+    "skills": [
+      "Appointment Info: Fri Feb 10 00:00:00 IST 2023"
+    ]
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46cc"
+  },
+  "email": "0863cs181055@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Shubham",
+  "lastName": "Soni",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2018,
+    "graduationYear": 2022,
+    "branch": "CSE",
+    "rollNumber": "0863CS181055"
+  },
+  "professional": {
+    "currentCompany": "Vena Solutions Software India Pvt Ltd",
+    "designation": "Software Engineer",
+    "currentSalary": 4.5,
+    "workType": "FULL_TIME",
+    "skills": [
+      "Appointment Info: Tue May 28 00:00:00 IST 2024"
+    ]
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/6914f474c3bda37689fb46cc_shubhamsoni_innogent.jpeg"
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46cf"
+  },
+  "email": "0863ec181053@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Sneha",
+  "lastName": "Vishwakarma",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2018,
+    "graduationYear": 2022,
+    "branch": "CSE",
+    "rollNumber": "0863EC181053"
+  },
+  "professional": {
+    "currentCompany": "Bestpeers Infosystem Pvt Ltd",
+    "designation": "Software Engineer",
+    "currentSalary": 4.5,
+    "workType": "FULL_TIME",
+    "skills": [
+      "Appointment Info: Mon Nov 25 00:00:00 IST 2024"
+    ]
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46d2"
+  },
+  "email": "0863cs193d06@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Soham",
+  "lastName": "Vyas",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2018,
+    "graduationYear": 2022,
+    "branch": "CSE",
+    "rollNumber": "0863CS193D06"
+  },
+  "professional": {
+    "currentCompany": "Addend Analytics",
+    "designation": "Software Engineer",
+    "currentSalary": 4.5,
+    "workType": "FULL_TIME",
+    "skills": [
+      "Appointment Info: Mon Jun 06 00:00:00 IST 2022"
+    ]
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/6914f474c3bda37689fb46d2_sohamvyas_avalonsolutionsindia.jpeg"
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46d5"
+  },
+  "email": "0863cs181060@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Vishwas",
+  "lastName": "Katiyar",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2018,
+    "graduationYear": 2022,
+    "branch": "CSE",
+    "rollNumber": "0863CS181060"
+  },
+  "professional": {
+    "currentCompany": "Rws Moravia India Pvt Ltd",
+    "designation": "Software Engineer",
+    "currentSalary": 4.5,
+    "workType": "FULL_TIME",
+    "skills": [
+      "Appointment Info: WD/180/CON"
+    ]
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/6914f474c3bda37689fb46d5_vishwaskatiyar_deloitte.jpeg"
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46d8"
+  },
+  "email": "0863cs181061@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Vivek",
+  "lastName": "Choudhary",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2018,
+    "graduationYear": 2022,
+    "branch": "CSE",
+    "rollNumber": "0863CS181061"
+  },
+  "professional": {
+    "currentCompany": "Canopus Infosystem",
+    "designation": "Software Engineer",
+    "currentSalary": 4.5,
+    "workType": "FULL_TIME",
+    "skills": [
+      "Appointment Info: Wed Dec 15 00:00:00 IST 2021"
+    ]
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/6914f474c3bda37689fb46d8_vivekchoudhary.jpg"
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46db"
+  },
+  "email": "0863cs181062@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Wassaif",
+  "lastName": "Khan",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2018,
+    "graduationYear": 2022,
+    "branch": "CSE",
+    "rollNumber": "0863CS181062"
+  },
+  "professional": {
+    "currentCompany": "Taskus India Pvt Ltd",
+    "designation": "Software Engineer",
+    "currentSalary": 4.5,
+    "workType": "FULL_TIME",
+    "skills": [
+      "Appointment Info: Wed Sep 29 00:00:00 IST 2021"
+    ]
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/6914f474c3bda37689fb46db_wassaif_khan.jpg"
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46de"
+  },
+  "email": "0863cs181063@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Yash",
+  "lastName": "Kumar",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2018,
+    "graduationYear": 2022,
+    "branch": "CSE",
+    "rollNumber": "0863CS181063"
+  },
+  "professional": {
+    "currentCompany": "Indium Software",
+    "designation": "Software Engineer",
+    "currentSalary": 4.5,
+    "workType": "FULL_TIME",
+    "skills": [
+      "Appointment Info: Tue Aug 02 00:00:00 IST 2022"
+    ]
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "691645013e7590841421cb9e"
+  },
+  "email": "vihaan.sharma@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Vihaan",
+  "lastName": "Sharma",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2019,
+    "graduationYear": 2023,
+    "branch": "EEE",
+    "rollNumber": "086323EEE001",
+    "cgpa": 9.82
+  },
+  "professional": {
+    "currentCompany": "Infosys",
+    "designation": "System Engineer",
+    "currentSalary": 4,
+    "workType": "FULL_TIME",
+    "workLocation": "Hyderabad, India",
+    "experienceYears": 2,
+    "skills": [
+      "MATLAB",
+      "PLC Programming",
+      "Electrical Design",
+      "Control Systems"
+    ]
+  },
+  "contact": {
+    "phone": "+919128696337",
+    "address": {
+      "city": "Hyderabad",
+      "state": "India",
+      "country": "India"
+    }
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/default_vihaan_sharma.jpeg",
+    "bio": "Vihaan is a dedicated System Engineer at Infosys with 2 years of experience in the technology industry."
+  },
+  "socialLinks": {
+    "linkedin": "https://linkedin.com/in/vihaan-sharma",
+    "github": "https://github.com/vihaansharma",
+    "portfolio": "https://vihaansharma.dev"
+  },
+  "verification": {
+    "emailVerified": true,
+    "phoneVerified": false,
+    "profileVerified": true
+  },
+  "createdAt": "2025-11-13T19:13:38.742Z",
+  "updatedAt": "2025-11-13T19:13:38.747Z",
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "691645013e7590841421cb9f"
+  },
+  "email": "aditya.sharma@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Aditya",
+  "lastName": "Sharma",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2019,
+    "graduationYear": 2023,
+    "branch": "MECH",
+    "rollNumber": "086323MECH002",
+    "cgpa": 7.53
+  },
+  "professional": {
+    "currentCompany": "TCS",
+    "designation": "Software Engineer",
+    "currentSalary": 3.5,
+    "workType": "FULL_TIME",
+    "workLocation": "Pune, India",
+    "experienceYears": 2,
+    "skills": [
+      "CATIA",
+      "Manufacturing"
+    ]
+  },
+  "contact": {
+    "phone": "+917298178326",
+    "address": {
+      "city": "Pune",
+      "state": "India",
+      "country": "India"
+    }
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/default_aditya_sharma.jpeg",
+    "bio": "Aditya is a dedicated Software Engineer at TCS with 2 years of experience in the technology industry."
+  },
+  "socialLinks": {
+    "linkedin": "https://linkedin.com/in/aditya-sharma",
+    "github": "https://github.com/adityasharma",
+    "portfolio": "https://adityasharma.dev"
+  },
+  "verification": {
+    "emailVerified": true,
+    "phoneVerified": true,
+    "profileVerified": true
+  },
+  "createdAt": "2025-11-13T19:13:38.747Z",
+  "updatedAt": "2025-11-13T19:13:38.747Z",
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "691645013e7590841421cba0"
+  },
+  "email": "diya.verma@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Diya",
+  "lastName": "Verma",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2019,
+    "graduationYear": 2023,
+    "branch": "EEE",
+    "rollNumber": "086323EEE003",
+    "cgpa": 6.29
+  },
+  "professional": {
+    "currentCompany": "Wipro",
+    "designation": "Project Engineer",
+    "currentSalary": 3.8,
+    "workType": "FULL_TIME",
+    "workLocation": "Mumbai, India",
+    "experienceYears": 2,
+    "skills": [
+      "AutoCAD",
+      "Electrical Design",
+      "PLC Programming",
+      "Control Systems"
+    ]
+  },
+  "contact": {
+    "phone": "+911296599716",
+    "address": {
+      "city": "Mumbai",
+      "state": "India",
+      "country": "India"
+    }
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/default_diya_verma.jpeg",
+    "bio": "Diya is a dedicated Project Engineer at Wipro with 2 years of experience in the technology industry."
+  },
+  "socialLinks": {
+    "linkedin": "https://linkedin.com/in/diya-verma",
+    "github": "https://github.com/diyaverma",
+    "portfolio": "https://diyaverma.dev"
+  },
+  "verification": {
+    "emailVerified": true,
+    "phoneVerified": true,
+    "profileVerified": true
+  },
+  "createdAt": "2025-11-13T19:13:38.747Z",
+  "updatedAt": "2025-11-13T19:13:38.747Z",
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "691645013e7590841421cba1"
+  },
+  "email": "kiara.goel@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Kiara",
+  "lastName": "Goel",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2019,
+    "graduationYear": 2023,
+    "branch": "CIVIL",
+    "rollNumber": "086323CIVIL004",
+    "cgpa": 7.04
+  },
+  "professional": {
+    "currentCompany": "Wipro",
+    "designation": "Project Engineer",
+    "currentSalary": 3.8,
+    "workType": "FULL_TIME",
+    "workLocation": "Coimbatore, India",
+    "experienceYears": 2,
+    "skills": [
+      "Surveying",
+      "Construction Management",
+      "AutoCAD",
+      "Structural Analysis"
+    ]
+  },
+  "contact": {
+    "phone": "+915491820484",
+    "address": {
+      "city": "Coimbatore",
+      "state": "India",
+      "country": "India"
+    }
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/default_kiara_goel.jpeg",
+    "bio": "Kiara is a dedicated Project Engineer at Wipro with 2 years of experience in the technology industry."
+  },
+  "socialLinks": {
+    "linkedin": "https://linkedin.com/in/kiara-goel",
+    "github": "https://github.com/kiaragoel",
+    "portfolio": "https://kiaragoel.dev"
+  },
+  "verification": {
+    "emailVerified": true,
+    "phoneVerified": false,
+    "profileVerified": true
+  },
+  "createdAt": "2025-11-13T19:13:38.747Z",
+  "updatedAt": "2025-11-13T19:13:38.747Z",
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "691645013e7590841421cba2"
+  },
+  "email": "saanvi.iyer@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Saanvi",
+  "lastName": "Iyer",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2019,
+    "graduationYear": 2023,
+    "branch": "CIVIL",
+    "rollNumber": "086323CIVIL005",
+    "cgpa": 8.92
+  },
+  "professional": {
+    "currentCompany": "Wipro",
+    "designation": "Project Engineer",
+    "currentSalary": 3.8,
+    "workType": "FULL_TIME",
+    "workLocation": "Pune, India",
+    "experienceYears": 2,
+    "skills": [
+      "Structural Analysis",
+      "AutoCAD",
+      "Project Management"
+    ]
+  },
+  "contact": {
+    "phone": "+911472102526",
+    "address": {
+      "city": "Pune",
+      "state": "India",
+      "country": "India"
+    }
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/default_saanvi_iyer.jpeg",
+    "bio": "Saanvi is a dedicated Project Engineer at Wipro with 2 years of experience in the technology industry."
+  },
+  "socialLinks": {
+    "linkedin": "https://linkedin.com/in/saanvi-iyer",
+    "github": "https://github.com/saanviiyer",
+    "portfolio": "https://saanviiyer.dev"
+  },
+  "verification": {
+    "emailVerified": true,
+    "phoneVerified": false,
+    "profileVerified": true
+  },
+  "createdAt": "2025-11-13T19:13:38.748Z",
+  "updatedAt": "2025-11-13T19:13:38.748Z",
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "691645013e7590841421cba3"
+  },
+  "email": "pari.mishra@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Pari",
+  "lastName": "Mishra",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2019,
+    "graduationYear": 2023,
+    "branch": "MECH",
+    "rollNumber": "086323MECH006",
+    "cgpa": 9.54
+  },
+  "professional": {
+    "currentCompany": "Infosys",
+    "designation": "System Engineer",
+    "currentSalary": 4,
+    "workType": "FULL_TIME",
+    "workLocation": "Kolkata, India",
+    "experienceYears": 2,
+    "skills": [
+      "Thermodynamics",
+      "AutoCAD",
+      "CATIA"
+    ]
+  },
+  "contact": {
+    "phone": "+917405716804",
+    "address": {
+      "city": "Kolkata",
+      "state": "India",
+      "country": "India"
+    }
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/default_pari_mishra.jpeg",
+    "bio": "Pari is a dedicated System Engineer at Infosys with 2 years of experience in the technology industry."
+  },
+  "socialLinks": {
+    "linkedin": "https://linkedin.com/in/pari-mishra",
+    "github": "https://github.com/parimishra",
+    "portfolio": "https://parimishra.dev"
+  },
+  "verification": {
+    "emailVerified": true,
+    "phoneVerified": false,
+    "profileVerified": true
+  },
+  "createdAt": "2025-11-13T19:13:38.748Z",
+  "updatedAt": "2025-11-13T19:13:38.748Z",
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "691645013e7590841421cba4"
+  },
+  "email": "ayaan.verma@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Ayaan",
+  "lastName": "Verma",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2019,
+    "graduationYear": 2023,
+    "branch": "ECE",
+    "rollNumber": "086323ECE007",
+    "cgpa": 7.75
+  },
+  "professional": {
+    "currentCompany": "Accenture",
+    "designation": "Application Developer",
+    "currentSalary": 4.5,
+    "workType": "FULL_TIME",
+    "workLocation": "Coimbatore, India",
+    "experienceYears": 2,
+    "skills": [
+      "VLSI Design",
+      "MATLAB",
+      "Signal Processing",
+      "Verilog"
+    ]
+  },
+  "contact": {
+    "phone": "+913774368242",
+    "address": {
+      "city": "Coimbatore",
+      "state": "India",
+      "country": "India"
+    }
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/default_ayaan_verma.jpeg",
+    "bio": "Ayaan is a dedicated Application Developer at Accenture with 2 years of experience in the technology industry."
+  },
+  "socialLinks": {
+    "linkedin": "https://linkedin.com/in/ayaan-verma",
+    "github": "https://github.com/ayaanverma",
+    "portfolio": "https://ayaanverma.dev"
+  },
+  "verification": {
+    "emailVerified": true,
+    "phoneVerified": false,
+    "profileVerified": true
+  },
+  "createdAt": "2025-11-13T19:13:38.748Z",
+  "updatedAt": "2025-11-13T19:13:38.748Z",
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "691645013e7590841421cba5"
+  },
+  "email": "reyansh.iyer@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Reyansh",
+  "lastName": "Iyer",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2019,
+    "graduationYear": 2023,
+    "branch": "EEE",
+    "rollNumber": "086323EEE008",
+    "cgpa": 9.58
+  },
+  "professional": {
+    "currentCompany": "Wipro",
+    "designation": "Project Engineer",
+    "currentSalary": 3.8,
+    "workType": "FULL_TIME",
+    "workLocation": "Ahmedabad, India",
+    "experienceYears": 2,
+    "skills": [
+      "Power Systems",
+      "PLC Programming",
+      "Electrical Design"
+    ]
+  },
+  "contact": {
+    "phone": "+911104418284",
+    "address": {
+      "city": "Ahmedabad",
+      "state": "India",
+      "country": "India"
+    }
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/default_reyansh_iyer.jpeg",
+    "bio": "Reyansh is a dedicated Project Engineer at Wipro with 2 years of experience in the technology industry."
+  },
+  "socialLinks": {
+    "linkedin": "https://linkedin.com/in/reyansh-iyer",
+    "github": "https://github.com/reyanshiyer",
+    "portfolio": "https://reyanshiyer.dev"
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": true,
+    "profileVerified": false
+  },
+  "createdAt": "2025-11-13T19:13:38.748Z",
+  "updatedAt": "2025-11-13T19:13:38.748Z",
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "691645013e7590841421cba6"
+  },
+  "email": "myra.nair@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Myra",
+  "lastName": "Nair",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2019,
+    "graduationYear": 2023,
+    "branch": "CSE",
+    "rollNumber": "086323CSE009",
+    "cgpa": 9.91
+  },
+  "professional": {
+    "currentCompany": "Capgemini",
+    "designation": "Analyst",
+    "currentSalary": 4.1,
+    "workType": "FULL_TIME",
+    "workLocation": "Bangalore, India",
+    "experienceYears": 2,
+    "skills": [
+      "AWS",
+      "Node.js",
+      "MySQL"
+    ]
+  },
+  "contact": {
+    "phone": "+919259568388",
+    "address": {
+      "city": "Bangalore",
+      "state": "India",
+      "country": "India"
+    }
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/default_myra_nair.jpeg",
+    "bio": "Myra is a dedicated Analyst at Capgemini with 2 years of experience in the technology industry."
+  },
+  "socialLinks": {
+    "linkedin": "https://linkedin.com/in/myra-nair",
+    "github": "https://github.com/myranair",
+    "portfolio": "https://myranair.dev"
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": true,
+    "profileVerified": true
+  },
+  "createdAt": "2025-11-13T19:13:38.749Z",
+  "updatedAt": "2025-11-13T19:13:38.749Z",
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "691645013e7590841421cba7"
+  },
+  "email": "shaurya.malhotra@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Shaurya",
+  "lastName": "Malhotra",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2019,
+    "graduationYear": 2023,
+    "branch": "IT",
+    "rollNumber": "086323IT010",
+    "cgpa": 7.97
+  },
+  "professional": {
+    "currentCompany": "Cognizant",
+    "designation": "Programmer Analyst",
+    "currentSalary": 4.2,
+    "workType": "FULL_TIME",
+    "workLocation": "Noida, India",
+    "experienceYears": 2,
+    "skills": [
+      "C++",
+      "Database Management",
+      "Java",
+      "Network Security"
+    ]
+  },
+  "contact": {
+    "phone": "+917111374623",
+    "address": {
+      "city": "Noida",
+      "state": "India",
+      "country": "India"
+    }
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/default_shaurya_malhotra.jpeg",
+    "bio": "Shaurya is a dedicated Programmer Analyst at Cognizant with 2 years of experience in the technology industry."
+  },
+  "socialLinks": {
+    "linkedin": "https://linkedin.com/in/shaurya-malhotra",
+    "github": "https://github.com/shauryamalhotra",
+    "portfolio": "https://shauryamalhotra.dev"
+  },
+  "verification": {
+    "emailVerified": true,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "createdAt": "2025-11-13T19:13:38.749Z",
+  "updatedAt": "2025-11-13T19:13:38.749Z",
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "691645013e7590841421cba8"
+  },
+  "email": "aarav.chopra@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Aarav",
+  "lastName": "Chopra",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2019,
+    "graduationYear": 2023,
+    "branch": "ECE",
+    "rollNumber": "086323ECE011",
+    "cgpa": 7.01
+  },
+  "professional": {
+    "currentCompany": "Cognizant",
+    "designation": "Programmer Analyst",
+    "currentSalary": 4.2,
+    "workType": "FULL_TIME",
+    "workLocation": "Pune, India",
+    "experienceYears": 2,
+    "skills": [
+      "Embedded Systems",
+      "MATLAB",
+      "PCB Design"
+    ]
+  },
+  "contact": {
+    "phone": "+911143938451",
+    "address": {
+      "city": "Pune",
+      "state": "India",
+      "country": "India"
+    }
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/default_aarav_chopra.jpeg",
+    "bio": "Aarav is a dedicated Programmer Analyst at Cognizant with 2 years of experience in the technology industry."
+  },
+  "socialLinks": {
+    "linkedin": "https://linkedin.com/in/aarav-chopra",
+    "github": "https://github.com/aaravchopra",
+    "portfolio": "https://aaravchopra.dev"
+  },
+  "verification": {
+    "emailVerified": true,
+    "phoneVerified": false,
+    "profileVerified": true
+  },
+  "createdAt": "2025-11-13T19:13:38.749Z",
+  "updatedAt": "2025-11-13T19:13:38.749Z",
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "691645013e7590841421cba9"
+  },
+  "email": "ishaan.nair@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Ishaan",
+  "lastName": "Nair",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2019,
+    "graduationYear": 2023,
+    "branch": "ECE",
+    "rollNumber": "086323ECE012",
+    "cgpa": 8.75
+  },
+  "professional": {
+    "currentCompany": "Wipro",
+    "designation": "Project Engineer",
+    "currentSalary": 3.8,
+    "workType": "FULL_TIME",
+    "workLocation": "Ahmedabad, India",
+    "experienceYears": 2,
+    "skills": [
+      "Embedded Systems",
+      "PCB Design",
+      "MATLAB"
+    ]
+  },
+  "contact": {
+    "phone": "+912095407844",
+    "address": {
+      "city": "Ahmedabad",
+      "state": "India",
+      "country": "India"
+    }
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/default_ishaan_nair.jpeg",
+    "bio": "Ishaan is a dedicated Project Engineer at Wipro with 2 years of experience in the technology industry."
+  },
+  "socialLinks": {
+    "linkedin": "https://linkedin.com/in/ishaan-nair",
+    "github": "https://github.com/ishaannair",
+    "portfolio": "https://ishaannair.dev"
+  },
+  "verification": {
+    "emailVerified": true,
+    "phoneVerified": false,
+    "profileVerified": true
+  },
+  "createdAt": "2025-11-13T19:13:38.749Z",
+  "updatedAt": "2025-11-13T19:13:38.749Z",
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "691645013e7590841421cbaa"
+  },
+  "email": "saanvi.pandey@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Saanvi",
+  "lastName": "Pandey",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2019,
+    "graduationYear": 2023,
+    "branch": "IT",
+    "rollNumber": "086323IT013",
+    "cgpa": 6.69
+  },
+  "professional": {
+    "currentCompany": "HCL Technologies",
+    "designation": "Software Developer",
+    "currentSalary": 3.6,
+    "workType": "FULL_TIME",
+    "workLocation": "Delhi, India",
+    "experienceYears": 2,
+    "skills": [
+      "Network Security",
+      "Java",
+      "System Administration",
+      "C++"
+    ]
+  },
+  "contact": {
+    "phone": "+917161545632",
+    "address": {
+      "city": "Delhi",
+      "state": "India",
+      "country": "India"
+    }
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/default_saanvi_pandey.jpeg",
+    "bio": "Saanvi is a dedicated Software Developer at HCL Technologies with 2 years of experience in the technology industry."
+  },
+  "socialLinks": {
+    "linkedin": "https://linkedin.com/in/saanvi-pandey",
+    "github": "https://github.com/saanvipandey",
+    "portfolio": "https://saanvipandey.dev"
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "createdAt": "2025-11-13T19:13:38.749Z",
+  "updatedAt": "2025-11-13T19:13:38.749Z",
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "691645013e7590841421cbab"
+  },
+  "email": "ayaan.iyer@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Ayaan",
+  "lastName": "Iyer",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2019,
+    "graduationYear": 2023,
+    "branch": "ECE",
+    "rollNumber": "086323ECE014",
+    "cgpa": 7.15
+  },
+  "professional": {
+    "currentCompany": "Capgemini",
+    "designation": "Analyst",
+    "currentSalary": 4.1,
+    "workType": "FULL_TIME",
+    "workLocation": "Chennai, India",
+    "experienceYears": 2,
+    "skills": [
+      "Embedded Systems",
+      "PCB Design",
+      "Verilog"
+    ]
+  },
+  "contact": {
+    "phone": "+915710839754",
+    "address": {
+      "city": "Chennai",
+      "state": "India",
+      "country": "India"
+    }
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/default_ayaan_iyer.jpeg",
+    "bio": "Ayaan is a dedicated Analyst at Capgemini with 2 years of experience in the technology industry."
+  },
+  "socialLinks": {
+    "linkedin": "https://linkedin.com/in/ayaan-iyer",
+    "github": "https://github.com/ayaaniyer",
+    "portfolio": "https://ayaaniyer.dev"
+  },
+  "verification": {
+    "emailVerified": true,
+    "phoneVerified": false,
+    "profileVerified": true
+  },
+  "createdAt": "2025-11-13T19:13:38.749Z",
+  "updatedAt": "2025-11-13T19:13:38.749Z",
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "691645013e7590841421cbac"
+  },
+  "email": "vedant.nair@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Vedant",
+  "lastName": "Nair",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2019,
+    "graduationYear": 2023,
+    "branch": "ECE",
+    "rollNumber": "086323ECE015",
+    "cgpa": 7.66
+  },
+  "professional": {
+    "currentCompany": "Tech Mahindra",
+    "designation": "Associate Software Engineer",
+    "currentSalary": 3.7,
+    "workType": "FULL_TIME",
+    "workLocation": "Coimbatore, India",
+    "experienceYears": 2,
+    "skills": [
+      "MATLAB",
+      "PCB Design",
+      "VLSI Design",
+      "Verilog"
+    ]
+  },
+  "contact": {
+    "phone": "+913456727438",
+    "address": {
+      "city": "Coimbatore",
+      "state": "India",
+      "country": "India"
+    }
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/default_vedant_nair.jpeg",
+    "bio": "Vedant is a dedicated Associate Software Engineer at Tech Mahindra with 2 years of experience in the technology industry."
+  },
+  "socialLinks": {
+    "linkedin": "https://linkedin.com/in/vedant-nair",
+    "github": "https://github.com/vedantnair",
+    "portfolio": "https://vedantnair.dev"
+  },
+  "verification": {
+    "emailVerified": true,
+    "phoneVerified": true,
+    "profileVerified": true
+  },
+  "createdAt": "2025-11-13T19:13:38.749Z",
+  "updatedAt": "2025-11-13T19:13:38.749Z",
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "691645013e7590841421cbad"
+  },
+  "email": "diya.nair@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Diya",
+  "lastName": "Nair",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2019,
+    "graduationYear": 2023,
+    "branch": "CIVIL",
+    "rollNumber": "086323CIVIL016",
+    "cgpa": 7
+  },
+  "professional": {
+    "currentCompany": "TCS",
+    "designation": "Software Engineer",
+    "currentSalary": 3.5,
+    "workType": "FULL_TIME",
+    "workLocation": "Pune, India",
+    "experienceYears": 2,
+    "skills": [
+      "Surveying",
+      "Construction Management",
+      "Structural Analysis",
+      "AutoCAD"
+    ]
+  },
+  "contact": {
+    "phone": "+911824785479",
+    "address": {
+      "city": "Pune",
+      "state": "India",
+      "country": "India"
+    }
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/default_diya_nair.jpeg",
+    "bio": "Diya is a dedicated Software Engineer at TCS with 2 years of experience in the technology industry."
+  },
+  "socialLinks": {
+    "linkedin": "https://linkedin.com/in/diya-nair",
+    "github": "https://github.com/diyanair",
+    "portfolio": "https://diyanair.dev"
+  },
+  "verification": {
+    "emailVerified": true,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "createdAt": "2025-11-13T19:13:38.749Z",
+  "updatedAt": "2025-11-13T19:13:38.749Z",
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "691645013e7590841421cbae"
+  },
+  "email": "shaurya.bansal@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Shaurya",
+  "lastName": "Bansal",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2019,
+    "graduationYear": 2023,
+    "branch": "CIVIL",
+    "rollNumber": "086323CIVIL017",
+    "cgpa": 9.14
+  },
+  "professional": {
+    "currentCompany": "Wipro",
+    "designation": "Project Engineer",
+    "currentSalary": 3.8,
+    "workType": "FULL_TIME",
+    "workLocation": "Hyderabad, India",
+    "experienceYears": 2,
+    "skills": [
+      "AutoCAD",
+      "Surveying",
+      "Construction Management",
+      "Project Management"
+    ]
+  },
+  "contact": {
+    "phone": "+919493671625",
+    "address": {
+      "city": "Hyderabad",
+      "state": "India",
+      "country": "India"
+    }
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/default_shaurya_bansal.jpeg",
+    "bio": "Shaurya is a dedicated Project Engineer at Wipro with 2 years of experience in the technology industry."
+  },
+  "socialLinks": {
+    "linkedin": "https://linkedin.com/in/shaurya-bansal",
+    "github": "https://github.com/shauryabansal",
+    "portfolio": "https://shauryabansal.dev"
+  },
+  "verification": {
+    "emailVerified": true,
+    "phoneVerified": false,
+    "profileVerified": true
+  },
+  "createdAt": "2025-11-13T19:13:38.749Z",
+  "updatedAt": "2025-11-13T19:13:38.749Z",
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "691645013e7590841421cbaf"
+  },
+  "email": "navya.rao@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Navya",
+  "lastName": "Rao",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2019,
+    "graduationYear": 2023,
+    "branch": "ECE",
+    "rollNumber": "086323ECE018",
+    "cgpa": 8.22
+  },
+  "professional": {
+    "currentCompany": "Wipro",
+    "designation": "Project Engineer",
+    "currentSalary": 3.8,
+    "workType": "FULL_TIME",
+    "workLocation": "Mumbai, India",
+    "experienceYears": 2,
+    "skills": [
+      "VLSI Design",
+      "Embedded Systems",
+      "Signal Processing",
+      "PCB Design",
+      "Verilog"
+    ]
+  },
+  "contact": {
+    "phone": "+911080486824",
+    "address": {
+      "city": "Mumbai",
+      "state": "India",
+      "country": "India"
+    }
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/default_navya_rao.jpeg",
+    "bio": "Navya is a dedicated Project Engineer at Wipro with 2 years of experience in the technology industry."
+  },
+  "socialLinks": {
+    "linkedin": "https://linkedin.com/in/navya-rao",
+    "github": "https://github.com/navyarao",
+    "portfolio": "https://navyarao.dev"
+  },
+  "verification": {
+    "emailVerified": true,
+    "phoneVerified": false,
+    "profileVerified": true
+  },
+  "createdAt": "2025-11-13T19:13:38.752Z",
+  "updatedAt": "2025-11-13T19:13:38.752Z",
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "691645013e7590841421cbb0"
+  },
+  "email": "aadhya.goel@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Aadhya",
+  "lastName": "Goel",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2019,
+    "graduationYear": 2023,
+    "branch": "EEE",
+    "rollNumber": "086323EEE019",
+    "cgpa": 9.68
+  },
+  "professional": {
+    "currentCompany": "HCL Technologies",
+    "designation": "Software Developer",
+    "currentSalary": 3.6,
+    "workType": "FULL_TIME",
+    "workLocation": "Pune, India",
+    "experienceYears": 2,
+    "skills": [
+      "AutoCAD",
+      "PLC Programming",
+      "Electrical Design"
+    ]
+  },
+  "contact": {
+    "phone": "+913811420848",
+    "address": {
+      "city": "Pune",
+      "state": "India",
+      "country": "India"
+    }
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/default_aadhya_goel.jpeg",
+    "bio": "Aadhya is a dedicated Software Developer at HCL Technologies with 2 years of experience in the technology industry."
+  },
+  "socialLinks": {
+    "linkedin": "https://linkedin.com/in/aadhya-goel",
+    "github": "https://github.com/aadhyagoel",
+    "portfolio": "https://aadhyagoel.dev"
+  },
+  "verification": {
+    "emailVerified": true,
+    "phoneVerified": true,
+    "profileVerified": true
+  },
+  "createdAt": "2025-11-13T19:13:38.752Z",
+  "updatedAt": "2025-11-13T19:13:38.752Z",
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "691645013e7590841421cbb1"
+  },
+  "email": "aarav.nair@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Aarav",
+  "lastName": "Nair",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2020,
+    "graduationYear": 2024,
+    "branch": "ECE",
+    "rollNumber": "086324ECE001",
+    "cgpa": 6.23
+  },
+  "professional": {
+    "currentCompany": "Microsoft",
+    "designation": "Software Engineer",
+    "currentSalary": 12,
+    "workType": "FULL_TIME",
+    "workLocation": "Gurgaon, India",
+    "experienceYears": 1,
+    "skills": [
+      "VLSI Design",
+      "Embedded Systems",
+      "Signal Processing",
+      "MATLAB"
+    ]
+  },
+  "contact": {
+    "phone": "+919875366470",
+    "address": {
+      "city": "Gurgaon",
+      "state": "India",
+      "country": "India"
+    }
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/default_aarav_nair.jpeg",
+    "bio": "Aarav is a dedicated Software Engineer at Microsoft with 1 years of experience in the technology industry."
+  },
+  "socialLinks": {
+    "linkedin": "https://linkedin.com/in/aarav-nair",
+    "github": "https://github.com/aaravnair",
+    "portfolio": "https://aaravnair.dev"
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "createdAt": "2025-11-13T19:13:38.752Z",
+  "updatedAt": "2025-11-13T19:13:38.752Z",
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "691645013e7590841421cbb2"
+  },
+  "email": "sai.agarwal@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Sai",
+  "lastName": "Agarwal",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2020,
+    "graduationYear": 2024,
+    "branch": "CSE",
+    "rollNumber": "086324CSE002",
+    "cgpa": 7.88
+  },
+  "professional": {
+    "currentCompany": "Swiggy",
+    "designation": "Software Engineer",
+    "currentSalary": 7.5,
+    "workType": "FULL_TIME",
+    "workLocation": "Ahmedabad, India",
+    "experienceYears": 1,
+    "skills": [
+      "MongoDB",
+      "Java"
+    ]
+  },
+  "contact": {
+    "phone": "+911525472273",
+    "address": {
+      "city": "Ahmedabad",
+      "state": "India",
+      "country": "India"
+    }
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/default_sai_agarwal.jpeg",
+    "bio": "Sai is a dedicated Software Engineer at Swiggy with 1 years of experience in the technology industry."
+  },
+  "socialLinks": {
+    "linkedin": "https://linkedin.com/in/sai-agarwal",
+    "github": "https://github.com/saiagarwal",
+    "portfolio": "https://saiagarwal.dev"
+  },
+  "verification": {
+    "emailVerified": true,
+    "phoneVerified": false,
+    "profileVerified": true
+  },
+  "createdAt": "2025-11-13T19:13:38.752Z",
+  "updatedAt": "2025-11-13T19:13:38.752Z",
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "691645013e7590841421cbb3"
+  },
+  "email": "reyansh.mishra@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Reyansh",
+  "lastName": "Mishra",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2020,
+    "graduationYear": 2024,
+    "branch": "IT",
+    "rollNumber": "086324IT003",
+    "cgpa": 6.45
+  },
+  "professional": {
+    "currentCompany": "Ola",
+    "designation": "Product Engineer",
+    "currentSalary": 6.8,
+    "workType": "FULL_TIME",
+    "workLocation": "Chennai, India",
+    "experienceYears": 1,
+    "skills": [
+      "C++",
+      "Network Security",
+      "Cloud Computing",
+      "Database Management"
+    ]
+  },
+  "contact": {
+    "phone": "+914096704638",
+    "address": {
+      "city": "Chennai",
+      "state": "India",
+      "country": "India"
+    }
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/default_reyansh_mishra.jpeg",
+    "bio": "Reyansh is a dedicated Product Engineer at Ola with 1 years of experience in the technology industry."
+  },
+  "socialLinks": {
+    "linkedin": "https://linkedin.com/in/reyansh-mishra",
+    "github": "https://github.com/reyanshmishra",
+    "portfolio": "https://reyanshmishra.dev"
+  },
+  "verification": {
+    "emailVerified": true,
+    "phoneVerified": false,
+    "profileVerified": true
+  },
+  "createdAt": "2025-11-13T19:13:38.752Z",
+  "updatedAt": "2025-11-13T19:13:38.752Z",
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "691645013e7590841421cbb4"
+  },
+  "email": "vihaan.agarwal@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Vihaan",
+  "lastName": "Agarwal",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2020,
+    "graduationYear": 2024,
+    "branch": "IT",
+    "rollNumber": "086324IT004",
+    "cgpa": 6.09
+  },
+  "professional": {
+    "currentCompany": "Flipkart",
+    "designation": "Software Engineer",
+    "currentSalary": 8.5,
+    "workType": "FULL_TIME",
+    "workLocation": "Pune, India",
+    "experienceYears": 1,
+    "skills": [
+      "System Administration",
+      "Network Security",
+      "Database Management",
+      "Java"
+    ]
+  },
+  "contact": {
+    "phone": "+911180886425",
+    "address": {
+      "city": "Pune",
+      "state": "India",
+      "country": "India"
+    }
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/default_vihaan_agarwal.jpeg",
+    "bio": "Vihaan is a dedicated Software Engineer at Flipkart with 1 years of experience in the technology industry."
+  },
+  "socialLinks": {
+    "linkedin": "https://linkedin.com/in/vihaan-agarwal",
+    "github": "https://github.com/vihaanagarwal",
+    "portfolio": "https://vihaanagarwal.dev"
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": true
+  },
+  "createdAt": "2025-11-13T19:13:38.752Z",
+  "updatedAt": "2025-11-13T19:13:38.752Z",
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "691645013e7590841421cbb5"
+  },
+  "email": "diya.reddy@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Diya",
+  "lastName": "Reddy",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2020,
+    "graduationYear": 2024,
+    "branch": "IT",
+    "rollNumber": "086324IT005",
+    "cgpa": 9.86
+  },
+  "professional": {
+    "currentCompany": "Microsoft",
+    "designation": "Software Engineer",
+    "currentSalary": 12,
+    "workType": "FULL_TIME",
+    "workLocation": "Mumbai, India",
+    "experienceYears": 1,
+    "skills": [
+      "System Administration",
+      "Network Security",
+      "Database Management",
+      "C++"
+    ]
+  },
+  "contact": {
+    "phone": "+915673424560",
+    "address": {
+      "city": "Mumbai",
+      "state": "India",
+      "country": "India"
+    }
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/default_diya_reddy.jpeg",
+    "bio": "Diya is a dedicated Software Engineer at Microsoft with 1 years of experience in the technology industry."
+  },
+  "socialLinks": {
+    "linkedin": "https://linkedin.com/in/diya-reddy",
+    "github": "https://github.com/diyareddy",
+    "portfolio": "https://diyareddy.dev"
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": false,
+    "profileVerified": true
+  },
+  "createdAt": "2025-11-13T19:13:38.752Z",
+  "updatedAt": "2025-11-13T19:13:38.752Z",
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "691645013e7590841421cbb6"
+  },
+  "email": "kabir.prasad@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Kabir",
+  "lastName": "Prasad",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2020,
+    "graduationYear": 2024,
+    "branch": "CSE",
+    "rollNumber": "086324CSE006",
+    "cgpa": 6.32
+  },
+  "professional": {
+    "currentCompany": "Paytm",
+    "designation": "Backend Developer",
+    "currentSalary": 7,
+    "workType": "FULL_TIME",
+    "workLocation": "Bangalore, India",
+    "experienceYears": 1,
+    "skills": [
+      "Node.js",
+      "MySQL",
+      "React",
+      "Java"
+    ]
+  },
+  "contact": {
+    "phone": "+911988467884",
+    "address": {
+      "city": "Bangalore",
+      "state": "India",
+      "country": "India"
+    }
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/default_kabir_prasad.jpeg",
+    "bio": "Kabir is a dedicated Backend Developer at Paytm with 1 years of experience in the technology industry."
+  },
+  "socialLinks": {
+    "linkedin": "https://linkedin.com/in/kabir-prasad",
+    "github": "https://github.com/kabirprasad",
+    "portfolio": "https://kabirprasad.dev"
+  },
+  "verification": {
+    "emailVerified": true,
+    "phoneVerified": true,
+    "profileVerified": true
+  },
+  "createdAt": "2025-11-13T19:13:38.752Z",
+  "updatedAt": "2025-11-13T19:13:38.752Z",
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "691645013e7590841421cbb7"
+  },
+  "email": "vivaan.pandey@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Vivaan",
+  "lastName": "Pandey",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2020,
+    "graduationYear": 2024,
+    "branch": "IT",
+    "rollNumber": "086324IT007",
+    "cgpa": 8.42
+  },
+  "professional": {
+    "currentCompany": "Paytm",
+    "designation": "Backend Developer",
+    "currentSalary": 7,
+    "workType": "FULL_TIME",
+    "workLocation": "Gurgaon, India",
+    "experienceYears": 1,
+    "skills": [
+      "System Administration",
+      "C++"
+    ]
+  },
+  "contact": {
+    "phone": "+917665495120",
+    "address": {
+      "city": "Gurgaon",
+      "state": "India",
+      "country": "India"
+    }
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/default_vivaan_pandey.jpeg",
+    "bio": "Vivaan is a dedicated Backend Developer at Paytm with 1 years of experience in the technology industry."
+  },
+  "socialLinks": {
+    "linkedin": "https://linkedin.com/in/vivaan-pandey",
+    "github": "https://github.com/vivaanpandey",
+    "portfolio": "https://vivaanpandey.dev"
+  },
+  "verification": {
+    "emailVerified": true,
+    "phoneVerified": true,
+    "profileVerified": true
+  },
+  "createdAt": "2025-11-13T19:13:38.752Z",
+  "updatedAt": "2025-11-13T19:13:38.752Z",
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "691645013e7590841421cbb8"
+  },
+  "email": "anika.patel@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Anika",
+  "lastName": "Patel",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2020,
+    "graduationYear": 2024,
+    "branch": "ECE",
+    "rollNumber": "086324ECE008",
+    "cgpa": 8.56
+  },
+  "professional": {
+    "currentCompany": "Flipkart",
+    "designation": "Software Engineer",
+    "currentSalary": 8.5,
+    "workType": "FULL_TIME",
+    "workLocation": "Chennai, India",
+    "experienceYears": 1,
+    "skills": [
+      "Verilog",
+      "Embedded Systems",
+      "Signal Processing"
+    ]
+  },
+  "contact": {
+    "phone": "+914873877422",
+    "address": {
+      "city": "Chennai",
+      "state": "India",
+      "country": "India"
+    }
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/default_anika_patel.jpeg",
+    "bio": "Anika is a dedicated Software Engineer at Flipkart with 1 years of experience in the technology industry."
+  },
+  "socialLinks": {
+    "linkedin": "https://linkedin.com/in/anika-patel",
+    "github": "https://github.com/anikapatel",
+    "portfolio": "https://anikapatel.dev"
+  },
+  "verification": {
+    "emailVerified": true,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "createdAt": "2025-11-13T19:13:38.752Z",
+  "updatedAt": "2025-11-13T19:13:38.752Z",
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "691645013e7590841421cbb9"
+  },
+  "email": "kiara.arora@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Kiara",
+  "lastName": "Arora",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2020,
+    "graduationYear": 2024,
+    "branch": "CIVIL",
+    "rollNumber": "086324CIVIL009",
+    "cgpa": 8.37
+  },
+  "professional": {
+    "currentCompany": "Microsoft",
+    "designation": "Software Engineer",
+    "currentSalary": 12,
+    "workType": "FULL_TIME",
+    "workLocation": "Kolkata, India",
+    "experienceYears": 1,
+    "skills": [
+      "Structural Analysis",
+      "Surveying",
+      "Construction Management"
+    ]
+  },
+  "contact": {
+    "phone": "+919475078738",
+    "address": {
+      "city": "Kolkata",
+      "state": "India",
+      "country": "India"
+    }
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/default_kiara_arora.jpeg",
+    "bio": "Kiara is a dedicated Software Engineer at Microsoft with 1 years of experience in the technology industry."
+  },
+  "socialLinks": {
+    "linkedin": "https://linkedin.com/in/kiara-arora",
+    "github": "https://github.com/kiaraarora",
+    "portfolio": "https://kiaraarora.dev"
+  },
+  "verification": {
+    "emailVerified": true,
+    "phoneVerified": true,
+    "profileVerified": true
+  },
+  "createdAt": "2025-11-13T19:13:38.752Z",
+  "updatedAt": "2025-11-13T19:13:38.752Z",
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "691645013e7590841421cbba"
+  },
+  "email": "aadhya.kumar@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Aadhya",
+  "lastName": "Kumar",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2020,
+    "graduationYear": 2024,
+    "branch": "CSE",
+    "rollNumber": "086324CSE010",
+    "cgpa": 9.37
+  },
+  "professional": {
+    "currentCompany": "Google",
+    "designation": "Software Developer",
+    "currentSalary": 15,
+    "workType": "FULL_TIME",
+    "workLocation": "Pune, India",
+    "experienceYears": 1,
+    "skills": [
+      "Java",
+      "JavaScript",
+      "React",
+      "AWS"
+    ]
+  },
+  "contact": {
+    "phone": "+912048406387",
+    "address": {
+      "city": "Pune",
+      "state": "India",
+      "country": "India"
+    }
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/default_aadhya_kumar.jpeg",
+    "bio": "Aadhya is a dedicated Software Developer at Google with 1 years of experience in the technology industry."
+  },
+  "socialLinks": {
+    "linkedin": "https://linkedin.com/in/aadhya-kumar",
+    "github": "https://github.com/aadhyakumar",
+    "portfolio": "https://aadhyakumar.dev"
+  },
+  "verification": {
+    "emailVerified": true,
+    "phoneVerified": false,
+    "profileVerified": true
+  },
+  "createdAt": "2025-11-13T19:13:38.752Z",
+  "updatedAt": "2025-11-13T19:13:38.752Z",
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "691645013e7590841421cbbb"
+  },
+  "email": "aadhya.rao@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Aadhya",
+  "lastName": "Rao",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2020,
+    "graduationYear": 2024,
+    "branch": "CSE",
+    "rollNumber": "086324CSE011",
+    "cgpa": 8.56
+  },
+  "professional": {
+    "currentCompany": "Ola",
+    "designation": "Product Engineer",
+    "currentSalary": 6.8,
+    "workType": "FULL_TIME",
+    "workLocation": "Coimbatore, India",
+    "experienceYears": 1,
+    "skills": [
+      "React",
+      "AWS",
+      "MongoDB"
+    ]
+  },
+  "contact": {
+    "phone": "+912669549042",
+    "address": {
+      "city": "Coimbatore",
+      "state": "India",
+      "country": "India"
+    }
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/default_aadhya_rao.jpeg",
+    "bio": "Aadhya is a dedicated Product Engineer at Ola with 1 years of experience in the technology industry."
+  },
+  "socialLinks": {
+    "linkedin": "https://linkedin.com/in/aadhya-rao",
+    "github": "https://github.com/aadhyarao",
+    "portfolio": "https://aadhyarao.dev"
+  },
+  "verification": {
+    "emailVerified": true,
+    "phoneVerified": true,
+    "profileVerified": false
+  },
+  "createdAt": "2025-11-13T19:13:38.752Z",
+  "updatedAt": "2025-11-13T19:13:38.752Z",
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "691645013e7590841421cbbc"
+  },
+  "email": "pari.singh@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Pari",
+  "lastName": "Singh",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2020,
+    "graduationYear": 2024,
+    "branch": "CSE",
+    "rollNumber": "086324CSE013",
+    "cgpa": 8.6
+  },
+  "professional": {
+    "currentCompany": "Flipkart",
+    "designation": "Software Engineer",
+    "currentSalary": 8.5,
+    "workType": "FULL_TIME",
+    "workLocation": "Pune, India",
+    "experienceYears": 1,
+    "skills": [
+      "Java",
+      "AWS",
+      "MySQL",
+      "Python"
+    ]
+  },
+  "contact": {
+    "phone": "+913006895235",
+    "address": {
+      "city": "Pune",
+      "state": "India",
+      "country": "India"
+    }
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/default_pari_singh.jpeg",
+    "bio": "Pari is a dedicated Software Engineer at Flipkart with 1 years of experience in the technology industry."
+  },
+  "socialLinks": {
+    "linkedin": "https://linkedin.com/in/pari-singh",
+    "github": "https://github.com/parisingh",
+    "portfolio": "https://parisingh.dev"
+  },
+  "verification": {
+    "emailVerified": true,
+    "phoneVerified": true,
+    "profileVerified": true
+  },
+  "createdAt": "2025-11-13T19:13:38.752Z",
+  "updatedAt": "2025-11-13T19:13:38.752Z",
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "691645013e7590841421cbbd"
+  },
+  "email": "aadhya.nair@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Aadhya",
+  "lastName": "Nair",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2020,
+    "graduationYear": 2024,
+    "branch": "CSE",
+    "rollNumber": "086324CSE014",
+    "cgpa": 7.44
+  },
+  "professional": {
+    "currentCompany": "Flipkart",
+    "designation": "Software Engineer",
+    "currentSalary": 8.5,
+    "workType": "FULL_TIME",
+    "workLocation": "Delhi, India",
+    "experienceYears": 1,
+    "skills": [
+      "AWS",
+      "Python",
+      "JavaScript",
+      "React"
+    ]
+  },
+  "contact": {
+    "phone": "+919951975285",
+    "address": {
+      "city": "Delhi",
+      "state": "India",
+      "country": "India"
+    }
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/default_aadhya_nair.jpeg",
+    "bio": "Aadhya is a dedicated Software Engineer at Flipkart with 1 years of experience in the technology industry."
+  },
+  "socialLinks": {
+    "linkedin": "https://linkedin.com/in/aadhya-nair",
+    "github": "https://github.com/aadhyanair",
+    "portfolio": "https://aadhyanair.dev"
+  },
+  "verification": {
+    "emailVerified": false,
+    "phoneVerified": true,
+    "profileVerified": true
+  },
+  "createdAt": "2025-11-13T19:13:38.753Z",
+  "updatedAt": "2025-11-13T19:13:38.753Z",
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "691645013e7590841421cbbe"
+  },
+  "email": "priya.sinha@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Priya",
+  "lastName": "Sinha",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2020,
+    "graduationYear": 2024,
+    "branch": "ECE",
+    "rollNumber": "086324ECE016",
+    "cgpa": 7.59
+  },
+  "professional": {
+    "currentCompany": "Microsoft",
+    "designation": "Software Engineer",
+    "currentSalary": 12,
+    "workType": "FULL_TIME",
+    "workLocation": "Noida, India",
+    "experienceYears": 1,
+    "skills": [
+      "Signal Processing",
+      "VLSI Design"
+    ]
+  },
+  "contact": {
+    "phone": "+918848801071",
+    "address": {
+      "city": "Noida",
+      "state": "India",
+      "country": "India"
+    }
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/default_priya_sinha.jpeg",
+    "bio": "Priya is a dedicated Software Engineer at Microsoft with 1 years of experience in the technology industry."
+  },
+  "socialLinks": {
+    "linkedin": "https://linkedin.com/in/priya-sinha",
+    "github": "https://github.com/priyasinha",
+    "portfolio": "https://priyasinha.dev"
+  },
+  "verification": {
+    "emailVerified": true,
+    "phoneVerified": true,
+    "profileVerified": true
+  },
+  "createdAt": "2025-11-13T19:13:38.753Z",
+  "updatedAt": "2025-11-13T19:13:38.753Z",
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "691645013e7590841421cbbf"
+  },
+  "email": "ananya.jain@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Ananya",
+  "lastName": "Jain",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2020,
+    "graduationYear": 2024,
+    "branch": "CIVIL",
+    "rollNumber": "086324CIVIL017",
+    "cgpa": 9.95
+  },
+  "professional": {
+    "currentCompany": "Paytm",
+    "designation": "Backend Developer",
+    "currentSalary": 7,
+    "workType": "FULL_TIME",
+    "workLocation": "Kochi, India",
+    "experienceYears": 1,
+    "skills": [
+      "Construction Management",
+      "AutoCAD",
+      "Project Management"
+    ]
+  },
+  "contact": {
+    "phone": "+918485573195",
+    "address": {
+      "city": "Kochi",
+      "state": "India",
+      "country": "India"
+    }
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/default_ananya_jain.jpeg",
+    "bio": "Ananya is a dedicated Backend Developer at Paytm with 1 years of experience in the technology industry."
+  },
+  "socialLinks": {
+    "linkedin": "https://linkedin.com/in/ananya-jain",
+    "github": "https://github.com/ananyajain",
+    "portfolio": "https://ananyajain.dev"
+  },
+  "verification": {
+    "emailVerified": true,
+    "phoneVerified": false,
+    "profileVerified": false
+  },
+  "createdAt": "2025-11-13T19:13:38.753Z",
+  "updatedAt": "2025-11-13T19:13:38.753Z",
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+},
+{
+  "_id": {
+    "$oid": "691645013e7590841421cbc0"
+  },
+  "email": "kavya.agarwal@piemr.edu.in",
+  "password": "student123",
+  "firstName": "Kavya",
+  "lastName": "Agarwal",
+  "role": "ALUMNI",
+  "status": "PENDING_VERIFICATION",
+  "batchInfo": {
+    "admissionYear": 2020,
+    "graduationYear": 2024,
+    "branch": "MECH",
+    "rollNumber": "086324MECH018",
+    "cgpa": 7.28
+  },
+  "professional": {
+    "currentCompany": "Swiggy",
+    "designation": "Software Engineer",
+    "currentSalary": 7.5,
+    "workType": "FULL_TIME",
+    "workLocation": "Noida, India",
+    "experienceYears": 1,
+    "skills": [
+      "Thermodynamics",
+      "Machine Design",
+      "SolidWorks"
+    ]
+  },
+  "contact": {
+    "phone": "+919394451785",
+    "address": {
+      "city": "Noida",
+      "state": "India",
+      "country": "India"
+    }
+  },
+  "profile": {
+    "profileImage": "http://localhost:8080/images/profiles/default_kavya_agarwal.jpeg",
+    "bio": "Kavya is a dedicated Software Engineer at Swiggy with 1 years of experience in the technology industry."
+  },
+  "socialLinks": {
+    "linkedin": "https://linkedin.com/in/kavya-agarwal",
+    "github": "https://github.com/kavyaagarwal",
+    "portfolio": "https://kavyaagarwal.dev"
+  },
+  "verification": {
+    "emailVerified": true,
+    "phoneVerified": false,
+    "profileVerified": true
+  },
+  "createdAt": "2025-11-13T19:13:38.753Z",
+  "updatedAt": "2025-11-13T19:13:38.753Z",
+  "_class": "com.piemr.gradsync.entity.mongodb.User"
+}]
