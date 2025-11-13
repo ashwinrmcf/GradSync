@@ -1,0 +1,324 @@
+[{
+  "_id": {
+    "$oid": "6914f473c3bda37689fb4662"
+  },
+  "name": "iLEAD Group",
+  "industry": "Technology",
+  "isActive": true,
+  "_class": "com.piemr.gradsync.entity.mongodb.Company"
+},
+{
+  "_id": {
+    "$oid": "6914f473c3bda37689fb4665"
+  },
+  "name": "Systematix Infotech Pvt Ltd",
+  "industry": "Technology",
+  "isActive": true,
+  "_class": "com.piemr.gradsync.entity.mongodb.Company"
+},
+{
+  "_id": {
+    "$oid": "6914f473c3bda37689fb4668"
+  },
+  "name": "Amazon Customer Service",
+  "industry": "Technology",
+  "isActive": true,
+  "_class": "com.piemr.gradsync.entity.mongodb.Company"
+},
+{
+  "_id": {
+    "$oid": "6914f473c3bda37689fb466b"
+  },
+  "name": "Web Widers Software Solutions",
+  "industry": "Technology",
+  "isActive": true,
+  "_class": "com.piemr.gradsync.entity.mongodb.Company"
+},
+{
+  "_id": {
+    "$oid": "6914f473c3bda37689fb466e"
+  },
+  "name": "Zehntech Technologies Pvt Ltd",
+  "industry": "Technology",
+  "isActive": true,
+  "_class": "com.piemr.gradsync.entity.mongodb.Company"
+},
+{
+  "_id": {
+    "$oid": "6914f473c3bda37689fb4671"
+  },
+  "name": "Infosys",
+  "industry": "Technology",
+  "isActive": true,
+  "_class": "com.piemr.gradsync.entity.mongodb.Company"
+},
+{
+  "_id": {
+    "$oid": "6914f473c3bda37689fb4674"
+  },
+  "name": "Rakuten Symphony",
+  "industry": "Technology",
+  "isActive": true,
+  "_class": "com.piemr.gradsync.entity.mongodb.Company"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb4677"
+  },
+  "name": "Scores &Levels Unipessoal Lda",
+  "industry": "Technology",
+  "isActive": true,
+  "_class": "com.piemr.gradsync.entity.mongodb.Company"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb467a"
+  },
+  "name": "Capegimini Technologies Services India Ltd",
+  "industry": "Technology",
+  "isActive": true,
+  "_class": "com.piemr.gradsync.entity.mongodb.Company"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb467d"
+  },
+  "name": "Wipro Limited",
+  "industry": "Technology",
+  "isActive": true,
+  "_class": "com.piemr.gradsync.entity.mongodb.Company"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb4680"
+  },
+  "name": "Webkorps Sevices India Pvt Ltd",
+  "industry": "Technology",
+  "isActive": true,
+  "_class": "com.piemr.gradsync.entity.mongodb.Company"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb4685"
+  },
+  "name": "Bitcot Technology Pvt Ltd",
+  "industry": "Technology",
+  "isActive": true,
+  "_class": "com.piemr.gradsync.entity.mongodb.Company"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb4688"
+  },
+  "name": "Amadeus Labs",
+  "industry": "Technology",
+  "isActive": true,
+  "_class": "com.piemr.gradsync.entity.mongodb.Company"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb468b"
+  },
+  "name": "Celebal Technologies",
+  "industry": "Technology",
+  "isActive": true,
+  "_class": "com.piemr.gradsync.entity.mongodb.Company"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb468e"
+  },
+  "name": "Potomac Technologies",
+  "industry": "Technology",
+  "isActive": true,
+  "_class": "com.piemr.gradsync.entity.mongodb.Company"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb4693"
+  },
+  "name": "Icici Lombard",
+  "industry": "Technology",
+  "isActive": true,
+  "_class": "com.piemr.gradsync.entity.mongodb.Company"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb4696"
+  },
+  "name": "Livegage",
+  "industry": "Technology",
+  "isActive": true,
+  "_class": "com.piemr.gradsync.entity.mongodb.Company"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb4699"
+  },
+  "name": "Paragon Business Solutions Ltd",
+  "industry": "Technology",
+  "isActive": true,
+  "_class": "com.piemr.gradsync.entity.mongodb.Company"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb469e"
+  },
+  "name": "Xoriant Solutions Pvt Ltd",
+  "industry": "Technology",
+  "isActive": true,
+  "_class": "com.piemr.gradsync.entity.mongodb.Company"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46a3"
+  },
+  "name": "Accenture Solutions Pvt Ltd",
+  "industry": "Technology",
+  "isActive": true,
+  "_class": "com.piemr.gradsync.entity.mongodb.Company"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46a6"
+  },
+  "name": "Bytesfarms Technologies",
+  "industry": "Technology",
+  "isActive": true,
+  "_class": "com.piemr.gradsync.entity.mongodb.Company"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46ad"
+  },
+  "name": "The Snaptech Project",
+  "industry": "Technology",
+  "isActive": true,
+  "_class": "com.piemr.gradsync.entity.mongodb.Company"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46b0"
+  },
+  "name": "Backbencher Technologies Pvt Ltd",
+  "industry": "Technology",
+  "isActive": true,
+  "_class": "com.piemr.gradsync.entity.mongodb.Company"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46b3"
+  },
+  "name": "Innogent Infinite Possibilities",
+  "industry": "Technology",
+  "isActive": true,
+  "_class": "com.piemr.gradsync.entity.mongodb.Company"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46b6"
+  },
+  "name": "Livegage Technologies Pvt Ltd",
+  "industry": "Technology",
+  "isActive": true,
+  "_class": "com.piemr.gradsync.entity.mongodb.Company"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46b9"
+  },
+  "name": "Shriffle Technologies Pvt Ltd",
+  "industry": "Technology",
+  "isActive": true,
+  "_class": "com.piemr.gradsync.entity.mongodb.Company"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46be"
+  },
+  "name": "Oracle",
+  "industry": "Technology",
+  "isActive": true,
+  "_class": "com.piemr.gradsync.entity.mongodb.Company"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46c7"
+  },
+  "name": "Mennta E-Learning",
+  "industry": "Technology",
+  "isActive": true,
+  "_class": "com.piemr.gradsync.entity.mongodb.Company"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46ca"
+  },
+  "name": "Ifortis Worldwide",
+  "industry": "Technology",
+  "isActive": true,
+  "_class": "com.piemr.gradsync.entity.mongodb.Company"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46cd"
+  },
+  "name": "Vena Solutions Software India Pvt Ltd",
+  "industry": "Technology",
+  "isActive": true,
+  "_class": "com.piemr.gradsync.entity.mongodb.Company"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46d0"
+  },
+  "name": "Bestpeers Infosystem Pvt Ltd",
+  "industry": "Technology",
+  "isActive": true,
+  "_class": "com.piemr.gradsync.entity.mongodb.Company"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46d3"
+  },
+  "name": "Addend Analytics",
+  "industry": "Technology",
+  "isActive": true,
+  "_class": "com.piemr.gradsync.entity.mongodb.Company"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46d6"
+  },
+  "name": "Rws Moravia India Pvt Ltd",
+  "industry": "Technology",
+  "isActive": true,
+  "_class": "com.piemr.gradsync.entity.mongodb.Company"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46d9"
+  },
+  "name": "Canopus Infosystem",
+  "industry": "Technology",
+  "isActive": true,
+  "_class": "com.piemr.gradsync.entity.mongodb.Company"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46dc"
+  },
+  "name": "Taskus India Pvt Ltd",
+  "industry": "Technology",
+  "isActive": true,
+  "_class": "com.piemr.gradsync.entity.mongodb.Company"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46df"
+  },
+  "name": "Indium Software",
+  "industry": "Technology",
+  "isActive": true,
+  "_class": "com.piemr.gradsync.entity.mongodb.Company"
+}]

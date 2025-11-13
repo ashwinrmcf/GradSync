@@ -1,0 +1,690 @@
+[{
+  "_id": {
+    "$oid": "6914f473c3bda37689fb4663"
+  },
+  "studentId": "6914f473c3bda37689fb4661",
+  "companyId": "6914f473c3bda37689fb4662",
+  "designation": "Software Engineer",
+  "packageAmount": 4.5,
+  "placementDate": {
+    "$date": "2022-05-31T18:30:00.000Z"
+  },
+  "placementType": "CAMPUS",
+  "status": "JOINED",
+  "_class": "com.piemr.gradsync.entity.mongodb.Placement"
+},
+{
+  "_id": {
+    "$oid": "6914f473c3bda37689fb4666"
+  },
+  "studentId": "6914f473c3bda37689fb4664",
+  "companyId": "6914f473c3bda37689fb4665",
+  "designation": "Software Engineer",
+  "packageAmount": 4.5,
+  "placementDate": {
+    "$date": "2022-05-31T18:30:00.000Z"
+  },
+  "placementType": "CAMPUS",
+  "status": "JOINED",
+  "_class": "com.piemr.gradsync.entity.mongodb.Placement"
+},
+{
+  "_id": {
+    "$oid": "6914f473c3bda37689fb4669"
+  },
+  "studentId": "6914f473c3bda37689fb4667",
+  "companyId": "6914f473c3bda37689fb4668",
+  "designation": "Software Engineer",
+  "packageAmount": 4.5,
+  "placementDate": {
+    "$date": "2022-05-31T18:30:00.000Z"
+  },
+  "placementType": "CAMPUS",
+  "status": "JOINED",
+  "_class": "com.piemr.gradsync.entity.mongodb.Placement"
+},
+{
+  "_id": {
+    "$oid": "6914f473c3bda37689fb466c"
+  },
+  "studentId": "6914f473c3bda37689fb466a",
+  "companyId": "6914f473c3bda37689fb466b",
+  "designation": "Software Engineer",
+  "packageAmount": 4.5,
+  "placementDate": {
+    "$date": "2022-05-31T18:30:00.000Z"
+  },
+  "placementType": "CAMPUS",
+  "status": "JOINED",
+  "_class": "com.piemr.gradsync.entity.mongodb.Placement"
+},
+{
+  "_id": {
+    "$oid": "6914f473c3bda37689fb466f"
+  },
+  "studentId": "6914f473c3bda37689fb466d",
+  "companyId": "6914f473c3bda37689fb466e",
+  "designation": "Software Engineer",
+  "packageAmount": 4.5,
+  "placementDate": {
+    "$date": "2022-05-31T18:30:00.000Z"
+  },
+  "placementType": "CAMPUS",
+  "status": "JOINED",
+  "_class": "com.piemr.gradsync.entity.mongodb.Placement"
+},
+{
+  "_id": {
+    "$oid": "6914f473c3bda37689fb4672"
+  },
+  "studentId": "6914f473c3bda37689fb4670",
+  "companyId": "6914f473c3bda37689fb4671",
+  "designation": "Software Engineer",
+  "packageAmount": 4.5,
+  "placementDate": {
+    "$date": "2022-05-31T18:30:00.000Z"
+  },
+  "placementType": "CAMPUS",
+  "status": "JOINED",
+  "_class": "com.piemr.gradsync.entity.mongodb.Placement"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb4675"
+  },
+  "studentId": "6914f473c3bda37689fb4673",
+  "companyId": "6914f473c3bda37689fb4674",
+  "designation": "Software Engineer",
+  "packageAmount": 4.5,
+  "placementDate": {
+    "$date": "2022-05-31T18:30:00.000Z"
+  },
+  "placementType": "CAMPUS",
+  "status": "JOINED",
+  "_class": "com.piemr.gradsync.entity.mongodb.Placement"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb4678"
+  },
+  "studentId": "6914f474c3bda37689fb4676",
+  "companyId": "6914f474c3bda37689fb4677",
+  "designation": "Software Engineer",
+  "packageAmount": 4.5,
+  "placementDate": {
+    "$date": "2022-05-31T18:30:00.000Z"
+  },
+  "placementType": "CAMPUS",
+  "status": "JOINED",
+  "_class": "com.piemr.gradsync.entity.mongodb.Placement"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb467b"
+  },
+  "studentId": "6914f474c3bda37689fb4679",
+  "companyId": "6914f474c3bda37689fb467a",
+  "designation": "Software Engineer",
+  "packageAmount": 4.5,
+  "placementDate": {
+    "$date": "2022-05-31T18:30:00.000Z"
+  },
+  "placementType": "CAMPUS",
+  "status": "JOINED",
+  "_class": "com.piemr.gradsync.entity.mongodb.Placement"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb467e"
+  },
+  "studentId": "6914f474c3bda37689fb467c",
+  "companyId": "6914f474c3bda37689fb467d",
+  "designation": "Software Engineer",
+  "packageAmount": 4.5,
+  "placementDate": {
+    "$date": "2022-05-31T18:30:00.000Z"
+  },
+  "placementType": "CAMPUS",
+  "status": "JOINED",
+  "_class": "com.piemr.gradsync.entity.mongodb.Placement"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb4681"
+  },
+  "studentId": "6914f474c3bda37689fb467f",
+  "companyId": "6914f474c3bda37689fb4680",
+  "designation": "Software Engineer",
+  "packageAmount": 4.5,
+  "placementDate": {
+    "$date": "2022-05-31T18:30:00.000Z"
+  },
+  "placementType": "CAMPUS",
+  "status": "JOINED",
+  "_class": "com.piemr.gradsync.entity.mongodb.Placement"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb4683"
+  },
+  "studentId": "6914f474c3bda37689fb4682",
+  "companyId": "6914f473c3bda37689fb4674",
+  "designation": "Software Engineer",
+  "packageAmount": 4.5,
+  "placementDate": {
+    "$date": "2022-05-31T18:30:00.000Z"
+  },
+  "placementType": "CAMPUS",
+  "status": "JOINED",
+  "_class": "com.piemr.gradsync.entity.mongodb.Placement"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb4686"
+  },
+  "studentId": "6914f474c3bda37689fb4684",
+  "companyId": "6914f474c3bda37689fb4685",
+  "designation": "Software Engineer",
+  "packageAmount": 4.5,
+  "placementDate": {
+    "$date": "2022-05-31T18:30:00.000Z"
+  },
+  "placementType": "CAMPUS",
+  "status": "JOINED",
+  "_class": "com.piemr.gradsync.entity.mongodb.Placement"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb4689"
+  },
+  "studentId": "6914f474c3bda37689fb4687",
+  "companyId": "6914f474c3bda37689fb4688",
+  "designation": "Software Engineer",
+  "packageAmount": 4.5,
+  "placementDate": {
+    "$date": "2022-05-31T18:30:00.000Z"
+  },
+  "placementType": "CAMPUS",
+  "status": "JOINED",
+  "_class": "com.piemr.gradsync.entity.mongodb.Placement"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb468c"
+  },
+  "studentId": "6914f474c3bda37689fb468a",
+  "companyId": "6914f474c3bda37689fb468b",
+  "designation": "Software Engineer",
+  "packageAmount": 4.5,
+  "placementDate": {
+    "$date": "2022-05-31T18:30:00.000Z"
+  },
+  "placementType": "CAMPUS",
+  "status": "JOINED",
+  "_class": "com.piemr.gradsync.entity.mongodb.Placement"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb468f"
+  },
+  "studentId": "6914f474c3bda37689fb468d",
+  "companyId": "6914f474c3bda37689fb468e",
+  "designation": "Software Engineer",
+  "packageAmount": 4.5,
+  "placementDate": {
+    "$date": "2022-05-31T18:30:00.000Z"
+  },
+  "placementType": "CAMPUS",
+  "status": "JOINED",
+  "_class": "com.piemr.gradsync.entity.mongodb.Placement"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb4691"
+  },
+  "studentId": "6914f474c3bda37689fb4690",
+  "companyId": "6914f473c3bda37689fb466e",
+  "designation": "Software Engineer",
+  "packageAmount": 4.5,
+  "placementDate": {
+    "$date": "2022-05-31T18:30:00.000Z"
+  },
+  "placementType": "CAMPUS",
+  "status": "JOINED",
+  "_class": "com.piemr.gradsync.entity.mongodb.Placement"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb4694"
+  },
+  "studentId": "6914f474c3bda37689fb4692",
+  "companyId": "6914f474c3bda37689fb4693",
+  "designation": "Software Engineer",
+  "packageAmount": 4.5,
+  "placementDate": {
+    "$date": "2022-05-31T18:30:00.000Z"
+  },
+  "placementType": "CAMPUS",
+  "status": "JOINED",
+  "_class": "com.piemr.gradsync.entity.mongodb.Placement"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb4697"
+  },
+  "studentId": "6914f474c3bda37689fb4695",
+  "companyId": "6914f474c3bda37689fb4696",
+  "designation": "Software Engineer",
+  "packageAmount": 4.5,
+  "placementDate": {
+    "$date": "2022-05-31T18:30:00.000Z"
+  },
+  "placementType": "CAMPUS",
+  "status": "JOINED",
+  "_class": "com.piemr.gradsync.entity.mongodb.Placement"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb469a"
+  },
+  "studentId": "6914f474c3bda37689fb4698",
+  "companyId": "6914f474c3bda37689fb4699",
+  "designation": "Software Engineer",
+  "packageAmount": 4.5,
+  "placementDate": {
+    "$date": "2022-05-31T18:30:00.000Z"
+  },
+  "placementType": "CAMPUS",
+  "status": "JOINED",
+  "_class": "com.piemr.gradsync.entity.mongodb.Placement"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb469c"
+  },
+  "studentId": "6914f474c3bda37689fb469b",
+  "companyId": "6914f473c3bda37689fb466e",
+  "designation": "Software Engineer",
+  "packageAmount": 4.5,
+  "placementDate": {
+    "$date": "2022-05-31T18:30:00.000Z"
+  },
+  "placementType": "CAMPUS",
+  "status": "JOINED",
+  "_class": "com.piemr.gradsync.entity.mongodb.Placement"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb469f"
+  },
+  "studentId": "6914f474c3bda37689fb469d",
+  "companyId": "6914f474c3bda37689fb469e",
+  "designation": "Software Engineer",
+  "packageAmount": 4.5,
+  "placementDate": {
+    "$date": "2022-05-31T18:30:00.000Z"
+  },
+  "placementType": "CAMPUS",
+  "status": "JOINED",
+  "_class": "com.piemr.gradsync.entity.mongodb.Placement"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46a1"
+  },
+  "studentId": "6914f474c3bda37689fb46a0",
+  "companyId": "6914f474c3bda37689fb469e",
+  "designation": "Software Engineer",
+  "packageAmount": 4.5,
+  "placementDate": {
+    "$date": "2022-05-31T18:30:00.000Z"
+  },
+  "placementType": "CAMPUS",
+  "status": "JOINED",
+  "_class": "com.piemr.gradsync.entity.mongodb.Placement"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46a4"
+  },
+  "studentId": "6914f474c3bda37689fb46a2",
+  "companyId": "6914f474c3bda37689fb46a3",
+  "designation": "Software Engineer",
+  "packageAmount": 4.5,
+  "placementDate": {
+    "$date": "2022-05-31T18:30:00.000Z"
+  },
+  "placementType": "CAMPUS",
+  "status": "JOINED",
+  "_class": "com.piemr.gradsync.entity.mongodb.Placement"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46a7"
+  },
+  "studentId": "6914f474c3bda37689fb46a5",
+  "companyId": "6914f474c3bda37689fb46a6",
+  "designation": "Software Engineer",
+  "packageAmount": 4.5,
+  "placementDate": {
+    "$date": "2022-05-31T18:30:00.000Z"
+  },
+  "placementType": "CAMPUS",
+  "status": "JOINED",
+  "_class": "com.piemr.gradsync.entity.mongodb.Placement"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46a9"
+  },
+  "studentId": "6914f474c3bda37689fb46a8",
+  "companyId": "6914f473c3bda37689fb4674",
+  "designation": "Software Engineer",
+  "packageAmount": 4.5,
+  "placementDate": {
+    "$date": "2022-05-31T18:30:00.000Z"
+  },
+  "placementType": "CAMPUS",
+  "status": "JOINED",
+  "_class": "com.piemr.gradsync.entity.mongodb.Placement"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46ab"
+  },
+  "studentId": "6914f474c3bda37689fb46aa",
+  "companyId": "6914f473c3bda37689fb4674",
+  "designation": "Software Engineer",
+  "packageAmount": 4.5,
+  "placementDate": {
+    "$date": "2022-05-31T18:30:00.000Z"
+  },
+  "placementType": "CAMPUS",
+  "status": "JOINED",
+  "_class": "com.piemr.gradsync.entity.mongodb.Placement"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46ae"
+  },
+  "studentId": "6914f474c3bda37689fb46ac",
+  "companyId": "6914f474c3bda37689fb46ad",
+  "designation": "Software Engineer",
+  "packageAmount": 4.5,
+  "placementDate": {
+    "$date": "2022-05-31T18:30:00.000Z"
+  },
+  "placementType": "CAMPUS",
+  "status": "JOINED",
+  "_class": "com.piemr.gradsync.entity.mongodb.Placement"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46b1"
+  },
+  "studentId": "6914f474c3bda37689fb46af",
+  "companyId": "6914f474c3bda37689fb46b0",
+  "designation": "Software Engineer",
+  "packageAmount": 4.5,
+  "placementDate": {
+    "$date": "2022-05-31T18:30:00.000Z"
+  },
+  "placementType": "CAMPUS",
+  "status": "JOINED",
+  "_class": "com.piemr.gradsync.entity.mongodb.Placement"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46b4"
+  },
+  "studentId": "6914f474c3bda37689fb46b2",
+  "companyId": "6914f474c3bda37689fb46b3",
+  "designation": "Software Engineer",
+  "packageAmount": 4.5,
+  "placementDate": {
+    "$date": "2022-05-31T18:30:00.000Z"
+  },
+  "placementType": "CAMPUS",
+  "status": "JOINED",
+  "_class": "com.piemr.gradsync.entity.mongodb.Placement"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46b7"
+  },
+  "studentId": "6914f474c3bda37689fb46b5",
+  "companyId": "6914f474c3bda37689fb46b6",
+  "designation": "Software Engineer",
+  "packageAmount": 4.5,
+  "placementDate": {
+    "$date": "2022-05-31T18:30:00.000Z"
+  },
+  "placementType": "CAMPUS",
+  "status": "JOINED",
+  "_class": "com.piemr.gradsync.entity.mongodb.Placement"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46ba"
+  },
+  "studentId": "6914f474c3bda37689fb46b8",
+  "companyId": "6914f474c3bda37689fb46b9",
+  "designation": "Software Engineer",
+  "packageAmount": 4.5,
+  "placementDate": {
+    "$date": "2022-05-31T18:30:00.000Z"
+  },
+  "placementType": "CAMPUS",
+  "status": "JOINED",
+  "_class": "com.piemr.gradsync.entity.mongodb.Placement"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46bc"
+  },
+  "studentId": "6914f474c3bda37689fb46bb",
+  "companyId": "6914f473c3bda37689fb466e",
+  "designation": "Software Engineer",
+  "packageAmount": 4.5,
+  "placementDate": {
+    "$date": "2022-05-31T18:30:00.000Z"
+  },
+  "placementType": "CAMPUS",
+  "status": "JOINED",
+  "_class": "com.piemr.gradsync.entity.mongodb.Placement"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46bf"
+  },
+  "studentId": "6914f474c3bda37689fb46bd",
+  "companyId": "6914f474c3bda37689fb46be",
+  "designation": "Software Engineer",
+  "packageAmount": 4.5,
+  "placementDate": {
+    "$date": "2022-05-31T18:30:00.000Z"
+  },
+  "placementType": "CAMPUS",
+  "status": "JOINED",
+  "_class": "com.piemr.gradsync.entity.mongodb.Placement"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46c1"
+  },
+  "studentId": "6914f474c3bda37689fb46c0",
+  "companyId": "6914f474c3bda37689fb46b6",
+  "designation": "Software Engineer",
+  "packageAmount": 4.5,
+  "placementDate": {
+    "$date": "2022-05-31T18:30:00.000Z"
+  },
+  "placementType": "CAMPUS",
+  "status": "JOINED",
+  "_class": "com.piemr.gradsync.entity.mongodb.Placement"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46c3"
+  },
+  "studentId": "6914f474c3bda37689fb46c2",
+  "companyId": "6914f473c3bda37689fb466e",
+  "designation": "Software Engineer",
+  "packageAmount": 4.5,
+  "placementDate": {
+    "$date": "2022-05-31T18:30:00.000Z"
+  },
+  "placementType": "CAMPUS",
+  "status": "JOINED",
+  "_class": "com.piemr.gradsync.entity.mongodb.Placement"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46c5"
+  },
+  "studentId": "6914f474c3bda37689fb46c4",
+  "companyId": "6914f473c3bda37689fb466e",
+  "designation": "Software Engineer",
+  "packageAmount": 4.5,
+  "placementDate": {
+    "$date": "2022-05-31T18:30:00.000Z"
+  },
+  "placementType": "CAMPUS",
+  "status": "JOINED",
+  "_class": "com.piemr.gradsync.entity.mongodb.Placement"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46c8"
+  },
+  "studentId": "6914f474c3bda37689fb46c6",
+  "companyId": "6914f474c3bda37689fb46c7",
+  "designation": "Software Engineer",
+  "packageAmount": 4.5,
+  "placementDate": {
+    "$date": "2022-05-31T18:30:00.000Z"
+  },
+  "placementType": "CAMPUS",
+  "status": "JOINED",
+  "_class": "com.piemr.gradsync.entity.mongodb.Placement"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46cb"
+  },
+  "studentId": "6914f474c3bda37689fb46c9",
+  "companyId": "6914f474c3bda37689fb46ca",
+  "designation": "Software Engineer",
+  "packageAmount": 4.5,
+  "placementDate": {
+    "$date": "2022-05-31T18:30:00.000Z"
+  },
+  "placementType": "CAMPUS",
+  "status": "JOINED",
+  "_class": "com.piemr.gradsync.entity.mongodb.Placement"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46ce"
+  },
+  "studentId": "6914f474c3bda37689fb46cc",
+  "companyId": "6914f474c3bda37689fb46cd",
+  "designation": "Software Engineer",
+  "packageAmount": 4.5,
+  "placementDate": {
+    "$date": "2022-05-31T18:30:00.000Z"
+  },
+  "placementType": "CAMPUS",
+  "status": "JOINED",
+  "_class": "com.piemr.gradsync.entity.mongodb.Placement"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46d1"
+  },
+  "studentId": "6914f474c3bda37689fb46cf",
+  "companyId": "6914f474c3bda37689fb46d0",
+  "designation": "Software Engineer",
+  "packageAmount": 4.5,
+  "placementDate": {
+    "$date": "2022-05-31T18:30:00.000Z"
+  },
+  "placementType": "CAMPUS",
+  "status": "JOINED",
+  "_class": "com.piemr.gradsync.entity.mongodb.Placement"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46d4"
+  },
+  "studentId": "6914f474c3bda37689fb46d2",
+  "companyId": "6914f474c3bda37689fb46d3",
+  "designation": "Software Engineer",
+  "packageAmount": 4.5,
+  "placementDate": {
+    "$date": "2022-05-31T18:30:00.000Z"
+  },
+  "placementType": "CAMPUS",
+  "status": "JOINED",
+  "_class": "com.piemr.gradsync.entity.mongodb.Placement"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46d7"
+  },
+  "studentId": "6914f474c3bda37689fb46d5",
+  "companyId": "6914f474c3bda37689fb46d6",
+  "designation": "Software Engineer",
+  "packageAmount": 4.5,
+  "placementDate": {
+    "$date": "2022-05-31T18:30:00.000Z"
+  },
+  "placementType": "CAMPUS",
+  "status": "JOINED",
+  "_class": "com.piemr.gradsync.entity.mongodb.Placement"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46da"
+  },
+  "studentId": "6914f474c3bda37689fb46d8",
+  "companyId": "6914f474c3bda37689fb46d9",
+  "designation": "Software Engineer",
+  "packageAmount": 4.5,
+  "placementDate": {
+    "$date": "2022-05-31T18:30:00.000Z"
+  },
+  "placementType": "CAMPUS",
+  "status": "JOINED",
+  "_class": "com.piemr.gradsync.entity.mongodb.Placement"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46dd"
+  },
+  "studentId": "6914f474c3bda37689fb46db",
+  "companyId": "6914f474c3bda37689fb46dc",
+  "designation": "Software Engineer",
+  "packageAmount": 4.5,
+  "placementDate": {
+    "$date": "2022-05-31T18:30:00.000Z"
+  },
+  "placementType": "CAMPUS",
+  "status": "JOINED",
+  "_class": "com.piemr.gradsync.entity.mongodb.Placement"
+},
+{
+  "_id": {
+    "$oid": "6914f474c3bda37689fb46e0"
+  },
+  "studentId": "6914f474c3bda37689fb46de",
+  "companyId": "6914f474c3bda37689fb46df",
+  "designation": "Software Engineer",
+  "packageAmount": 4.5,
+  "placementDate": {
+    "$date": "2022-05-31T18:30:00.000Z"
+  },
+  "placementType": "CAMPUS",
+  "status": "JOINED",
+  "_class": "com.piemr.gradsync.entity.mongodb.Placement"
+}]
