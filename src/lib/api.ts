@@ -51,31 +51,31 @@ const apiRequest = async <T>(
 // Auth API calls
 export const authAPI = {
   login: (email: string, password: string) =>
-    apiRequest('/auth/login', {
+    apiRequest('/api/auth/login', {
       method: 'POST',
       body: JSON.stringify({ email, password }),
     }),
     
   register: (userData: any) =>
-    apiRequest('/auth/register', {
+    apiRequest('/api/auth/register', {
       method: 'POST',
       body: JSON.stringify(userData),
     }),
     
   refreshToken: (refreshToken: string) =>
-    apiRequest('/auth/refresh', {
+    apiRequest('/api/auth/refresh', {
       method: 'POST',
       body: JSON.stringify({ refreshToken }),
     }),
     
   validateToken: (token: string) =>
-    apiRequest('/auth/validate', {
+    apiRequest('/api/auth/validate', {
       method: 'POST',
       body: JSON.stringify({ token }),
     }),
     
   getCurrentUser: () =>
-    apiRequest('/auth/me', {
+    apiRequest('/api/auth/me', {
       method: 'GET',
     }, true),
 }
@@ -83,7 +83,7 @@ export const authAPI = {
 // User API calls
 export const userAPI = {
   getProfile: () =>
-    apiRequest('/users/me', {
+    apiRequest('/api/users/me', {
       method: 'GET',
     }, true),
     
@@ -103,23 +103,23 @@ export const userAPI = {
       }
     })
     
-    return apiRequest(`/users/directory?${searchParams.toString()}`, {
+    return apiRequest(`/api/users/directory?${searchParams.toString()}`, {
       method: 'GET',
     }, true)
   },
   
   getFilters: () =>
-    apiRequest('/users/filters', {
+    apiRequest('/api/users/filters', {
       method: 'GET',
     }, true),
     
   getStats: () =>
-    apiRequest('/users/stats', {
+    apiRequest('/api/users/stats', {
       method: 'GET',
     }, true),
     
   getUserById: (id: string) =>
-    apiRequest(`/users/${id}`, {
+    apiRequest(`/api/users/${id}`, {
       method: 'GET',
     }, true),
 }
@@ -142,13 +142,13 @@ export const jobAPI = {
       }
     })
     
-    return apiRequest(`/jobs?${searchParams.toString()}`, {
+    return apiRequest(`/api/jobs?${searchParams.toString()}`, {
       method: 'GET',
     }, true)
   },
   
   createJob: (jobData: any) =>
-    apiRequest('/jobs', {
+    apiRequest('/api/jobs', {
       method: 'POST',
       body: JSON.stringify(jobData),
     }, true),
