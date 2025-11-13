@@ -1,37 +1,57 @@
-GradSync Migration Package - Import Instructions
-==============================================
+GradSync Complete Migration Package
+==================================
 
-This package contains:
-- MongoDB data: 46 alumni with placement records
-- MySQL data: Authentication and user management
-- Profile images: 42 real student photos
-- Configuration files: Application settings
+Package Contents:
+- MongoDB Data: 46 alumni with placement records and profile images
+- MySQL Data: Authentication system with admin user
+- Profile Images: 42 real student photos
+- Configuration: All application settings
 
-To import on new device:
+IMPORT INSTRUCTIONS FOR NEW DEVICE:
+==================================
 
-1. Install Prerequisites:
-   - Java 21
-   - Node.js 18+
-   - MongoDB
-   - MySQL
-   - Maven
+1. Prerequisites:
+   - Install Java 21
+   - Install Node.js 18+
+   - Install MongoDB
+   - Install MySQL
+   - Install Maven
 
 2. Import MongoDB:
    mongoimport --host localhost:27017 --db gradsyncdb --collection users --file mongodb_backup/gradsyncdb_users.json --jsonArray
    mongoimport --host localhost:27017 --db gradsyncdb --collection batches --file mongodb_backup/gradsyncdb_batches.json --jsonArray
+   mongoimport --host localhost:27017 --db gradsyncdb --collection companies --file mongodb_backup/gradsyncdb_companies.json --jsonArray
+   mongoimport --host localhost:27017 --db gradsyncdb --collection placements --file mongodb_backup/gradsyncdb_placements.json --jsonArray
 
 3. Import MySQL:
    mysql -u root -p -e "CREATE DATABASE gradsync_db;"
    mysql -u root -p gradsync_db < mysql_backup/gradsync_db_complete.sql
 
-4. Copy Profile Images:
+4. Setup Profile Images:
    Copy profile_images/* to backend/src/main/resources/static/images/profiles/
 
-5. Copy Configuration:
+5. Setup Configuration:
    Copy application_config/* to backend/src/main/resources/
 
-6. Start Application:
+6. Install Dependencies and Start:
    cd backend
+   mvn clean install
    mvn spring-boot:run
 
-Login: admin@piemr.edu.in / password
+   cd ../
+   npm install
+   npm run dev
+
+7. Access Application:
+   Frontend: http://localhost:3000
+   Backend: http://localhost:8080
+   Login: admin@piemr.edu.in / password
+
+Expected Results:
+- 46 alumni profiles with real photos
+- Complete placement data from NBA 2025.xlsx
+- Working authentication system
+- All profile pictures displaying correctly
+
+Migration Date: 13/11/2025 18:42:02.53
+Source Device: EARTH-AQUILA
