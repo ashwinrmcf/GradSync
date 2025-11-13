@@ -1,0 +1,62 @@
+📋 MongoDB Compass Merge Steps (Easiest Method)
+================================================
+
+Step 1: Import Old Data
+-----------------------
+1. Open MongoDB Compass
+2. Connect to your database (should already be connected)
+3. Navigate to 'gradsyncdb' database
+4. Click "Create Collection" button (+ icon)
+5. Name it: users_old
+6. Click "Create Collection"
+7. Click on the new "users_old" collection
+8. Click "ADD DATA" dropdown → "Import File"
+9. Navigate to: D:\GradSync\GradSync_Migration_Package\mongodb_backup\gradsyncdb_users.json
+10. Select file type: JSON
+11. Click "Import"
+
+Step 2: Run Merge Script in Compass
+------------------------------------
+1. In Compass, click the "_MONGOSH" tab at the bottom of the screen
+2. Copy the entire content from merge_users.js file
+3. Paste it into the mongosh console
+4. Press Enter to execute
+
+Step 3: Verify Results
+----------------------
+1. In mongosh console, run: db.users.countDocuments()
+2. Check batch 2022: db.users.countDocuments({"batchInfo.graduationYear": 2022})
+3. Refresh your collections view in Compass
+
+Alternative: Copy-Paste Merge Commands
+--------------------------------------
+If the full script doesn't work, paste these commands one by one in mongosh:
+
+// Check current counts
+db.users.countDocuments()
+db.users_old.countDocuments()
+
+// Get old users and merge
+var oldUsers = db.users_old.find().toArray();
+var addedCount = 0;
+var skippedCount = 0;
+
+oldUsers.forEach(function(oldUser) {
+    var existingUser = db.users.findOne({ email: oldUser.email });
+    if (!existingUser) {
+        delete oldUser._id;
+        if (!oldUser.role) oldUser.role = "ALUMNI";
+        db.users.insertOne(oldUser);
+        addedCount++;
+    } else {
+        skippedCount++;
+    }
+});
+
+print("Added: " + addedCount + ", Skipped: " + skippedCount);
+
+// Clean up
+db.users_old.drop();
+
+// Final count
+db.users.countDocuments()

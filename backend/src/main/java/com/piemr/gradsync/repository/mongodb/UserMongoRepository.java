@@ -73,6 +73,15 @@ public interface UserMongoRepository extends MongoRepository<User, String> {
            "'batchInfo.graduationYear': ?0, 'batchInfo.branch': ?1 }", count = true)
     long countPlacedAlumniByBatch(Integer graduationYear, String branch);
     
+    // Missing methods for BulkAlumniImportController
+    long countByBatchInfoGraduationYearAndBatchInfoBranch(Integer graduationYear, String branch);
+    
+    long countByBatchInfoGraduationYearAndBatchInfoBranchAndProfessionalCurrentCompanyIsNotNull(
+            Integer graduationYear, String branch);
+    
+    List<User> findByBatchInfoGraduationYearAndBatchInfoBranchAndProfessionalCurrentCompanyIsNotNull(
+            Integer graduationYear, String branch);
+    
     // Verification queries
     List<User> findByVerificationEmailVerified(Boolean emailVerified);
     

@@ -52,7 +52,8 @@ public class AlumniController {
             } else if (company != null) {
                 alumniPage = userRepository.findByProfessionalCurrentCompany(company, pageable);
             } else {
-                alumniPage = userRepository.findByRole(User.Role.ALUMNI, pageable);
+                // Show all users (not just ALUMNI role) to ensure we get all records
+                alumniPage = userRepository.findAll(pageable);
             }
             
             // Transform to response format
