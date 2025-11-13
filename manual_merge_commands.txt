@@ -1,0 +1,38 @@
+📋 Manual MongoDB Merge Commands
+================================
+
+If you prefer to run commands manually instead of using the batch file:
+
+Step 1: Import Old Database to Temporary Collection
+--------------------------------------------------
+cd "D:\GradSync\GradSync_Migration_Package\mongodb_backup"
+mongoimport --db gradsyncdb --collection users_old --file gradsyncdb_users.json --jsonArray
+
+Step 2: Run Merge Script
+------------------------
+cd "D:\GradSync"
+mongosh gradsyncdb merge_users.js
+
+Alternative: Run Merge Commands Directly in MongoDB Shell
+--------------------------------------------------------
+mongosh
+use gradsyncdb
+
+// Check current counts
+db.users.countDocuments()
+db.users_old.countDocuments()
+
+// Run the merge (copy-paste the merge_users.js content)
+// Or load the script: load("D:/GradSync/merge_users.js")
+
+Step 3: Verify Results
+---------------------
+mongosh
+use gradsyncdb
+db.users.countDocuments()
+
+// Check batch 2022 specifically
+db.users.countDocuments({"batchInfo.graduationYear": 2022})
+
+// Or check by role
+db.users.countDocuments({"role": "ALUMNI"})

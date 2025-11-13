@@ -141,20 +141,20 @@ Best regards`
                         <p className="text-sm text-gray-600">{alumni.email}</p>
                       </div>
                     </div>
-                    <div className="flex space-x-2">
+                    <div className="flex items-center space-x-2">
                       <button
                         onClick={() => copyToClipboard(alumni.email, 'email')}
-                        className="p-2 text-gray-400 hover:text-gray-600 transition-colors"
+                        className="inline-flex items-center justify-center w-10 h-10 text-gray-400 hover:text-gray-600 transition-colors rounded-lg hover:bg-gray-100"
                         title="Copy email"
                       >
-                        {copiedEmail ? <Check size={16} className="text-green-500" /> : <Copy size={16} />}
+                        {copiedEmail ? <Check size={18} className="text-green-500" /> : <Copy size={18} />}
                       </button>
                       <a
                         href={generateEmailTemplate()}
-                        className="btn-primary text-sm px-3 py-1 flex items-center space-x-1"
+                        className="inline-flex items-center justify-center w-10 h-10 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-all duration-200 shadow-sm hover:shadow-md"
+                        title="Send Email"
                       >
-                        <Mail size={14} />
-                        <span>Send Email</span>
+                        <Mail size={18} />
                       </a>
                     </div>
                   </div>
@@ -178,10 +178,10 @@ Best regards`
                       href={`https://linkedin.com/search/results/people/?keywords=${encodeURIComponent(alumni.firstName + ' ' + alumni.lastName + ' ' + (alumni.currentCompany || ''))}`}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="btn-secondary text-sm px-3 py-1 flex items-center space-x-1"
+                      className="inline-flex items-center justify-center w-10 h-10 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-all duration-200 shadow-sm hover:shadow-md"
+                      title="Find on LinkedIn"
                     >
-                      <ExternalLink size={14} />
-                      <span>Find on LinkedIn</span>
+                      <Linkedin size={18} />
                     </a>
                   </div>
                 </div>
@@ -201,10 +201,10 @@ Best regards`
                   </div>
                   <button
                     onClick={() => window.open(generateEmailTemplate(), '_blank')}
-                    className="btn-secondary text-sm px-3 py-1 flex items-center space-x-1"
+                    className="inline-flex items-center justify-center w-10 h-10 bg-green-600 hover:bg-green-700 text-white rounded-lg transition-all duration-200 shadow-sm hover:shadow-md"
+                    title="Request Contact"
                   >
-                    <Mail size={14} />
-                    <span>Request Contact</span>
+                    <Phone size={18} />
                   </button>
                 </div>
               </div>
@@ -225,10 +225,10 @@ Best regards`
                     href={`https://github.com/search?q=${encodeURIComponent(alumni.firstName + ' ' + alumni.lastName)}&type=users`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="btn-secondary text-sm px-3 py-1 flex items-center space-x-1"
+                    className="inline-flex items-center justify-center w-10 h-10 bg-gray-700 hover:bg-gray-800 text-white rounded-lg transition-all duration-200 shadow-sm hover:shadow-md"
+                    title="Find on GitHub"
                   >
-                    <ExternalLink size={14} />
-                    <span>Find on GitHub</span>
+                    <Github size={18} />
                   </a>
                 </div>
               </div>

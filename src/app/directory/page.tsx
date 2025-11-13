@@ -123,8 +123,8 @@ export default function AlumniDirectoryPage() {
   useEffect(() => {
     const fetchRealAlumni = async () => {
       try {
-        // Get all 46 alumni
-        const alumniResponse = await fetch('http://localhost:8080/api/alumni?size=50')
+        // Get all alumni with larger size to ensure we get all records
+        const alumniResponse = await fetch('http://localhost:8080/api/alumni?size=100')
         const alumniData = await alumniResponse.json()
         
         if (alumniData.alumni) {
@@ -239,6 +239,12 @@ export default function AlumniDirectoryPage() {
 
       return matchesSearch && matchesBatch && matchesBranch && matchesCompany && matchesLocation
     })
+    // Sort alphabetically by first name, then last name
+    .sort((a, b) => {
+      const nameA = `${a.firstName} ${a.lastName}`.toLowerCase();
+      const nameB = `${b.firstName} ${b.lastName}`.toLowerCase();
+      return nameA.localeCompare(nameB);
+    });
   }, [searchTerm, selectedBatch, selectedBranch, selectedCompany, selectedLocation, alumni])
 
   const clearFilters = () => {

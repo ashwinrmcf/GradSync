@@ -1,0 +1,64 @@
+📋 Import New Data Without Duplicates - MongoDB Compass
+======================================================
+
+Step 1: Import New Data to Temporary Collection
+-----------------------------------------------
+1. In MongoDB Compass, go to 'gradsyncdb' database
+2. Click "Create Collection" → name it: new_users
+3. Click on 'new_users' collection
+4. Click "ADD DATA" → "Import File"
+5. Navigate to: D:\Downloads\ (find your new users file)
+6. Select the JSON/BSON file with 82 records
+7. Import it
+
+Step 2: Run No-Duplicate Import Script
+--------------------------------------
+1. Click "_MONGOSH" tab at bottom of Compass
+2. Copy and paste this simplified script:
+
+// Check current counts
+var currentCount = db.users.countDocuments();
+var newCount = db.new_users.countDocuments();
+print("Current users: " + currentCount);
+print("New users to process: " + newCount);
+
+// Import without duplicates
+var newUsers = db.new_users.find().toArray();
+var addedCount = 0;
+var skippedCount = 0;
+
+newUsers.forEach(function(newUser) {
+    var existingUser = db.users.findOne({ email: newUser.email });
+    if (!existingUser) {
+        delete newUser._id;
+        if (!newUser.role) newUser.role = "ALUMNI";
+        db.users.insertOne(newUser);
+        addedCount++;
+        print("Added: " + newUser.email);
+    } else {
+        skippedCount++;
+    }
+});
+
+print("Results: Added " + addedCount + ", Skipped " + skippedCount);
+print("Final count: " + db.users.countDocuments());
+
+// Clean up
+db.new_users.drop();
+print("Cleanup complete!");
+
+Step 3: Verify Results
+----------------------
+1. Check final count: db.users.countDocuments()
+2. Check batch 2022: db.users.countDocuments({"batchInfo.graduationYear": 2022})
+3. Refresh collections in Compass
+
+Alternative: Manual Check Method
+--------------------------------
+If you want to be extra careful:
+
+1. First, just import to new_users (don't run script yet)
+2. Check what's in new_users: db.new_users.find().limit(5)
+3. Check what's in users: db.users.find().limit(5)
+4. Compare a few emails manually
+5. Then run the merge script
