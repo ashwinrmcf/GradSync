@@ -2959,3 +2959,4 @@ Caused by: java.sql.SQLException: Access denied for user 'root'@'localhost' (usi
 2025-11-13 19:53:17 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2022/CSE
 2025-11-13 19:53:17 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
 2025-11-13 19:53:17 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2022/CSE
+2025-11-13 20:59:14 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h1m1s116ms209µs700ns).
