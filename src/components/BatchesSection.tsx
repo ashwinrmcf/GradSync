@@ -27,40 +27,57 @@ const BatchesSection = ({ showAll = false, maxBatches = 6 }: BatchesSectionProps
   const [loading, setLoading] = useState(true)
   const router = useRouter()
 
-  // Fetch real batch data from API
+  // Fetch real batch 2022 data and combine with generated data
   useEffect(() => {
-    const fetchRealBatches = async () => {
+    const fetchAndCombineBatches = async () => {
       try {
+        // Generate placeholder batches (excluding 2022)
+        const generatedBatches = generateBatchData()
+        
+        // Try to fetch real Batch 2022 data from API
         const response = await fetch('http://localhost:8080/api/batches')
         const data = await response.json()
         
         if (data.batches && data.batches.length > 0) {
-          // Transform API data to match our interface
-          const transformedBatches = data.batches.map((batch: any) => ({
-            year: batch.admissionYear,
-            graduationYear: batch.graduationYear,
-            totalStudents: batch.totalStudents || 0,
-            placedStudents: batch.placedStudents || 0,
-            averagePackage: batch.averagePackage ? `${batch.averagePackage} LPA` : '0 LPA',
-            topCompanies: batch.topRecruiters || ['TCS', 'Infosys', 'Wipro'],
-            isActive: batch.isActive,
-            achievements: batch.achievements || ['100% Placement Record']
-          }))
-          setBatches(transformedBatches)
+          // Find Batch 2022 in API data
+          const batch2022 = data.batches.find((batch: any) => batch.graduationYear === 2022)
+          
+          if (batch2022) {
+            // Transform API Batch 2022 data
+            const realBatch2022 = {
+              year: batch2022.admissionYear || 2018,
+              graduationYear: 2022,
+              totalStudents: batch2022.totalStudents || 46,
+              placedStudents: batch2022.placedStudents || 46,
+              averagePackage: batch2022.averagePackage ? `${batch2022.averagePackage} LPA` : '4.5 LPA',
+              topCompanies: batch2022.topRecruiters || ['TCS', 'Infosys', 'Wipro'],
+              isActive: false, // Graduated batch
+              achievements: batch2022.achievements || ['100% Placement Record']
+            }
+            
+            // Combine real Batch 2022 with generated batches
+            const allBatches = [...generatedBatches, realBatch2022]
+            // Sort by graduation year (latest first)
+            allBatches.sort((a, b) => b.graduationYear - a.graduationYear)
+            setBatches(allBatches)
+          } else {
+            // No Batch 2022 found in API, use only generated data
+            setBatches(generatedBatches)
+          }
         } else {
-          // Fallback to generated data if API fails
-          setBatches(generateBatchData())
+          // API failed, use only generated data
+          setBatches(generatedBatches)
         }
       } catch (error) {
-        console.error('Error fetching batches:', error)
-        // Fallback to generated data
+        console.error('Error fetching batch data:', error)
+        // Fallback to generated data only
         setBatches(generateBatchData())
       } finally {
         setLoading(false)
       }
     }
 
-    fetchRealBatches()
+    fetchAndCombineBatches()
   }, [])
 
   // Generate batch data from 2012 to 2026 (fallback)
@@ -87,7 +104,10 @@ const BatchesSection = ({ showAll = false, maxBatches = 6 }: BatchesSectionProps
       { totalStudents: 305, placedStudents: 282, avgPackage: 9.6, companies: 7 }
     ]
     
-    for (let year = 2012; year <= 2026; year++) {
+    for (let year = 2012; year <= 2029; year++) {
+      // Skip 2022 since it has real data
+      if (year === 2022) continue;
+      
       const isGraduated = year <= currentYear
       const isActive = year > currentYear - 4 && year <= currentYear
       const dataIndex = (year - 2012) % batchData.length
@@ -105,10 +125,10 @@ const BatchesSection = ({ showAll = false, maxBatches = 6 }: BatchesSectionProps
         ].slice(0, data.companies),
         isActive,
         achievements: isGraduated ? [
-          '100% Placement Record',
-          'Best Engineering College Award',
-          'Industry Partnership Excellence'
-        ] : ['Currently Pursuing', 'Active Batch']
+          'Data Under Development',
+          'Coming Soon',
+          'Placeholder Information'
+        ] : ['Currently Pursuing', 'Data Being Updated']
       })
     }
     
@@ -134,7 +154,7 @@ const BatchesSection = ({ showAll = false, maxBatches = 6 }: BatchesSectionProps
           </div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             {showAll 
-              ? "Celebrating 15 years of excellence • From our first batch in 2012 to the current batch of 2026"
+              ? "Celebrating 17 years of excellence • From our first batch in 2012 to the current batch of 2029"
               : "Explore our recent batches and their achievements • Connect with alumni across different years"
             }
           </p>
@@ -149,7 +169,7 @@ const BatchesSection = ({ showAll = false, maxBatches = 6 }: BatchesSectionProps
             </div>
             <div className="flex items-center">
               <TrendingUp className="h-4 w-4 mr-2" />
-              <span>15 Batches</span>
+              <span>18 Batches</span>
             </div>
           </div>
         </motion.div>
@@ -199,6 +219,24 @@ const BatchesSection = ({ showAll = false, maxBatches = 6 }: BatchesSectionProps
               </div>
               <Building className="h-8 w-8 text-purple-500" />
             </div>
+          </div>
+        </motion.div>
+
+        {/* Under Development Notice */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="mb-8"
+        >
+          <div className="bg-gradient-to-r from-yellow-50 to-orange-50 border border-yellow-200 rounded-xl p-4 text-center">
+            <div className="flex items-center justify-center mb-2">
+              <div className="w-3 h-3 bg-yellow-400 rounded-full mr-2 animate-pulse"></div>
+              <p className="text-yellow-800 font-semibold">Batch Data Under Development</p>
+            </div>
+            <p className="text-yellow-700 text-sm">
+              We're currently updating batch information. Batch 2022 shows real data, others are placeholders.
+            </p>
           </div>
         </motion.div>
 

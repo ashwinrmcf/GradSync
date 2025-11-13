@@ -274,6 +274,7 @@ export default function AboutUsPage() {
                   
                   {/* Content */}
                   <div className="relative z-10">
+
                     {/* Profile Image */}
                     <div className="relative mb-6">
                       <div className="w-24 h-24 mx-auto rounded-full overflow-hidden ring-4 ring-primary-100 group-hover:ring-primary-300 transition-all duration-300">
