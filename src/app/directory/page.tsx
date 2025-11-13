@@ -16,8 +16,80 @@ import {
   ChevronDown
 } from 'lucide-react'
 import Header from '@/components/Header'
+import Footer from '@/components/Footer'
 import ContactModal from '@/components/ContactModal'
 import { mockAlumni, User } from '@/contexts/AuthContext'
+
+// Company logo mapping function
+const getCompanyLogo = (companyName: string): string => {
+  const companyLogos: { [key: string]: string } = {
+    // Major Tech Companies
+    'Google': 'https://img.icons8.com/color/48/000000/google-logo.png',
+    'Microsoft': 'https://img.icons8.com/color/48/000000/microsoft.png',
+    'Amazon': 'https://img.icons8.com/color/48/000000/amazon.png',
+    'Apple': 'https://img.icons8.com/color/48/000000/mac-os.png',
+    'Meta': 'https://img.icons8.com/color/48/000000/facebook-new.png',
+    'Facebook': 'https://img.icons8.com/color/48/000000/facebook-new.png',
+    'Netflix': 'https://img.icons8.com/color/48/000000/netflix.png',
+    'Tesla': 'https://img.icons8.com/color/48/000000/tesla.png',
+    'Oracle': 'https://img.icons8.com/color/48/000000/oracle-logo.png',
+    'Salesforce': 'https://img.icons8.com/color/48/000000/salesforce.png',
+    
+    // Indian IT Companies
+    'TCS': 'https://img.icons8.com/color/48/000000/tata.png',
+    'Tata Consultancy Services': 'https://img.icons8.com/color/48/000000/tata.png',
+    'Infosys': 'https://img.icons8.com/color/48/000000/infosys.png',
+    'Wipro': 'https://img.icons8.com/color/48/000000/wipro.png',
+    'HCL': 'https://img.icons8.com/color/48/000000/hcl.png',
+    'Tech Mahindra': 'https://img.icons8.com/color/48/000000/mahindra.png',
+    'Cognizant': 'https://img.icons8.com/color/48/000000/cognizant.png',
+    'Accenture': 'https://img.icons8.com/color/48/000000/accenture.png',
+    'Capgemini': 'https://img.icons8.com/color/48/000000/capgemini.png',
+    'Deloitte': 'https://img.icons8.com/color/48/000000/deloitte.png',
+    
+    // Startups and Others
+    'Flipkart': 'https://img.icons8.com/color/48/000000/flipkart.png',
+    'Paytm': 'https://img.icons8.com/color/48/000000/paytm.png',
+    'Zomato': 'https://img.icons8.com/color/48/000000/zomato.png',
+    'Swiggy': 'https://img.icons8.com/color/48/000000/swiggy.png',
+    'Ola': 'https://img.icons8.com/color/48/000000/ola.png',
+    'Uber': 'https://img.icons8.com/color/48/000000/uber.png',
+    'LinkedIn': 'https://img.icons8.com/color/48/000000/linkedin.png',
+    'Twitter': 'https://img.icons8.com/color/48/000000/twitter.png',
+    'Instagram': 'https://img.icons8.com/color/48/000000/instagram-new.png',
+    'WhatsApp': 'https://img.icons8.com/color/48/000000/whatsapp.png',
+    'Spotify': 'https://img.icons8.com/color/48/000000/spotify.png',
+    'Adobe': 'https://img.icons8.com/color/48/000000/adobe-creative-cloud.png',
+    'IBM': 'https://img.icons8.com/color/48/000000/ibm.png',
+    'Intel': 'https://img.icons8.com/color/48/000000/intel.png',
+    'Nvidia': 'https://img.icons8.com/color/48/000000/nvidia.png',
+    'Samsung': 'https://img.icons8.com/color/48/000000/samsung.png',
+    'Sony': 'https://img.icons8.com/color/48/000000/sony.png',
+    
+    // Banking and Finance
+    'ICICI': 'https://img.icons8.com/color/48/000000/icici-bank.png',
+    'HDFC': 'https://img.icons8.com/color/48/000000/hdfc-bank.png',
+    'SBI': 'https://img.icons8.com/color/48/000000/sbi.png',
+    'Axis Bank': 'https://img.icons8.com/color/48/000000/axis-bank.png',
+    'Kotak': 'https://img.icons8.com/color/48/000000/kotak-mahindra-bank.png',
+    
+    // Default fallback
+    'default': 'https://img.icons8.com/color/48/000000/company.png'
+  }
+  
+  // Try exact match first
+  if (companyLogos[companyName]) {
+    return companyLogos[companyName]
+  }
+  
+  // Try partial match for company names
+  const companyKey = Object.keys(companyLogos).find(key => 
+    companyName.toLowerCase().includes(key.toLowerCase()) ||
+    key.toLowerCase().includes(companyName.toLowerCase())
+  )
+  
+  return companyKey ? companyLogos[companyKey] : companyLogos['default']
+}
 
 export default function AlumniDirectoryPage() {
   const searchParams = useSearchParams()
@@ -360,11 +432,44 @@ export default function AlumniDirectoryPage() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
-                className="card overflow-hidden hover:shadow-xl transition-all duration-300 group"
+                className="card overflow-hidden hover:shadow-xl transition-all duration-300 group hover:scale-105"
               >
                 {/* Profile Header */}
                 <div className="relative">
-                  <div className="h-24 bg-gradient-to-r from-primary-500 to-golden-500"></div>
+                  <div className="h-24 bg-gradient-to-r from-primary-500 to-golden-500 relative overflow-hidden">
+                    {/* Sexy Background Text with Multiple Layers */}
+                    <div className="absolute inset-0 flex items-center justify-center">
+                      {/* Background glow effect */}
+                      <span 
+                        className="absolute text-white text-5xl font-bold transform rotate-12 select-none pointer-events-none opacity-5 blur-sm"
+                        style={{ 
+                          fontFamily: "'Dancing Script', 'Kalam', 'Brush Script MT', 'Lucida Handwriting', cursive",
+                          fontWeight: '700',
+                          letterSpacing: '3px'
+                        }}
+                      >
+                        Batch of '{alumni.batchYear.toString().slice(-2)}
+                      </span>
+                      {/* Main text */}
+                      <span 
+                        className="relative text-white text-4xl font-bold transform rotate-12 select-none pointer-events-none opacity-15 group-hover:opacity-25 transition-opacity duration-300"
+                        style={{ 
+                          fontFamily: "'Dancing Script', 'Kalam', 'Brush Script MT', 'Lucida Handwriting', cursive",
+                          textShadow: '3px 3px 8px rgba(0,0,0,0.4), 1px 1px 2px rgba(255,255,255,0.2)',
+                          letterSpacing: '2px',
+                          fontWeight: '700',
+                          background: 'linear-gradient(45deg, rgba(255,255,255,0.8), rgba(255,255,255,0.4))',
+                          WebkitBackgroundClip: 'text',
+                          WebkitTextFillColor: 'transparent',
+                          backgroundClip: 'text'
+                        }}
+                      >
+                        Batch of '{alumni.batchYear.toString().slice(-2)}
+                      </span>
+                      {/* Subtle overlay pattern */}
+                      <div className="absolute inset-0 bg-gradient-to-br from-transparent via-white/5 to-transparent transform rotate-45"></div>
+                    </div>
+                  </div>
                   <div className="absolute -bottom-12 left-6">
                     <img
                       src={alumni.profileImage}
@@ -390,7 +495,40 @@ export default function AlumniDirectoryPage() {
                       {alumni.firstName} {alumni.lastName}
                     </h3>
                     <p className="text-primary-600 font-semibold">{alumni.position}</p>
-                    <p className="text-golden-600 font-medium">{alumni.currentCompany}</p>
+                    <div className="relative">
+                      {/* Company Logo Badge - Top Right of Card Content */}
+                      <div className="absolute -top-8 right-0 z-10">
+                        <div className="relative group">
+                          <div className="w-12 h-12 bg-gradient-to-br from-white via-gray-50 to-gray-100 rounded-xl shadow-lg border-2 border-white flex items-center justify-center transform group-hover:scale-110 transition-all duration-300 group-hover:shadow-xl">
+                            <img
+                              src={getCompanyLogo(alumni.currentCompany || '')}
+                              alt={`${alumni.currentCompany} logo`}
+                              className="w-8 h-8 object-contain group-hover:scale-110 transition-transform duration-300"
+                              onError={(e) => {
+                                // Fallback to company initial if logo fails
+                                const target = e.currentTarget as HTMLImageElement;
+                                target.style.display = 'none';
+                                const nextElement = target.nextElementSibling as HTMLElement;
+                                if (nextElement) nextElement.style.display = 'flex';
+                              }}
+                            />
+                            <div className="w-8 h-8 bg-gradient-to-br from-primary-500 via-primary-600 to-golden-500 rounded-lg hidden items-center justify-center text-white text-sm font-bold shadow-inner">
+                              {alumni.currentCompany?.[0] || 'C'}
+                            </div>
+                          </div>
+                          {/* Glowing effect */}
+                          <div className="absolute inset-0 bg-gradient-to-br from-primary-400/20 to-golden-400/20 rounded-xl blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10"></div>
+                        </div>
+                      </div>
+                      
+                      {/* Company Name with Enhanced Styling */}
+                      <div className="flex items-center space-x-2 mt-1">
+                        <div className="flex items-center space-x-2 bg-gradient-to-r from-golden-50 to-primary-50 px-3 py-1.5 rounded-full border border-golden-200/50">
+                          <div className="w-2 h-2 bg-gradient-to-r from-golden-400 to-primary-500 rounded-full animate-pulse"></div>
+                          <p className="text-golden-700 font-semibold text-sm tracking-wide">{alumni.currentCompany}</p>
+                        </div>
+                      </div>
+                    </div>
                   </div>
 
                   <div className="space-y-2 text-sm text-gray-600 mb-4">
@@ -463,6 +601,8 @@ export default function AlumniDirectoryPage() {
           alumni={selectedAlumni}
         />
       )}
+
+      <Footer />
     </div>
   )
 }

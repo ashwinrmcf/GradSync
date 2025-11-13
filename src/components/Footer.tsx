@@ -2,13 +2,14 @@
 
 import { motion } from 'framer-motion'
 import { Mail, Phone, MapPin, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react'
+import Link from 'next/link'
 
 export default function Footer() {
   const quickLinks = [
-    { name: 'About Us', href: '#about' },
-    { name: 'Alumni Directory', href: '#directory' },
-    { name: 'Job Portal', href: '#jobs' },
-    { name: 'Events', href: '#events' },
+    { name: 'About Us', href: '/about-us' },
+    { name: 'Alumni Directory', href: '/directory' },
+    { name: 'Job Portal', href: '/jobs' },
+    { name: 'Events', href: '/events' },
     { name: 'Success Stories', href: '#stories' },
     { name: 'Contact', href: '#contact' },
   ]
@@ -81,12 +82,21 @@ export default function Footer() {
               <ul className="space-y-3">
                 {quickLinks.map((link, index) => (
                   <li key={index}>
-                    <a
-                      href={link.href}
-                      className="text-gray-400 hover:text-primary-400 transition-colors duration-200"
-                    >
-                      {link.name}
-                    </a>
+                    {link.href.startsWith('#') ? (
+                      <a
+                        href={link.href}
+                        className="text-gray-400 hover:text-primary-400 transition-colors duration-200"
+                      >
+                        {link.name}
+                      </a>
+                    ) : (
+                      <Link
+                        href={link.href}
+                        className="text-gray-400 hover:text-primary-400 transition-colors duration-200"
+                      >
+                        {link.name}
+                      </Link>
+                    )}
                   </li>
                 ))}
               </ul>
