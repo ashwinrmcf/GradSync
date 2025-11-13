@@ -18,10 +18,12 @@ import {
 } from 'lucide-react'
 import { useAuth, mockAlumni } from '@/contexts/AuthContext'
 import Header from '@/components/Header'
+import ProfileEditModal from '@/components/ProfileEditModal'
 
 export default function AlumniDashboard() {
   const { user } = useAuth()
   const [activeTab, setActiveTab] = useState('overview')
+  const [isProfileModalOpen, setIsProfileModalOpen] = useState(false)
 
   const stats = [
     {
@@ -154,7 +156,10 @@ export default function AlumniDashboard() {
                 <button className="bg-white/20 hover:bg-white/30 text-white px-4 py-2 rounded-lg transition-colors">
                   <Bell size={20} />
                 </button>
-                <button className="bg-white text-primary-500 hover:bg-gray-100 px-6 py-2 rounded-lg font-medium transition-colors">
+                <button 
+                  onClick={() => setIsProfileModalOpen(true)}
+                  className="bg-white text-primary-500 hover:bg-gray-100 px-6 py-2 rounded-lg font-medium transition-colors"
+                >
                   Edit Profile
                 </button>
               </div>
@@ -396,6 +401,12 @@ export default function AlumniDashboard() {
           </div>
         </div>
       </div>
+
+      {/* Profile Edit Modal */}
+      <ProfileEditModal 
+        isOpen={isProfileModalOpen}
+        onClose={() => setIsProfileModalOpen(false)}
+      />
     </div>
   )
 }

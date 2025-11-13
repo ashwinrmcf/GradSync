@@ -54,6 +54,9 @@ module.exports = {
         'slide-up': 'slideUp 0.5s ease-out',
         'float': 'float 3s ease-in-out infinite',
       },
+      borderWidth: {
+        '3': '3px',
+      },
       keyframes: {
         fadeIn: {
           '0%': { opacity: '0' },

@@ -2,10 +2,12 @@ package com.piemr.gradsync.service;
 
 import com.piemr.gradsync.entity.mongodb.User;
 import com.piemr.gradsync.repository.mongodb.UserMongoRepository;
+import com.piemr.gradsync.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
+import org.springframework.web.multipart.MultipartFile;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -21,6 +23,7 @@ import java.util.Optional;
 public class ProfileImageService {
     
     private final UserMongoRepository userMongoRepository;
+    private final UserRepository userRepository;
     
     // Base path for storing profile images
     private static final String PROFILE_IMAGES_PATH = "src/main/resources/static/images/profiles/";
@@ -207,6 +210,64 @@ public class ProfileImageService {
             }
         }
         return null;
+    }
+    
+    /**
+     * Upload profile image for a specific user (JPA)
+     */
+    public String uploadUserProfileImage(String userId, MultipartFile file) {
+        try {
+            // Create profiles directory if it doesn't exist
+            Path profilesDir = Paths.get(PROFILE_IMAGES_PATH);
+            if (!Files.exists(profilesDir)) {
+                Files.createDirectories(profilesDir);
+            }
+            
+            // Get file extension
+            String originalFileName = file.getOriginalFilename();
+            String fileExtension = "";
+            if (originalFileName != null && originalFileName.contains(".")) {
+                fileExtension = originalFileName.substring(originalFileName.lastIndexOf("."));
+            }
+            
+            // Generate unique filename
+            String fileName = userId + "_profile_" + System.currentTimeMillis() + fileExtension;
+            Path targetPath = profilesDir.resolve(fileName);
+            
+            // Save file
+            Files.copy(file.getInputStream(), targetPath, StandardCopyOption.REPLACE_EXISTING);
+            
+            // Generate URL
+            String imageUrl = BASE_URL + fileName;
+            
+            // Update JPA user profile
+            if (updateJpaUserProfileImage(Long.parseLong(userId), imageUrl)) {
+                log.info("Successfully uploaded profile image for user {}: {}", userId, imageUrl);
+                return imageUrl;
+            }
+            
+        } catch (Exception e) {
+            log.error("Error uploading profile image for user {}: {}", userId, e.getMessage());
+        }
+        return null;
+    }
+    
+    /**
+     * Update profile image for a JPA user
+     */
+    public boolean updateJpaUserProfileImage(Long userId, String imageUrl) {
+        try {
+            Optional<com.piemr.gradsync.entity.User> userOpt = userRepository.findById(userId);
+            if (userOpt.isPresent()) {
+                com.piemr.gradsync.entity.User user = userOpt.get();
+                user.setProfileImageUrl(imageUrl);
+                userRepository.save(user);
+                return true;
+            }
+        } catch (Exception e) {
+            log.error("Error updating profile image for JPA user {}: {}", userId, e.getMessage());
+        }
+        return false;
     }
     
     /**

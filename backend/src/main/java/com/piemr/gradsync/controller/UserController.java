@@ -20,7 +20,7 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 
 @RestController
-@RequestMapping("/users")
+@RequestMapping("/api/users")
 @RequiredArgsConstructor
 @Slf4j
 @CrossOrigin(origins = {"http://localhost:3000", "http://127.0.0.1:3000"})
@@ -43,6 +43,51 @@ public class UserController {
         } catch (Exception e) {
             log.error("Error getting current user", e);
             return ResponseEntity.badRequest().build();
+        }
+    }
+    
+    @PutMapping("/me")
+    public ResponseEntity<Map<String, Object>> updateCurrentUser(@RequestBody Map<String, Object> updates) {
+        try {
+            Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+            UserDetailsServiceImpl.CustomUserPrincipal userPrincipal = 
+                (UserDetailsServiceImpl.CustomUserPrincipal) authentication.getPrincipal();
+            
+            User user = userPrincipal.getUser();
+            
+            // Update allowed fields
+            if (updates.containsKey("firstName")) {
+                user.setFirstName((String) updates.get("firstName"));
+            }
+            if (updates.containsKey("lastName")) {
+                user.setLastName((String) updates.get("lastName"));
+            }
+            if (updates.containsKey("currentCompany")) {
+                user.setCurrentCompany((String) updates.get("currentCompany"));
+            }
+            if (updates.containsKey("position")) {
+                user.setPosition((String) updates.get("position"));
+            }
+            if (updates.containsKey("location")) {
+                user.setLocation((String) updates.get("location"));
+            }
+            if (updates.containsKey("profileImage")) {
+                user.setProfileImageUrl((String) updates.get("profileImage"));
+            }
+            
+            userRepository.save(user);
+            
+            return ResponseEntity.ok(Map.of(
+                "success", true,
+                "message", "Profile updated successfully"
+            ));
+            
+        } catch (Exception e) {
+            log.error("Error updating current user", e);
+            return ResponseEntity.badRequest().body(Map.of(
+                "success", false,
+                "message", "Failed to update profile: " + e.getMessage()
+            ));
         }
     }
     

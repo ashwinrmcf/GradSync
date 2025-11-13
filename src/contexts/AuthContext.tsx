@@ -1,7 +1,7 @@
 'use client'
 
 import { createContext, useContext, useState, useEffect, ReactNode } from 'react'
-import { authAPI } from '@/lib/api'
+import { authAPI, userAPI } from '@/lib/api'
 
 export interface User {
   id: string
@@ -164,8 +164,8 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     
     setIsLoading(true)
     try {
-      // Mock API call - replace with real update
-      await new Promise(resolve => setTimeout(resolve, 1000))
+      // Call the real API to update profile
+      await userAPI.updateProfile(data)
       
       const updatedUser = { ...user, ...data }
       setUser(updatedUser)

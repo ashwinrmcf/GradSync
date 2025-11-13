@@ -4195,3 +4195,1069 @@ Caused by: java.sql.SQLException: Access denied for user 'root'@'localhost' (usi
 2025-11-14 00:36:00 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches
 2025-11-14 00:36:00 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
 2025-11-14 00:36:00 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches
+2025-11-14 02:44:18 [main] INFO  c.piemr.gradsync.GradSyncApplication - Starting GradSyncApplication using Java 21.0.4 with PID 17504 (D:\GITHUB\GradSync\backend\target\classes started by ashwi in D:\GITHUB\GradSync\backend)
+2025-11-14 02:44:18 [main] DEBUG c.piemr.gradsync.GradSyncApplication - Running with Spring Boot v3.2.0, Spring v6.1.1
+2025-11-14 02:44:18 [main] INFO  c.piemr.gradsync.GradSyncApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-14 02:44:19 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-14 02:44:19 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-11-14 02:44:19 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47 ms. Found 4 MongoDB repository interfaces.
+2025-11-14 02:44:19 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-14 02:44:19 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-14 02:44:19 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.piemr.gradsync.repository.mongodb.BatchMongoRepository; If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: jakarta.persistence.Entity, jakarta.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository
+2025-11-14 02:44:19 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.piemr.gradsync.repository.mongodb.CompanyMongoRepository; If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: jakarta.persistence.Entity, jakarta.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository
+2025-11-14 02:44:19 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.piemr.gradsync.repository.mongodb.PlacementMongoRepository; If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: jakarta.persistence.Entity, jakarta.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository
+2025-11-14 02:44:19 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.piemr.gradsync.repository.mongodb.UserMongoRepository; If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: jakarta.persistence.Entity, jakarta.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository
+2025-11-14 02:44:19 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 35 ms. Found 2 JPA repository interfaces.
+2025-11-14 02:44:20 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-14 02:44:20 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-14 02:44:20 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-11-14 02:44:20 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-14 02:44:20 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1869 ms
+2025-11-14 02:44:20 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-14 02:44:20 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-11-14 02:44:20 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-11-14 02:44:21 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-14 02:44:21 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-14 02:44:21 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@35e689a0
+2025-11-14 02:44:21 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-14 02:44:21 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-14 02:44:22 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-14 02:44:23 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-14 02:44:23 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-14 02:44:24 [main] DEBUG c.p.g.s.JwtAuthenticationFilter - Filter 'jwtAuthenticationFilter' configured for use
+2025-11-14 02:44:24 [main] INFO  org.mongodb.driver.client - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-data", "version": "4.11.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/21.0.4+8-LTS-274"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@c26c83f, com.mongodb.Jep395RecordCodecProvider@66da2007, com.mongodb.KotlinCodecProvider@448a2c5d]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[127.0.0.1:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2025-11-14 02:44:24 [cluster-ClusterId{value='69164a307430b4729d8930f6', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=27, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=25283300}
+2025-11-14 02:44:26 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-14 02:44:27 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6eb0d0ea, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@28446b82, org.springframework.security.web.context.SecurityContextHolderFilter@bc6655d, org.springframework.security.web.header.HeaderWriterFilter@5a5c0f56, org.springframework.web.filter.CorsFilter@69b7ac77, org.springframework.security.web.authentication.logout.LogoutFilter@7a612530, com.piemr.gradsync.security.JwtAuthenticationFilter@239c4792, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@622a4589, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4a16ae0b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4c84615a, org.springframework.security.web.session.SessionManagementFilter@3bdb3f28, org.springframework.security.web.access.ExceptionTranslationFilter@671f78b4, org.springframework.security.web.access.intercept.AuthorizationFilter@5813c42a]
+2025-11-14 02:44:27 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-11-14 02:44:27 [main] INFO  c.piemr.gradsync.GradSyncApplication - Started GradSyncApplication in 9.948 seconds (process running for 11.386)
+2025-11-14 02:45:33 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-14 02:45:33 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-14 02:45:33 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2025-11-14 02:45:33 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches
+2025-11-14 02:45:33 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2022
+2025-11-14 02:45:33 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:45:33 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:45:33 [http-nio-8080-exec-2] WARN  o.s.w.s.h.HandlerMappingIntrospector - Cache miss for REQUEST dispatch to '/api/batches/2022' (previous null). Performing MatchableHandlerMapping lookup. This is logged once only at WARN level, and every time at TRACE.
+2025-11-14 02:45:33 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2022
+2025-11-14 02:45:33 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches
+2025-11-14 02:45:33 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 02:45:33 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:45:33 [http-nio-8080-exec-2] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 02:45:33 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2022
+2025-11-14 02:45:33 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:45:33 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2023
+2025-11-14 02:45:33 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:45:33 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2022
+2025-11-14 02:45:33 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2023
+2025-11-14 02:45:33 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 02:45:33 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 02:45:33 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:45:33 [http-nio-8080-exec-3] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 02:45:33 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:45:33 [http-nio-8080-exec-4] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 02:45:33 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2023
+2025-11-14 02:45:33 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2024
+2025-11-14 02:45:33 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:45:33 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:45:33 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2023
+2025-11-14 02:45:33 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2024
+2025-11-14 02:45:33 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 02:45:33 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 02:45:33 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:45:33 [http-nio-8080-exec-5] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 02:45:33 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:45:33 [http-nio-8080-exec-6] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 02:45:33 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2024
+2025-11-14 02:45:33 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:45:33 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2024
+2025-11-14 02:45:33 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 02:45:33 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:45:33 [http-nio-8080-exec-9] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 02:45:33 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches
+2025-11-14 02:45:33 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:45:33 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches
+2025-11-14 02:46:11 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches
+2025-11-14 02:46:11 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2022
+2025-11-14 02:46:11 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:46:11 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:46:11 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches
+2025-11-14 02:46:11 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2022
+2025-11-14 02:46:11 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 02:46:11 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches
+2025-11-14 02:46:11 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:46:11 [http-nio-8080-exec-10] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 02:46:11 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:46:11 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches
+2025-11-14 02:46:11 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2022
+2025-11-14 02:46:11 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:46:11 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2022
+2025-11-14 02:46:11 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 02:46:11 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:46:11 [http-nio-8080-exec-3] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 02:46:11 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2023
+2025-11-14 02:46:11 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:46:11 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2023
+2025-11-14 02:46:11 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 02:46:11 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:46:11 [http-nio-8080-exec-4] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 02:46:11 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2023
+2025-11-14 02:46:11 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:46:11 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2023
+2025-11-14 02:46:11 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 02:46:11 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2024
+2025-11-14 02:46:11 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:46:11 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:46:11 [http-nio-8080-exec-5] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 02:46:11 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2024
+2025-11-14 02:46:11 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 02:46:11 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:46:11 [http-nio-8080-exec-6] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 02:46:11 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2024
+2025-11-14 02:46:11 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:46:11 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2024
+2025-11-14 02:46:11 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 02:46:11 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:46:11 [http-nio-8080-exec-9] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 02:48:26 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2022
+2025-11-14 02:48:26 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches
+2025-11-14 02:48:26 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:26 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:26 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches
+2025-11-14 02:48:26 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2022
+2025-11-14 02:48:26 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 02:48:26 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:26 [http-nio-8080-exec-10] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 02:48:26 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches
+2025-11-14 02:48:26 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:26 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches
+2025-11-14 02:48:26 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2022
+2025-11-14 02:48:26 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:26 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2023
+2025-11-14 02:48:26 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2022
+2025-11-14 02:48:26 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 02:48:26 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:26 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2023
+2025-11-14 02:48:26 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:26 [http-nio-8080-exec-4] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 02:48:26 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 02:48:26 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:26 [http-nio-8080-exec-5] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 02:48:26 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2024
+2025-11-14 02:48:26 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2023
+2025-11-14 02:48:26 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:26 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:26 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2024
+2025-11-14 02:48:26 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2023
+2025-11-14 02:48:26 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 02:48:26 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 02:48:26 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:26 [http-nio-8080-exec-9] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 02:48:26 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:26 [http-nio-8080-exec-6] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 02:48:26 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2024
+2025-11-14 02:48:26 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:26 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2024
+2025-11-14 02:48:26 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 02:48:26 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:26 [http-nio-8080-exec-7] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 02:48:43 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/alumni?size=100
+2025-11-14 02:48:43 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:43 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/alumni?size=100
+2025-11-14 02:48:43 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/alumni?size=100
+2025-11-14 02:48:43 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:43 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/alumni?size=100
+2025-11-14 02:48:43 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2022/CSE
+2025-11-14 02:48:43 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:43 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2022/CSE
+2025-11-14 02:48:43 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2022/CSE
+2025-11-14 02:48:43 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:43 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2022/CSE
+2025-11-14 02:48:43 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/default_ayaan_verma.jpeg
+2025-11-14 02:48:43 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/default_ayaan_iyer.jpeg
+2025-11-14 02:48:43 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:43 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/default_aarav_chopra.jpeg
+2025-11-14 02:48:43 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:43 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:43 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/default_aditya_sharma.jpeg
+2025-11-14 02:48:43 [http-nio-8080-exec-3] INFO  o.a.tomcat.util.http.parser.Cookie - A cookie header was received [g_state={"i_l":0,"i_ll":1762945838495,"i_b":"Ll2ey4uX2SMRQztfUmTsnVzzHMs+YRBzzHONVrKJLvU"}] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2025-11-14 02:48:43 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:43 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/default_aadhya_goel.jpeg
+2025-11-14 02:48:43 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:43 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/default_aditya_sharma.jpeg
+2025-11-14 02:48:43 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/default_aadhya_goel.jpeg
+2025-11-14 02:48:43 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 02:48:43 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 02:48:43 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:43 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/default_ayaan_iyer.jpeg
+2025-11-14 02:48:43 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/default_ayaan_verma.jpeg
+2025-11-14 02:48:43 [http-nio-8080-exec-3] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 02:48:43 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:43 [http-nio-8080-exec-4] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 02:48:43 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 02:48:43 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/default_aarav_chopra.jpeg
+2025-11-14 02:48:43 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 02:48:43 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 02:48:43 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:43 [http-nio-8080-exec-5] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 02:48:43 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/default_diya_nair.jpeg
+2025-11-14 02:48:43 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:43 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:43 [http-nio-8080-exec-6] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 02:48:43 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/default_diya_verma.jpeg
+2025-11-14 02:48:43 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:43 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:43 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/default_diya_verma.jpeg
+2025-11-14 02:48:43 [http-nio-8080-exec-9] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 02:48:43 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 02:48:43 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:43 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/default_diya_nair.jpeg
+2025-11-14 02:48:43 [http-nio-8080-exec-2] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 02:48:43 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/default_ishaan_nair.jpeg
+2025-11-14 02:48:43 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:43 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/default_kiara_goel.jpeg
+2025-11-14 02:48:43 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:43 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 02:48:43 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/default_ishaan_nair.jpeg
+2025-11-14 02:48:43 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/default_myra_nair.jpeg
+2025-11-14 02:48:43 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/default_kiara_goel.jpeg
+2025-11-14 02:48:43 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:43 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:43 [http-nio-8080-exec-8] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 02:48:43 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 02:48:43 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/default_myra_nair.jpeg
+2025-11-14 02:48:43 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 02:48:43 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:43 [http-nio-8080-exec-7] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 02:48:43 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 02:48:43 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:43 [http-nio-8080-exec-5] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 02:48:43 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/default_navya_rao.jpeg
+2025-11-14 02:48:43 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:43 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/default_navya_rao.jpeg
+2025-11-14 02:48:43 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:43 [http-nio-8080-exec-10] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 02:48:43 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/default_pari_mishra.jpeg
+2025-11-14 02:48:43 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 02:48:43 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:43 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/default_reyansh_iyer.jpeg
+2025-11-14 02:48:43 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:43 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/default_reyansh_iyer.jpeg
+2025-11-14 02:48:43 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/default_pari_mishra.jpeg
+2025-11-14 02:48:43 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:43 [http-nio-8080-exec-9] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 02:48:43 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/default_saanvi_iyer.jpeg
+2025-11-14 02:48:43 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:43 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 02:48:43 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 02:48:43 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/default_saanvi_iyer.jpeg
+2025-11-14 02:48:43 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:43 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:43 [http-nio-8080-exec-1] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 02:48:43 [http-nio-8080-exec-2] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 02:48:43 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 02:48:43 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/default_saanvi_pandey.jpeg
+2025-11-14 02:48:43 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:43 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/default_shaurya_bansal.jpeg
+2025-11-14 02:48:43 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:43 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/default_saanvi_pandey.jpeg
+2025-11-14 02:48:43 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/default_shaurya_malhotra.jpeg
+2025-11-14 02:48:43 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:43 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/default_shaurya_malhotra.jpeg
+2025-11-14 02:48:43 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/default_shaurya_bansal.jpeg
+2025-11-14 02:48:43 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 02:48:43 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:43 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 02:48:43 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 02:48:43 [http-nio-8080-exec-6] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 02:48:43 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:43 [http-nio-8080-exec-10] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 02:48:43 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:43 [http-nio-8080-exec-5] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 02:48:43 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/default_vedant_nair.jpeg
+2025-11-14 02:48:43 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:43 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:43 [http-nio-8080-exec-8] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 02:48:43 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/default_vedant_nair.jpeg
+2025-11-14 02:48:43 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/default_vihaan_sharma.jpeg
+2025-11-14 02:48:43 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:43 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 02:48:43 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/default_vihaan_sharma.jpeg
+2025-11-14 02:48:43 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:43 [http-nio-8080-exec-7] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 02:48:43 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 02:48:43 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:43 [http-nio-8080-exec-3] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 02:48:47 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2022
+2025-11-14 02:48:47 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:47 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2022
+2025-11-14 02:48:47 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches
+2025-11-14 02:48:47 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:47 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches
+2025-11-14 02:48:47 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 02:48:47 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:47 [http-nio-8080-exec-5] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 02:48:47 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2022
+2025-11-14 02:48:47 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches
+2025-11-14 02:48:47 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:47 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:47 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches
+2025-11-14 02:48:47 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2022
+2025-11-14 02:48:47 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 02:48:47 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:47 [http-nio-8080-exec-2] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 02:48:47 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2023
+2025-11-14 02:48:47 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:47 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2023
+2025-11-14 02:48:47 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 02:48:47 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:47 [http-nio-8080-exec-8] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 02:48:47 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2023
+2025-11-14 02:48:47 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:47 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2023
+2025-11-14 02:48:47 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 02:48:47 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:47 [http-nio-8080-exec-4] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 02:48:47 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2024
+2025-11-14 02:48:47 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:47 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2024
+2025-11-14 02:48:47 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 02:48:47 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:47 [http-nio-8080-exec-7] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 02:48:47 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2024
+2025-11-14 02:48:47 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:47 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2024
+2025-11-14 02:48:47 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 02:48:47 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:47 [http-nio-8080-exec-6] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 02:48:54 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/alumni?size=100
+2025-11-14 02:48:54 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:54 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/alumni?size=100
+2025-11-14 02:48:54 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/alumni?size=100
+2025-11-14 02:48:54 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:54 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/alumni?size=100
+2025-11-14 02:48:54 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2022/CSE
+2025-11-14 02:48:54 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:54 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2022/CSE
+2025-11-14 02:48:54 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2022/CSE
+2025-11-14 02:48:54 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:54 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2022/CSE
+2025-11-14 02:48:54 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/6914f473c3bda37689fb466a_anishshrivastava.jpg
+2025-11-14 02:48:54 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/6914f473c3bda37689fb4664_amankumarbamaliya_aspiremarketingsolutions.jpeg
+2025-11-14 02:48:54 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:54 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:54 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/6914f473c3bda37689fb4661_abhinaysharma_synapsesxtl.jpeg
+2025-11-14 02:48:54 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:54 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/6914f473c3bda37689fb4670_ankurnagle_infosys.jpeg
+2025-11-14 02:48:54 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/6914f473c3bda37689fb4664_amankumarbamaliya_aspiremarketingsolutions.jpeg
+2025-11-14 02:48:54 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:54 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/6914f473c3bda37689fb4667_anirudhkulkarni_careerdreams.jpeg
+2025-11-14 02:48:54 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:54 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/6914f473c3bda37689fb466d_anjalidubey_infosys.jpeg
+2025-11-14 02:48:54 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:54 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/6914f473c3bda37689fb466a_anishshrivastava.jpg
+2025-11-14 02:48:54 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/6914f473c3bda37689fb4661_abhinaysharma_synapsesxtl.jpeg
+2025-11-14 02:48:54 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/6914f473c3bda37689fb466d_anjalidubey_infosys.jpeg
+2025-11-14 02:48:54 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/6914f473c3bda37689fb4667_anirudhkulkarni_careerdreams.jpeg
+2025-11-14 02:48:54 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/6914f473c3bda37689fb4670_ankurnagle_infosys.jpeg
+2025-11-14 02:48:54 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/6914f474c3bda37689fb4676_ashishbercha.png
+2025-11-14 02:48:54 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/6914f474c3bda37689fb467c_ashwinirawat_yardi.jpeg
+2025-11-14 02:48:54 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/6914f473c3bda37689fb4673_arslanshaikh_softude.jpeg
+2025-11-14 02:48:54 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/6914f474c3bda37689fb467f_chandanrajput_rakuten.jpeg
+2025-11-14 02:48:54 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:54 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:54 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:54 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:54 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/6914f474c3bda37689fb4679_ashutoshsoni_capgemini.jpeg
+2025-11-14 02:48:54 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/6914f474c3bda37689fb4682_chetan_solanki.png
+2025-11-14 02:48:54 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:54 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:54 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/6914f474c3bda37689fb4676_ashishbercha.png
+2025-11-14 02:48:54 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/6914f473c3bda37689fb4673_arslanshaikh_softude.jpeg
+2025-11-14 02:48:54 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/6914f474c3bda37689fb467f_chandanrajput_rakuten.jpeg
+2025-11-14 02:48:54 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/6914f474c3bda37689fb4679_ashutoshsoni_capgemini.jpeg
+2025-11-14 02:48:54 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/6914f474c3bda37689fb467c_ashwinirawat_yardi.jpeg
+2025-11-14 02:48:54 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/6914f474c3bda37689fb4682_chetan_solanki.png
+2025-11-14 02:48:54 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/6914f474c3bda37689fb4684_danishullah_bitcot.jpeg
+2025-11-14 02:48:54 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/6914f474c3bda37689fb4687_dhairyasavaner_pbo.jpeg
+2025-11-14 02:48:54 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:54 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/6914f474c3bda37689fb468a_eklavyamalviya.jpg
+2025-11-14 02:48:54 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:54 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:54 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/6914f474c3bda37689fb468d_garvitsharma_thoughtwinitsolution.jpeg
+2025-11-14 02:48:54 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:54 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/6914f474c3bda37689fb4684_danishullah_bitcot.jpeg
+2025-11-14 02:48:54 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/6914f474c3bda37689fb468a_eklavyamalviya.jpg
+2025-11-14 02:48:54 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/6914f474c3bda37689fb4687_dhairyasavaner_pbo.jpeg
+2025-11-14 02:48:54 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/6914f474c3bda37689fb468d_garvitsharma_thoughtwinitsolution.jpeg
+2025-11-14 02:48:54 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/6914f474c3bda37689fb4690_ishikabangar.jpg
+2025-11-14 02:48:54 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:54 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/6914f474c3bda37689fb4692_jaikumarraghuwanshi_icici_lombard.jpeg
+2025-11-14 02:48:54 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:54 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/6914f474c3bda37689fb4690_ishikabangar.jpg
+2025-11-14 02:48:54 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/6914f474c3bda37689fb4692_jaikumarraghuwanshi_icici_lombard.jpeg
+2025-11-14 02:48:54 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/6914f474c3bda37689fb4695_jayeshagrawal_livegageinc.jpeg
+2025-11-14 02:48:54 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:54 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/6914f474c3bda37689fb4698_kuldeep.jpg
+2025-11-14 02:48:54 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:54 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/6914f474c3bda37689fb469b_lakhansinghthakur_itechcloudsolutions.jpeg
+2025-11-14 02:48:54 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:54 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/6914f474c3bda37689fb469d_mainkarajput.jpg
+2025-11-14 02:48:54 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:54 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/6914f474c3bda37689fb4695_jayeshagrawal_livegageinc.jpeg
+2025-11-14 02:48:54 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/6914f474c3bda37689fb4698_kuldeep.jpg
+2025-11-14 02:48:54 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/6914f474c3bda37689fb46a0_meet_chauhan.jpg
+2025-11-14 02:48:54 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:54 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/6914f474c3bda37689fb469b_lakhansinghthakur_itechcloudsolutions.jpeg
+2025-11-14 02:48:54 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/6914f474c3bda37689fb469d_mainkarajput.jpg
+2025-11-14 02:48:54 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/6914f474c3bda37689fb46a0_meet_chauhan.jpg
+2025-11-14 02:48:54 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/6914f474c3bda37689fb46a2_nandiniwadekar_zelite.jpeg
+2025-11-14 02:48:54 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:54 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/6914f474c3bda37689fb46a2_nandiniwadekar_zelite.jpeg
+2025-11-14 02:48:55 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/6914f474c3bda37689fb46a8_niraliupadhyay_rakuten.jpeg
+2025-11-14 02:48:55 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:55 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/6914f474c3bda37689fb46aa_piyushjain.jpg
+2025-11-14 02:48:55 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:55 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/6914f474c3bda37689fb46aa_piyushjain.jpg
+2025-11-14 02:48:55 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/6914f474c3bda37689fb46ac_prachisahu_webiworktechnologies.jpeg
+2025-11-14 02:48:55 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/6914f474c3bda37689fb46b2_pradyum_dharva.jpg
+2025-11-14 02:48:55 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:55 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:55 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/6914f474c3bda37689fb46ac_prachisahu_webiworktechnologies.jpeg
+2025-11-14 02:48:55 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/6914f474c3bda37689fb46a8_niraliupadhyay_rakuten.jpeg
+2025-11-14 02:48:55 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/6914f474c3bda37689fb46b2_pradyum_dharva.jpg
+2025-11-14 02:48:55 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/6914f474c3bda37689fb46b8_radheshreepatil_fittoniatechnologies.jpeg
+2025-11-14 02:48:55 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:55 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/6914f474c3bda37689fb46bb_rajakhan_visionwaves.jpeg
+2025-11-14 02:48:55 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:55 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/6914f474c3bda37689fb46b8_radheshreepatil_fittoniatechnologies.jpeg
+2025-11-14 02:48:55 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/6914f474c3bda37689fb46bb_rajakhan_visionwaves.jpeg
+2025-11-14 02:48:55 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/6914f474c3bda37689fb46bd_ritikkhatri_oracle.jpeg
+2025-11-14 02:48:55 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/6914f474c3bda37689fb46c0_rohankhera_globallogicindia.jpeg
+2025-11-14 02:48:55 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:55 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:55 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/6914f474c3bda37689fb46c2_rupalinimbalkar_zehntech.jpeg
+2025-11-14 02:48:55 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:55 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/6914f474c3bda37689fb46c4_sagarsankhere.png
+2025-11-14 02:48:55 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/6914f474c3bda37689fb46c0_rohankhera_globallogicindia.jpeg
+2025-11-14 02:48:55 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:55 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/6914f474c3bda37689fb46bd_ritikkhatri_oracle.jpeg
+2025-11-14 02:48:55 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/6914f474c3bda37689fb46c2_rupalinimbalkar_zehntech.jpeg
+2025-11-14 02:48:55 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/6914f474c3bda37689fb46c4_sagarsankhere.png
+2025-11-14 02:48:55 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/6914f474c3bda37689fb46c6_sakshikothari.jpg
+2025-11-14 02:48:55 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:55 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/6914f474c3bda37689fb46cc_shubhamsoni_innogent.jpeg
+2025-11-14 02:48:55 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:55 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/6914f474c3bda37689fb46d2_sohamvyas_avalonsolutionsindia.jpeg
+2025-11-14 02:48:55 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:55 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/6914f474c3bda37689fb46cc_shubhamsoni_innogent.jpeg
+2025-11-14 02:48:55 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/6914f474c3bda37689fb46c6_sakshikothari.jpg
+2025-11-14 02:48:55 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/6914f474c3bda37689fb46d2_sohamvyas_avalonsolutionsindia.jpeg
+2025-11-14 02:48:55 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/6914f474c3bda37689fb46d5_vishwaskatiyar_deloitte.jpeg
+2025-11-14 02:48:55 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:55 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/6914f474c3bda37689fb46d8_vivekchoudhary.jpg
+2025-11-14 02:48:55 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:55 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/6914f474c3bda37689fb46d5_vishwaskatiyar_deloitte.jpeg
+2025-11-14 02:48:55 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/6914f474c3bda37689fb46d8_vivekchoudhary.jpg
+2025-11-14 02:48:55 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/6914f474c3bda37689fb46db_wassaif_khan.jpg
+2025-11-14 02:48:55 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:48:55 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/6914f474c3bda37689fb46db_wassaif_khan.jpg
+2025-11-14 02:55:01 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-14 02:55:01 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-14 02:55:01 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-14 02:55:07 [main] INFO  c.piemr.gradsync.GradSyncApplication - Starting GradSyncApplication using Java 21.0.4 with PID 21380 (D:\GITHUB\GradSync\backend\target\classes started by ashwi in D:\GITHUB\GradSync\backend)
+2025-11-14 02:55:07 [main] DEBUG c.piemr.gradsync.GradSyncApplication - Running with Spring Boot v3.2.0, Spring v6.1.1
+2025-11-14 02:55:07 [main] INFO  c.piemr.gradsync.GradSyncApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-14 02:55:08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-14 02:55:08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-11-14 02:55:08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49 ms. Found 4 MongoDB repository interfaces.
+2025-11-14 02:55:08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-14 02:55:08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-14 02:55:08 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.piemr.gradsync.repository.mongodb.BatchMongoRepository; If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: jakarta.persistence.Entity, jakarta.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository
+2025-11-14 02:55:08 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.piemr.gradsync.repository.mongodb.CompanyMongoRepository; If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: jakarta.persistence.Entity, jakarta.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository
+2025-11-14 02:55:08 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.piemr.gradsync.repository.mongodb.PlacementMongoRepository; If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: jakarta.persistence.Entity, jakarta.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository
+2025-11-14 02:55:08 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.piemr.gradsync.repository.mongodb.UserMongoRepository; If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: jakarta.persistence.Entity, jakarta.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository
+2025-11-14 02:55:08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33 ms. Found 2 JPA repository interfaces.
+2025-11-14 02:55:09 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-14 02:55:09 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-14 02:55:09 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-11-14 02:55:09 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-14 02:55:09 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1648 ms
+2025-11-14 02:55:09 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-14 02:55:09 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-11-14 02:55:09 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-11-14 02:55:10 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-14 02:55:10 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-14 02:55:10 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2cea921a
+2025-11-14 02:55:10 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-14 02:55:10 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-14 02:55:11 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-14 02:55:11 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-14 02:55:12 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-14 02:55:13 [main] DEBUG c.p.g.s.JwtAuthenticationFilter - Filter 'jwtAuthenticationFilter' configured for use
+2025-11-14 02:55:13 [main] INFO  org.mongodb.driver.client - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-data", "version": "4.11.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/21.0.4+8-LTS-274"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@18cc07ca, com.mongodb.Jep395RecordCodecProvider@533c62d0, com.mongodb.KotlinCodecProvider@7e626011]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[127.0.0.1:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2025-11-14 02:55:13 [cluster-ClusterId{value='69164cb92b0681683d96f5d5', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=27, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=23540400}
+2025-11-14 02:55:14 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-14 02:55:14 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@54271d08, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7198edd, org.springframework.security.web.context.SecurityContextHolderFilter@720d007b, org.springframework.security.web.header.HeaderWriterFilter@5521f423, org.springframework.web.filter.CorsFilter@47bdfc41, org.springframework.security.web.authentication.logout.LogoutFilter@3689931e, com.piemr.gradsync.security.JwtAuthenticationFilter@767cacee, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@44a03de5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@720a3eff, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@33c4dc6c, org.springframework.security.web.session.SessionManagementFilter@988f4d5, org.springframework.security.web.access.ExceptionTranslationFilter@2063d1c8, org.springframework.security.web.access.intercept.AuthorizationFilter@11084cb5]
+2025-11-14 02:55:14 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-11-14 02:55:14 [main] INFO  c.piemr.gradsync.GradSyncApplication - Started GradSyncApplication in 7.448 seconds (process running for 8.206)
+2025-11-14 02:55:52 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-14 02:55:52 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-14 02:55:52 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2025-11-14 02:55:52 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/profile-images/upload
+2025-11-14 02:55:52 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/profile-images/upload
+2025-11-14 02:55:53 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.batch_year,
+        u1_0.bio,
+        u1_0.branch,
+        u1_0.created_at,
+        u1_0.current_company,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.experience_years,
+        u1_0.first_name,
+        u1_0.graduation_date,
+        u1_0.is_active,
+        u1_0.is_verified,
+        u1_0.last_login,
+        u1_0.last_name,
+        u1_0.linkedin_url,
+        u1_0.location,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.portfolio_url,
+        u1_0.position,
+        u1_0.profile_image_url,
+        u1_0.role,
+        u1_0.roll_number,
+        u1_0.skills,
+        u1_0.updated_at 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2025-11-14 02:55:53 [http-nio-8080-exec-2] DEBUG c.p.g.s.JwtAuthenticationFilter - JWT authentication successful for user: ashwinrmcfa@gmail.com
+2025-11-14 02:55:53 [http-nio-8080-exec-2] WARN  o.s.w.s.h.HandlerMappingIntrospector - Cache miss for REQUEST dispatch to '/api/profile-images/upload' (previous null). Performing MatchableHandlerMapping lookup. This is logged once only at WARN level, and every time at TRACE.
+2025-11-14 02:55:53 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/profile-images/upload
+2025-11-14 02:55:53 [http-nio-8080-exec-2] INFO  c.p.g.c.ProfileImageController - Uploading profile image for user: 4
+2025-11-14 02:58:39 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-14 02:58:39 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-14 02:58:39 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-14 02:58:45 [main] INFO  c.piemr.gradsync.GradSyncApplication - Starting GradSyncApplication using Java 21.0.4 with PID 18540 (D:\GITHUB\GradSync\backend\target\classes started by ashwi in D:\GITHUB\GradSync\backend)
+2025-11-14 02:58:45 [main] DEBUG c.piemr.gradsync.GradSyncApplication - Running with Spring Boot v3.2.0, Spring v6.1.1
+2025-11-14 02:58:45 [main] INFO  c.piemr.gradsync.GradSyncApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-14 02:58:45 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-14 02:58:45 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-11-14 02:58:45 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 50 ms. Found 4 MongoDB repository interfaces.
+2025-11-14 02:58:46 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-14 02:58:46 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-14 02:58:46 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.piemr.gradsync.repository.mongodb.BatchMongoRepository; If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: jakarta.persistence.Entity, jakarta.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository
+2025-11-14 02:58:46 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.piemr.gradsync.repository.mongodb.CompanyMongoRepository; If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: jakarta.persistence.Entity, jakarta.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository
+2025-11-14 02:58:46 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.piemr.gradsync.repository.mongodb.PlacementMongoRepository; If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: jakarta.persistence.Entity, jakarta.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository
+2025-11-14 02:58:46 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.piemr.gradsync.repository.mongodb.UserMongoRepository; If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: jakarta.persistence.Entity, jakarta.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository
+2025-11-14 02:58:46 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34 ms. Found 2 JPA repository interfaces.
+2025-11-14 02:58:46 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-14 02:58:46 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-14 02:58:46 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-11-14 02:58:46 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-14 02:58:46 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1493 ms
+2025-11-14 02:58:46 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-14 02:58:46 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-11-14 02:58:47 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-11-14 02:58:47 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-14 02:58:47 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-14 02:58:47 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6b091a92
+2025-11-14 02:58:47 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-14 02:58:47 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-14 02:58:48 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-14 02:58:48 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-14 02:58:49 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-14 02:58:50 [main] DEBUG c.p.g.s.JwtAuthenticationFilter - Filter 'jwtAuthenticationFilter' configured for use
+2025-11-14 02:58:50 [main] INFO  org.mongodb.driver.client - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-data", "version": "4.11.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/21.0.4+8-LTS-274"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@202001a4, com.mongodb.Jep395RecordCodecProvider@536e5b21, com.mongodb.KotlinCodecProvider@794f2bdf]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[127.0.0.1:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2025-11-14 02:58:50 [cluster-ClusterId{value='69164d92e9070d4aa100be49', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=27, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=21506000}
+2025-11-14 02:58:51 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-14 02:58:51 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1a2b83b1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@259ecefe, org.springframework.security.web.context.SecurityContextHolderFilter@3c090ae5, org.springframework.security.web.header.HeaderWriterFilter@258c177a, org.springframework.web.filter.CorsFilter@7a612530, org.springframework.security.web.authentication.logout.LogoutFilter@5a7ec872, com.piemr.gradsync.security.JwtAuthenticationFilter@4ba1ccaf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@62aea363, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@390c96a1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@73d3487, org.springframework.security.web.session.SessionManagementFilter@2a01bf0e, org.springframework.security.web.access.ExceptionTranslationFilter@178f5ab1, org.springframework.security.web.access.intercept.AuthorizationFilter@5eac24de]
+2025-11-14 02:58:51 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-11-14 02:58:51 [main] INFO  c.piemr.gradsync.GradSyncApplication - Started GradSyncApplication in 7.052 seconds (process running for 7.917)
+2025-11-14 02:59:04 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-14 02:59:04 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-14 02:59:04 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2025-11-14 02:59:04 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/profile-images/upload
+2025-11-14 02:59:05 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.batch_year,
+        u1_0.bio,
+        u1_0.branch,
+        u1_0.created_at,
+        u1_0.current_company,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.experience_years,
+        u1_0.first_name,
+        u1_0.graduation_date,
+        u1_0.is_active,
+        u1_0.is_verified,
+        u1_0.last_login,
+        u1_0.last_name,
+        u1_0.linkedin_url,
+        u1_0.location,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.portfolio_url,
+        u1_0.position,
+        u1_0.profile_image_url,
+        u1_0.role,
+        u1_0.roll_number,
+        u1_0.skills,
+        u1_0.updated_at 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2025-11-14 02:59:05 [http-nio-8080-exec-1] DEBUG c.p.g.s.JwtAuthenticationFilter - JWT authentication successful for user: ashwinrmcfa@gmail.com
+2025-11-14 02:59:05 [http-nio-8080-exec-1] WARN  o.s.w.s.h.HandlerMappingIntrospector - Cache miss for REQUEST dispatch to '/api/profile-images/upload' (previous null). Performing MatchableHandlerMapping lookup. This is logged once only at WARN level, and every time at TRACE.
+2025-11-14 02:59:05 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/profile-images/upload
+2025-11-14 02:59:05 [http-nio-8080-exec-1] INFO  c.p.g.c.ProfileImageController - Uploading profile image for user: ashwinrmcfa@gmail.com (4)
+2025-11-14 02:59:05 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.batch_year,
+        u1_0.bio,
+        u1_0.branch,
+        u1_0.created_at,
+        u1_0.current_company,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.experience_years,
+        u1_0.first_name,
+        u1_0.graduation_date,
+        u1_0.is_active,
+        u1_0.is_verified,
+        u1_0.last_login,
+        u1_0.last_name,
+        u1_0.linkedin_url,
+        u1_0.location,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.portfolio_url,
+        u1_0.position,
+        u1_0.profile_image_url,
+        u1_0.role,
+        u1_0.roll_number,
+        u1_0.skills,
+        u1_0.updated_at 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2025-11-14 02:59:05 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    update
+        users 
+    set
+        batch_year=?,
+        bio=?,
+        branch=?,
+        current_company=?,
+        email=?,
+        email_verified=?,
+        experience_years=?,
+        first_name=?,
+        graduation_date=?,
+        is_active=?,
+        is_verified=?,
+        last_login=?,
+        last_name=?,
+        linkedin_url=?,
+        location=?,
+        password=?,
+        phone_number=?,
+        portfolio_url=?,
+        position=?,
+        profile_image_url=?,
+        role=?,
+        roll_number=?,
+        skills=?,
+        updated_at=? 
+    where
+        id=?
+2025-11-14 02:59:05 [http-nio-8080-exec-1] INFO  c.p.g.service.ProfileImageService - Successfully uploaded profile image for user 4: http://localhost:8080/images/profiles/4_profile_1763069345285.jpg
+2025-11-14 02:59:05 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/users/me
+2025-11-14 02:59:05 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing PUT /api/users/me
+2025-11-14 02:59:06 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.batch_year,
+        u1_0.bio,
+        u1_0.branch,
+        u1_0.created_at,
+        u1_0.current_company,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.experience_years,
+        u1_0.first_name,
+        u1_0.graduation_date,
+        u1_0.is_active,
+        u1_0.is_verified,
+        u1_0.last_login,
+        u1_0.last_name,
+        u1_0.linkedin_url,
+        u1_0.location,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.portfolio_url,
+        u1_0.position,
+        u1_0.profile_image_url,
+        u1_0.role,
+        u1_0.roll_number,
+        u1_0.skills,
+        u1_0.updated_at 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2025-11-14 02:59:06 [http-nio-8080-exec-3] DEBUG c.p.g.s.JwtAuthenticationFilter - JWT authentication successful for user: ashwinrmcfa@gmail.com
+2025-11-14 02:59:06 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured PUT /api/users/me
+2025-11-14 02:59:06 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.batch_year,
+        u1_0.bio,
+        u1_0.branch,
+        u1_0.created_at,
+        u1_0.current_company,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.experience_years,
+        u1_0.first_name,
+        u1_0.graduation_date,
+        u1_0.is_active,
+        u1_0.is_verified,
+        ja1_0.applicant_id,
+        ja1_0.id,
+        ja1_0.applied_at,
+        ja1_0.cover_letter,
+        ja1_0.job_posting_id,
+        ja1_0.notes,
+        ja1_0.resume_url,
+        ja1_0.reviewed_at,
+        ja1_0.reviewed_by,
+        ja1_0.status,
+        ja1_0.updated_at,
+        u1_0.last_login,
+        u1_0.last_name,
+        u1_0.linkedin_url,
+        u1_0.location,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.portfolio_url,
+        u1_0.position,
+        u1_0.profile_image_url,
+        u1_0.role,
+        u1_0.roll_number,
+        u1_0.skills,
+        u1_0.updated_at 
+    from
+        users u1_0 
+    left join
+        job_applications ja1_0 
+            on u1_0.id=ja1_0.applicant_id 
+    where
+        u1_0.id=?
+2025-11-14 02:59:06 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        oe1_0.organizer_id,
+        oe1_0.id,
+        oe1_0.agenda,
+        oe1_0.created_at,
+        oe1_0.description,
+        oe1_0.end_date,
+        oe1_0.event_date,
+        oe1_0.event_image_url,
+        oe1_0.event_type,
+        oe1_0.is_active,
+        oe1_0.is_free,
+        oe1_0.location,
+        oe1_0.max_participants,
+        oe1_0.meeting_link,
+        oe1_0.registration_deadline,
+        oe1_0.registration_fee,
+        oe1_0.requirements,
+        oe1_0.speakers,
+        oe1_0.title,
+        oe1_0.updated_at 
+    from
+        events oe1_0 
+    where
+        oe1_0.organizer_id=?
+2025-11-14 02:59:06 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        jp1_0.posted_by,
+        jp1_0.id,
+        jp1_0.application_deadline,
+        jp1_0.application_email,
+        jp1_0.application_instructions,
+        jp1_0.application_url,
+        jp1_0.benefits,
+        jp1_0.company,
+        jp1_0.company_logo_url,
+        jp1_0.created_at,
+        jp1_0.description,
+        jp1_0.experience_level,
+        jp1_0.is_active,
+        jp1_0.is_urgent,
+        jp1_0.job_type,
+        jp1_0.location,
+        jp1_0.requirements,
+        jp1_0.salary_range,
+        jp1_0.skills,
+        jp1_0.title,
+        jp1_0.updated_at,
+        jp1_0.views_count 
+    from
+        job_postings jp1_0 
+    where
+        jp1_0.posted_by=?
+2025-11-14 02:59:06 [http-nio-8080-exec-4] INFO  o.a.tomcat.util.http.parser.Cookie - A cookie header was received [g_state={"i_l":0,"i_ll":1762945838495,"i_b":"Ll2ey4uX2SMRQztfUmTsnVzzHMs+YRBzzHONVrKJLvU"}] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2025-11-14 02:59:06 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/4_profile_1763069345285.jpg
+2025-11-14 02:59:06 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:59:06 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/4_profile_1763069345285.jpg
+2025-11-14 02:59:06 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 02:59:06 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 02:59:06 [http-nio-8080-exec-4] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 03:01:24 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-14 03:01:24 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-14 03:01:24 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-14 03:01:31 [main] INFO  c.piemr.gradsync.GradSyncApplication - Starting GradSyncApplication using Java 21.0.4 with PID 6348 (D:\GITHUB\GradSync\backend\target\classes started by ashwi in D:\GITHUB\GradSync\backend)
+2025-11-14 03:01:31 [main] DEBUG c.piemr.gradsync.GradSyncApplication - Running with Spring Boot v3.2.0, Spring v6.1.1
+2025-11-14 03:01:31 [main] INFO  c.piemr.gradsync.GradSyncApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-14 03:01:31 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-14 03:01:31 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-11-14 03:01:32 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 67 ms. Found 4 MongoDB repository interfaces.
+2025-11-14 03:01:32 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-14 03:01:32 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-14 03:01:32 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.piemr.gradsync.repository.mongodb.BatchMongoRepository; If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: jakarta.persistence.Entity, jakarta.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository
+2025-11-14 03:01:32 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.piemr.gradsync.repository.mongodb.CompanyMongoRepository; If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: jakarta.persistence.Entity, jakarta.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository
+2025-11-14 03:01:32 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.piemr.gradsync.repository.mongodb.PlacementMongoRepository; If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: jakarta.persistence.Entity, jakarta.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository
+2025-11-14 03:01:32 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.piemr.gradsync.repository.mongodb.UserMongoRepository; If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: jakarta.persistence.Entity, jakarta.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository
+2025-11-14 03:01:32 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 66 ms. Found 2 JPA repository interfaces.
+2025-11-14 03:01:33 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-14 03:01:33 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-14 03:01:33 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-11-14 03:01:33 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-14 03:01:33 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2139 ms
+2025-11-14 03:01:33 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-14 03:01:33 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-11-14 03:01:33 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-11-14 03:01:34 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-14 03:01:34 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-14 03:01:34 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2dbf2da
+2025-11-14 03:01:34 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-14 03:01:34 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-14 03:01:36 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-14 03:01:37 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-14 03:01:37 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-14 03:01:38 [main] DEBUG c.p.g.s.JwtAuthenticationFilter - Filter 'jwtAuthenticationFilter' configured for use
+2025-11-14 03:01:38 [main] INFO  org.mongodb.driver.client - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-data", "version": "4.11.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/21.0.4+8-LTS-274"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@794f2bdf, com.mongodb.Jep395RecordCodecProvider@d2ce743, com.mongodb.KotlinCodecProvider@2d21fa63]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[127.0.0.1:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2025-11-14 03:01:38 [cluster-ClusterId{value='69164e3add2bee0f88017ca1', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=27, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=21291600}
+2025-11-14 03:01:40 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-14 03:01:40 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@fbba04a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2691ebbe, org.springframework.security.web.context.SecurityContextHolderFilter@25c8d646, org.springframework.security.web.header.HeaderWriterFilter@2d10b5b4, org.springframework.web.filter.CorsFilter@afb7791, org.springframework.security.web.authentication.logout.LogoutFilter@2cf3882d, com.piemr.gradsync.security.JwtAuthenticationFilter@571010af, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4782e182, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@58c2a890, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@af88ccf, org.springframework.security.web.session.SessionManagementFilter@4da6fd47, org.springframework.security.web.access.ExceptionTranslationFilter@6d27cb3b, org.springframework.security.web.access.intercept.AuthorizationFilter@41cd09da]
+2025-11-14 03:01:41 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-11-14 03:01:41 [main] INFO  c.piemr.gradsync.GradSyncApplication - Started GradSyncApplication in 10.668 seconds (process running for 11.483)
+2025-11-14 03:01:47 [http-nio-8080-exec-1] INFO  o.a.tomcat.util.http.parser.Cookie - A cookie header was received [g_state={"i_l":0,"i_ll":1762945838495,"i_b":"Ll2ey4uX2SMRQztfUmTsnVzzHMs+YRBzzHONVrKJLvU"}] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2025-11-14 03:01:47 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-14 03:01:47 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-14 03:01:47 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2025-11-14 03:01:47 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /images/profiles/4_profile_1763069345285.jpg
+2025-11-14 03:01:47 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:01:47 [http-nio-8080-exec-1] WARN  o.s.w.s.h.HandlerMappingIntrospector - Cache miss for REQUEST dispatch to '/images/profiles/4_profile_1763069345285.jpg' (previous null). Performing MatchableHandlerMapping lookup. This is logged once only at WARN level, and every time at TRACE.
+2025-11-14 03:01:47 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /images/profiles/4_profile_1763069345285.jpg
+2025-11-14 03:01:47 [http-nio-8080-exec-1] INFO  c.p.g.c.StaticResourceController - Serving profile image: 4_profile_1763069345285.jpg with content type: image/jpeg
+2025-11-14 03:01:55 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2022
+2025-11-14 03:01:55 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches
+2025-11-14 03:01:55 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:01:55 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:01:55 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches
+2025-11-14 03:01:55 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2022
+2025-11-14 03:01:55 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 03:01:55 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:01:55 [http-nio-8080-exec-3] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 03:01:56 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2022
+2025-11-14 03:01:56 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:01:56 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2023
+2025-11-14 03:01:56 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2022
+2025-11-14 03:01:56 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:01:56 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2023
+2025-11-14 03:01:56 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 03:01:56 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 03:01:56 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:01:56 [http-nio-8080-exec-4] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 03:01:56 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:01:56 [http-nio-8080-exec-6] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 03:01:56 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2023
+2025-11-14 03:01:56 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:01:56 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2024
+2025-11-14 03:01:56 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:01:56 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2023
+2025-11-14 03:01:56 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2024
+2025-11-14 03:01:56 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 03:01:56 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 03:01:56 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:01:56 [http-nio-8080-exec-5] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 03:01:56 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:01:56 [http-nio-8080-exec-7] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 03:01:56 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2024
+2025-11-14 03:01:56 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:01:56 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2024
+2025-11-14 03:01:56 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 03:01:56 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:01:56 [http-nio-8080-exec-8] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 03:01:56 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches
+2025-11-14 03:01:56 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:01:56 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches
+2025-11-14 03:02:20 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/alumni?size=100
+2025-11-14 03:02:20 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:02:20 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/alumni?size=100
+2025-11-14 03:02:20 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/alumni?size=100
+2025-11-14 03:02:20 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:02:20 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/alumni?size=100
+2025-11-14 03:02:20 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2022/CSE
+2025-11-14 03:02:20 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:02:20 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2022/CSE
+2025-11-14 03:02:20 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2022/CSE
+2025-11-14 03:02:20 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:02:20 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2022/CSE
+2025-11-14 03:02:43 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches
+2025-11-14 03:02:43 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2022
+2025-11-14 03:02:43 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:02:43 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches
+2025-11-14 03:02:43 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:02:43 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2022
+2025-11-14 03:02:43 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches
+2025-11-14 03:02:43 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:02:43 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches
+2025-11-14 03:02:43 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 03:02:43 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:02:43 [http-nio-8080-exec-5] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 03:02:43 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2022
+2025-11-14 03:02:43 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:02:43 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2022
+2025-11-14 03:02:43 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 03:02:43 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:02:43 [http-nio-8080-exec-8] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 03:02:43 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2023
+2025-11-14 03:02:43 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:02:43 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2023
+2025-11-14 03:02:43 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 03:02:43 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:02:43 [http-nio-8080-exec-2] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 03:02:43 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2023
+2025-11-14 03:02:43 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:02:43 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2023
+2025-11-14 03:02:43 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 03:02:43 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:02:43 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2024
+2025-11-14 03:02:43 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:02:43 [http-nio-8080-exec-9] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 03:02:43 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2024
+2025-11-14 03:02:43 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 03:02:43 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:02:43 [http-nio-8080-exec-10] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 03:02:43 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2024
+2025-11-14 03:02:43 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:02:43 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2024
+2025-11-14 03:02:43 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 03:02:43 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:02:43 [http-nio-8080-exec-3] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 03:13:23 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2022
+2025-11-14 03:13:23 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches
+2025-11-14 03:13:23 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:13:23 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:13:23 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches
+2025-11-14 03:13:23 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2022
+2025-11-14 03:13:23 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 03:13:23 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:13:23 [http-nio-8080-exec-7] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 03:13:23 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2022
+2025-11-14 03:13:23 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:13:23 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches
+2025-11-14 03:13:23 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2022
+2025-11-14 03:13:23 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:13:23 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches
+2025-11-14 03:13:23 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 03:13:23 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:13:23 [http-nio-8080-exec-2] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 03:13:23 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2023
+2025-11-14 03:13:23 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:13:23 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2023
+2025-11-14 03:13:23 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 03:13:23 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:13:23 [http-nio-8080-exec-10] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 03:13:23 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2023
+2025-11-14 03:13:23 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:13:23 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2024
+2025-11-14 03:13:23 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2023
+2025-11-14 03:13:23 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:13:23 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2024
+2025-11-14 03:13:23 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 03:13:23 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:13:23 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 03:13:23 [http-nio-8080-exec-3] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 03:13:23 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:13:23 [http-nio-8080-exec-1] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 03:13:23 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2024
+2025-11-14 03:13:23 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:13:23 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2024
+2025-11-14 03:13:23 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 03:13:23 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:13:23 [http-nio-8080-exec-4] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 03:13:28 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches
+2025-11-14 03:13:28 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2022
+2025-11-14 03:13:28 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:13:28 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:13:28 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches
+2025-11-14 03:13:28 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2022
+2025-11-14 03:13:28 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 03:13:28 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:13:28 [http-nio-8080-exec-5] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 03:13:28 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches
+2025-11-14 03:13:28 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:13:28 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches
+2025-11-14 03:13:28 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2022
+2025-11-14 03:13:28 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:13:28 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2022
+2025-11-14 03:13:28 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 03:13:28 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:13:28 [http-nio-8080-exec-8] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 03:13:28 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2023
+2025-11-14 03:13:28 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:13:28 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2023
+2025-11-14 03:13:28 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 03:13:28 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:13:28 [http-nio-8080-exec-2] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 03:13:28 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2023
+2025-11-14 03:13:28 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:13:28 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2023
+2025-11-14 03:13:28 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 03:13:28 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:13:28 [http-nio-8080-exec-9] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 03:13:28 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2024
+2025-11-14 03:13:28 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:13:28 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2024
+2025-11-14 03:13:28 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 03:13:28 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:13:28 [http-nio-8080-exec-10] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 03:13:28 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/batches/2024
+2025-11-14 03:13:28 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:13:28 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/batches/2024
+2025-11-14 03:13:28 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-11-14 03:13:28 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-14 03:13:28 [http-nio-8080-exec-3] ERROR c.p.g.s.JwtAuthenticationEntryPoint - Unauthorized error: Full authentication is required to access this resource
+2025-11-14 03:14:07 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-14 03:14:07 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-14 03:14:07 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

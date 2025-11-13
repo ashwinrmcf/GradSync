@@ -122,6 +122,42 @@ export const userAPI = {
     apiRequest(`/api/users/${id}`, {
       method: 'GET',
     }, true),
+    
+  updateProfile: (profileData: any) =>
+    apiRequest('/api/users/me', {
+      method: 'PUT',
+      body: JSON.stringify(profileData),
+    }, true),
+}
+
+// Profile Image API calls
+export const profileImageAPI = {
+  uploadImage: (file: File) => {
+    const formData = new FormData()
+    formData.append('file', file)
+    
+    const token = getAuthToken()
+    const headers: HeadersInit = {}
+    if (token) {
+      headers.Authorization = `Bearer ${token}`
+    }
+    
+    return fetch(`${API_BASE_URL}/api/profile-images/upload`, {
+      method: 'POST',
+      headers,
+      body: formData,
+    }).then(response => {
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`)
+      }
+      return response.json()
+    })
+  },
+  
+  getImageUrl: (userId: string) =>
+    apiRequest(`/api/profile-images/user/${userId}`, {
+      method: 'GET',
+    }, true),
 }
 
 // Job API calls (for future use)
@@ -157,5 +193,6 @@ export const jobAPI = {
 export default {
   authAPI,
   userAPI,
+  profileImageAPI,
   jobAPI,
 }

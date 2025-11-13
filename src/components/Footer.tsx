@@ -44,11 +44,23 @@ export default function Footer() {
               transition={{ duration: 0.6 }}
               className="space-y-6"
             >
-              <div className="flex items-center space-x-2">
-                <div className="w-8 h-8 bg-gradient-to-r from-primary-500 to-golden-500 rounded-lg flex items-center justify-center">
-                  <span className="text-white font-bold text-sm">GS</span>
+              <div className="flex items-center space-x-4">
+                {/* PIEMR Logo with subtle glow */}
+                <div className="flex items-center justify-center p-2 bg-gray-800 rounded-lg shadow-lg border border-gray-700">
+                  <img 
+                    src="/piemr-logo.png" 
+                    alt="PIEMR Logo" 
+                    className="h-10 w-10 object-contain opacity-90"
+                  />
                 </div>
-                <span className="text-2xl font-bold">GradSync</span>
+                
+                {/* Clean Brand Text */}
+                <div className="flex flex-col leading-tight">
+                  <span className="text-2xl font-bold text-white tracking-tight">GradSync</span>
+                  <div className="text-xs text-gray-400 font-medium tracking-wide -mt-0.5">
+                    Alumni Network Platform
+                  </div>
+                </div>
               </div>
               
               <p className="text-gray-400 leading-relaxed">

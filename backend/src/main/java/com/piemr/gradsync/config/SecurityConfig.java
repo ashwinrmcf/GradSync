@@ -67,6 +67,7 @@ public class SecurityConfig {
                 .requestMatchers("/api/admin/data/**").permitAll()
                 .requestMatchers("/api/admin/validate/**").permitAll()
                 .requestMatchers("/images/**").permitAll()
+                .requestMatchers("/images/profiles/**").permitAll()
                 .requestMatchers("/static/**").permitAll()
                 .requestMatchers("/public/**").permitAll()
                 .requestMatchers("/health/**").permitAll()

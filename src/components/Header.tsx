@@ -30,12 +30,23 @@ export default function Header() {
             animate={{ opacity: 1, x: 0 }}
             className="flex items-center space-x-2"
           >
-            <div className="flex items-center space-x-2">
-              {/* Logo placeholder - you can replace with actual logo */}
-              <div className="w-8 h-8 bg-gradient-to-r from-primary-500 to-golden-500 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">GS</span>
+            <div className="flex items-center space-x-3">
+              {/* PIEMR Logo with subtle border */}
+              <div className="flex items-center justify-center p-1 bg-white rounded-lg shadow-sm border border-gray-100">
+                <img 
+                  src="/piemr-logo.png" 
+                  alt="PIEMR Logo" 
+                  className="h-9 w-9 object-contain"
+                />
               </div>
-              <span className="text-2xl font-bold text-primary-500">GradSync</span>
+              
+              {/* Clean Brand Text */}
+              <div className="flex flex-col leading-tight">
+                <span className="text-xl font-bold text-blue-800 tracking-tight">GradSync</span>
+                <div className="text-xs text-gray-500 font-medium tracking-wide -mt-0.5">
+                  Alumni Network
+                </div>
+              </div>
             </div>
           </motion.div>
 
