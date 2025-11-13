@@ -1,0 +1,860 @@
+[
+  {
+    "email": "arjun.goel@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Arjun",
+    "lastName": "Goel",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2021,
+      "graduationYear": 2025,
+      "branch": "EEE",
+      "rollNumber": "086325EEE001",
+      "cgpa": 9.55
+    },
+    "professional": {
+      "currentCompany": "Apple",
+      "designation": "iOS Developer",
+      "currentSalary": 16,
+      "workType": "FULL_TIME",
+      "workLocation": "Kochi, India",
+      "experienceYears": 0,
+      "skills": [
+        "AutoCAD",
+        "PLC Programming",
+        "MATLAB"
+      ]
+    },
+    "contact": {
+      "phone": "+911750967986",
+      "address": {
+        "city": "Kochi",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_arjun_goel.jpeg",
+      "bio": "Arjun is a dedicated iOS Developer at Apple with 0 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/arjun-goel",
+      "github": "https://github.com/arjungoel",
+      "portfolio": "https://arjungoel.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": false,
+      "profileVerified": true
+    },
+    "createdAt": "2025-11-13T19:13:38.753Z",
+    "updatedAt": "2025-11-13T19:13:38.753Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "aditya.nair@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Aditya",
+    "lastName": "Nair",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2021,
+      "graduationYear": 2025,
+      "branch": "MECH",
+      "rollNumber": "086325MECH002",
+      "cgpa": 9.57
+    },
+    "professional": {
+      "currentCompany": "Oracle",
+      "designation": "Software Engineer",
+      "currentSalary": 9.5,
+      "workType": "FULL_TIME",
+      "workLocation": "Mumbai, India",
+      "experienceYears": 0,
+      "skills": [
+        "CATIA",
+        "Manufacturing",
+        "AutoCAD"
+      ]
+    },
+    "contact": {
+      "phone": "+915444917769",
+      "address": {
+        "city": "Mumbai",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_aditya_nair.jpeg",
+      "bio": "Aditya is a dedicated Software Engineer at Oracle with 0 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/aditya-nair",
+      "github": "https://github.com/adityanair",
+      "portfolio": "https://adityanair.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": true,
+      "profileVerified": true
+    },
+    "createdAt": "2025-11-13T19:13:38.753Z",
+    "updatedAt": "2025-11-13T19:13:38.753Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "vivaan.tiwari@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Vivaan",
+    "lastName": "Tiwari",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2021,
+      "graduationYear": 2025,
+      "branch": "MECH",
+      "rollNumber": "086325MECH003",
+      "cgpa": 8.02
+    },
+    "professional": {
+      "currentCompany": "Salesforce",
+      "designation": "Cloud Engineer",
+      "currentSalary": 10.5,
+      "workType": "FULL_TIME",
+      "workLocation": "Hyderabad, India",
+      "experienceYears": 0,
+      "skills": [
+        "SolidWorks",
+        "Machine Design",
+        "Manufacturing",
+        "Thermodynamics"
+      ]
+    },
+    "contact": {
+      "phone": "+916543819287",
+      "address": {
+        "city": "Hyderabad",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_vivaan_tiwari.jpeg",
+      "bio": "Vivaan is a dedicated Cloud Engineer at Salesforce with 0 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/vivaan-tiwari",
+      "github": "https://github.com/vivaantiwari",
+      "portfolio": "https://vivaantiwari.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": true,
+      "profileVerified": true
+    },
+    "createdAt": "2025-11-13T19:13:38.753Z",
+    "updatedAt": "2025-11-13T19:13:38.753Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "anika.saxena@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Anika",
+    "lastName": "Saxena",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2021,
+      "graduationYear": 2025,
+      "branch": "CSE",
+      "rollNumber": "086325CSE004",
+      "cgpa": 8.05
+    },
+    "professional": {
+      "currentCompany": "Apple",
+      "designation": "iOS Developer",
+      "currentSalary": 16,
+      "workType": "FULL_TIME",
+      "workLocation": "Gurgaon, India",
+      "experienceYears": 0,
+      "skills": [
+        "MongoDB",
+        "JavaScript",
+        "MySQL",
+        "React",
+        "Python",
+        "Node.js"
+      ]
+    },
+    "contact": {
+      "phone": "+915805459855",
+      "address": {
+        "city": "Gurgaon",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_anika_saxena.jpeg",
+      "bio": "Anika is a dedicated iOS Developer at Apple with 0 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/anika-saxena",
+      "github": "https://github.com/anikasaxena",
+      "portfolio": "https://anikasaxena.dev"
+    },
+    "verification": {
+      "emailVerified": false,
+      "phoneVerified": false,
+      "profileVerified": false
+    },
+    "createdAt": "2025-11-13T19:13:38.753Z",
+    "updatedAt": "2025-11-13T19:13:38.753Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "myra.prasad@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Myra",
+    "lastName": "Prasad",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2021,
+      "graduationYear": 2025,
+      "branch": "EEE",
+      "rollNumber": "086325EEE005",
+      "cgpa": 7.36
+    },
+    "professional": {
+      "currentCompany": "Netflix",
+      "designation": "Backend Engineer",
+      "currentSalary": 14,
+      "workType": "FULL_TIME",
+      "workLocation": "Noida, India",
+      "experienceYears": 0,
+      "skills": [
+        "Power Systems",
+        "AutoCAD",
+        "Electrical Design",
+        "PLC Programming",
+        "Control Systems"
+      ]
+    },
+    "contact": {
+      "phone": "+914528426643",
+      "address": {
+        "city": "Noida",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_myra_prasad.jpeg",
+      "bio": "Myra is a dedicated Backend Engineer at Netflix with 0 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/myra-prasad",
+      "github": "https://github.com/myraprasad",
+      "portfolio": "https://myraprasad.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": false,
+      "profileVerified": false
+    },
+    "createdAt": "2025-11-13T19:13:38.753Z",
+    "updatedAt": "2025-11-13T19:13:38.753Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "ayaan.agarwal@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Ayaan",
+    "lastName": "Agarwal",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2021,
+      "graduationYear": 2025,
+      "branch": "MECH",
+      "rollNumber": "086325MECH006",
+      "cgpa": 9.64
+    },
+    "professional": {
+      "currentCompany": "Salesforce",
+      "designation": "Cloud Engineer",
+      "currentSalary": 10.5,
+      "workType": "FULL_TIME",
+      "workLocation": "Chennai, India",
+      "experienceYears": 0,
+      "skills": [
+        "Manufacturing",
+        "AutoCAD"
+      ]
+    },
+    "contact": {
+      "phone": "+915851377652",
+      "address": {
+        "city": "Chennai",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_ayaan_agarwal.jpeg",
+      "bio": "Ayaan is a dedicated Cloud Engineer at Salesforce with 0 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/ayaan-agarwal",
+      "github": "https://github.com/ayaanagarwal",
+      "portfolio": "https://ayaanagarwal.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": true,
+      "profileVerified": false
+    },
+    "createdAt": "2025-11-13T19:13:38.753Z",
+    "updatedAt": "2025-11-13T19:13:38.753Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "sai.kapoor@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Sai",
+    "lastName": "Kapoor",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2021,
+      "graduationYear": 2025,
+      "branch": "ECE",
+      "rollNumber": "086325ECE007",
+      "cgpa": 9.01
+    },
+    "professional": {
+      "currentCompany": "Salesforce",
+      "designation": "Cloud Engineer",
+      "currentSalary": 10.5,
+      "workType": "FULL_TIME",
+      "workLocation": "Hyderabad, India",
+      "experienceYears": 0,
+      "skills": [
+        "MATLAB",
+        "Signal Processing",
+        "PCB Design",
+        "Embedded Systems",
+        "VLSI Design"
+      ]
+    },
+    "contact": {
+      "phone": "+912370847828",
+      "address": {
+        "city": "Hyderabad",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_sai_kapoor.jpeg",
+      "bio": "Sai is a dedicated Cloud Engineer at Salesforce with 0 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/sai-kapoor",
+      "github": "https://github.com/saikapoor",
+      "portfolio": "https://saikapoor.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": false,
+      "profileVerified": false
+    },
+    "createdAt": "2025-11-13T19:13:38.753Z",
+    "updatedAt": "2025-11-13T19:13:38.753Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "krishna.iyer@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Krishna",
+    "lastName": "Iyer",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2021,
+      "graduationYear": 2025,
+      "branch": "IT",
+      "rollNumber": "086325IT008",
+      "cgpa": 8.59
+    },
+    "professional": {
+      "currentCompany": "Meta",
+      "designation": "Software Engineer",
+      "currentSalary": 18,
+      "workType": "FULL_TIME",
+      "workLocation": "Pune, India",
+      "experienceYears": 0,
+      "skills": [
+        "System Administration",
+        "Database Management",
+        "C++",
+        "Cloud Computing"
+      ]
+    },
+    "contact": {
+      "phone": "+918767059679",
+      "address": {
+        "city": "Pune",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_krishna_iyer.jpeg",
+      "bio": "Krishna is a dedicated Software Engineer at Meta with 0 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/krishna-iyer",
+      "github": "https://github.com/krishnaiyer",
+      "portfolio": "https://krishnaiyer.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": false,
+      "profileVerified": true
+    },
+    "createdAt": "2025-11-13T19:13:38.753Z",
+    "updatedAt": "2025-11-13T19:13:38.753Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "diya.malhotra@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Diya",
+    "lastName": "Malhotra",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2021,
+      "graduationYear": 2025,
+      "branch": "CSE",
+      "rollNumber": "086325CSE009",
+      "cgpa": 7.81
+    },
+    "professional": {
+      "currentCompany": "Adobe",
+      "designation": "Software Developer",
+      "currentSalary": 11,
+      "workType": "FULL_TIME",
+      "workLocation": "Noida, India",
+      "experienceYears": 0,
+      "skills": [
+        "Java",
+        "Python",
+        "Node.js",
+        "React",
+        "MongoDB",
+        "MySQL"
+      ]
+    },
+    "contact": {
+      "phone": "+919974506695",
+      "address": {
+        "city": "Noida",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_diya_malhotra.jpeg",
+      "bio": "Diya is a dedicated Software Developer at Adobe with 0 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/diya-malhotra",
+      "github": "https://github.com/diyamalhotra",
+      "portfolio": "https://diyamalhotra.dev"
+    },
+    "verification": {
+      "emailVerified": false,
+      "phoneVerified": true,
+      "profileVerified": false
+    },
+    "createdAt": "2025-11-13T19:13:38.753Z",
+    "updatedAt": "2025-11-13T19:13:38.753Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "myra.reddy@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Myra",
+    "lastName": "Reddy",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2021,
+      "graduationYear": 2025,
+      "branch": "ECE",
+      "rollNumber": "086325ECE010",
+      "cgpa": 8.84
+    },
+    "professional": {
+      "currentCompany": "Apple",
+      "designation": "iOS Developer",
+      "currentSalary": 16,
+      "workType": "FULL_TIME",
+      "workLocation": "Kolkata, India",
+      "experienceYears": 0,
+      "skills": [
+        "Verilog",
+        "MATLAB"
+      ]
+    },
+    "contact": {
+      "phone": "+913558522116",
+      "address": {
+        "city": "Kolkata",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_myra_reddy.jpeg",
+      "bio": "Myra is a dedicated iOS Developer at Apple with 0 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/myra-reddy",
+      "github": "https://github.com/myrareddy",
+      "portfolio": "https://myrareddy.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": true,
+      "profileVerified": false
+    },
+    "createdAt": "2025-11-13T19:13:38.753Z",
+    "updatedAt": "2025-11-13T19:13:38.753Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "avni.mishra@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Avni",
+    "lastName": "Mishra",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2021,
+      "graduationYear": 2025,
+      "branch": "EEE",
+      "rollNumber": "086325EEE011",
+      "cgpa": 8.06
+    },
+    "professional": {
+      "currentCompany": "IBM",
+      "designation": "Full Stack Developer",
+      "currentSalary": 8,
+      "workType": "FULL_TIME",
+      "workLocation": "Ahmedabad, India",
+      "experienceYears": 0,
+      "skills": [
+        "PLC Programming",
+        "Electrical Design",
+        "AutoCAD"
+      ]
+    },
+    "contact": {
+      "phone": "+912655832030",
+      "address": {
+        "city": "Ahmedabad",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_avni_mishra.jpeg",
+      "bio": "Avni is a dedicated Full Stack Developer at IBM with 0 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/avni-mishra",
+      "github": "https://github.com/avnimishra",
+      "portfolio": "https://avnimishra.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": false,
+      "profileVerified": false
+    },
+    "createdAt": "2025-11-13T19:13:38.753Z",
+    "updatedAt": "2025-11-13T19:13:38.753Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "arjun.pandey@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Arjun",
+    "lastName": "Pandey",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2021,
+      "graduationYear": 2025,
+      "branch": "ECE",
+      "rollNumber": "086325ECE012",
+      "cgpa": 8.69
+    },
+    "professional": {
+      "currentCompany": "Meta",
+      "designation": "Software Engineer",
+      "currentSalary": 18,
+      "workType": "FULL_TIME",
+      "workLocation": "Hyderabad, India",
+      "experienceYears": 0,
+      "skills": [
+        "VLSI Design",
+        "Verilog",
+        "Embedded Systems"
+      ]
+    },
+    "contact": {
+      "phone": "+919672032106",
+      "address": {
+        "city": "Hyderabad",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_arjun_pandey.jpeg",
+      "bio": "Arjun is a dedicated Software Engineer at Meta with 0 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/arjun-pandey",
+      "github": "https://github.com/arjunpandey",
+      "portfolio": "https://arjunpandey.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": false,
+      "profileVerified": false
+    },
+    "createdAt": "2025-11-13T19:13:38.753Z",
+    "updatedAt": "2025-11-13T19:13:38.753Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "advait.agarwal@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Advait",
+    "lastName": "Agarwal",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2021,
+      "graduationYear": 2025,
+      "branch": "CIVIL",
+      "rollNumber": "086325CIVIL013",
+      "cgpa": 8.63
+    },
+    "professional": {
+      "currentCompany": "Salesforce",
+      "designation": "Cloud Engineer",
+      "currentSalary": 10.5,
+      "workType": "FULL_TIME",
+      "workLocation": "Gurgaon, India",
+      "experienceYears": 0,
+      "skills": [
+        "Project Management",
+        "Construction Management",
+        "AutoCAD"
+      ]
+    },
+    "contact": {
+      "phone": "+919083900645",
+      "address": {
+        "city": "Gurgaon",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_advait_agarwal.jpeg",
+      "bio": "Advait is a dedicated Cloud Engineer at Salesforce with 0 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/advait-agarwal",
+      "github": "https://github.com/advaitagarwal",
+      "portfolio": "https://advaitagarwal.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": false,
+      "profileVerified": true
+    },
+    "createdAt": "2025-11-13T19:13:38.753Z",
+    "updatedAt": "2025-11-13T19:13:38.753Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "saanvi.pandey@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Saanvi",
+    "lastName": "Pandey",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2021,
+      "graduationYear": 2025,
+      "branch": "EEE",
+      "rollNumber": "086325EEE014",
+      "cgpa": 6.51
+    },
+    "professional": {
+      "currentCompany": "IBM",
+      "designation": "Full Stack Developer",
+      "currentSalary": 8,
+      "workType": "FULL_TIME",
+      "workLocation": "Delhi, India",
+      "experienceYears": 0,
+      "skills": [
+        "Control Systems",
+        "PLC Programming",
+        "Power Systems",
+        "Electrical Design"
+      ]
+    },
+    "contact": {
+      "phone": "+911331859660",
+      "address": {
+        "city": "Delhi",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_saanvi_pandey.jpeg",
+      "bio": "Saanvi is a dedicated Full Stack Developer at IBM with 0 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/saanvi-pandey",
+      "github": "https://github.com/saanvipandey",
+      "portfolio": "https://saanvipandey.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": true,
+      "profileVerified": true
+    },
+    "createdAt": "2025-11-13T19:13:38.753Z",
+    "updatedAt": "2025-11-13T19:13:38.753Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "anika.pandey@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Anika",
+    "lastName": "Pandey",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2021,
+      "graduationYear": 2025,
+      "branch": "CSE",
+      "rollNumber": "086325CSE015",
+      "cgpa": 9.23
+    },
+    "professional": {
+      "currentCompany": "Netflix",
+      "designation": "Backend Engineer",
+      "currentSalary": 14,
+      "workType": "FULL_TIME",
+      "workLocation": "Pune, India",
+      "experienceYears": 0,
+      "skills": [
+        "JavaScript",
+        "React"
+      ]
+    },
+    "contact": {
+      "phone": "+912502662721",
+      "address": {
+        "city": "Pune",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_anika_pandey.jpeg",
+      "bio": "Anika is a dedicated Backend Engineer at Netflix with 0 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/anika-pandey",
+      "github": "https://github.com/anikapandey",
+      "portfolio": "https://anikapandey.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": true,
+      "profileVerified": false
+    },
+    "createdAt": "2025-11-13T19:13:38.753Z",
+    "updatedAt": "2025-11-13T19:13:38.753Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "aditya.jain@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Aditya",
+    "lastName": "Jain",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2021,
+      "graduationYear": 2025,
+      "branch": "IT",
+      "rollNumber": "086325IT016",
+      "cgpa": 8.92
+    },
+    "professional": {
+      "currentCompany": "Meta",
+      "designation": "Software Engineer",
+      "currentSalary": 18,
+      "workType": "FULL_TIME",
+      "workLocation": "Noida, India",
+      "experienceYears": 0,
+      "skills": [
+        "Network Security",
+        "Database Management",
+        "Cloud Computing"
+      ]
+    },
+    "contact": {
+      "phone": "+914523214601",
+      "address": {
+        "city": "Noida",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_aditya_jain.jpeg",
+      "bio": "Aditya is a dedicated Software Engineer at Meta with 0 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/aditya-jain",
+      "github": "https://github.com/adityajain",
+      "portfolio": "https://adityajain.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": true,
+      "profileVerified": true
+    },
+    "createdAt": "2025-11-13T19:13:38.753Z",
+    "updatedAt": "2025-11-13T19:13:38.753Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  }
+]

@@ -1,0 +1,964 @@
+[
+  {
+    "email": "aarav.nair@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Aarav",
+    "lastName": "Nair",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2020,
+      "graduationYear": 2024,
+      "branch": "ECE",
+      "rollNumber": "086324ECE001",
+      "cgpa": 6.23
+    },
+    "professional": {
+      "currentCompany": "Microsoft",
+      "designation": "Software Engineer",
+      "currentSalary": 12,
+      "workType": "FULL_TIME",
+      "workLocation": "Gurgaon, India",
+      "experienceYears": 1,
+      "skills": [
+        "VLSI Design",
+        "Embedded Systems",
+        "Signal Processing",
+        "MATLAB"
+      ]
+    },
+    "contact": {
+      "phone": "+919875366470",
+      "address": {
+        "city": "Gurgaon",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_aarav_nair.jpeg",
+      "bio": "Aarav is a dedicated Software Engineer at Microsoft with 1 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/aarav-nair",
+      "github": "https://github.com/aaravnair",
+      "portfolio": "https://aaravnair.dev"
+    },
+    "verification": {
+      "emailVerified": false,
+      "phoneVerified": false,
+      "profileVerified": false
+    },
+    "createdAt": "2025-11-13T19:13:38.752Z",
+    "updatedAt": "2025-11-13T19:13:38.752Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "sai.agarwal@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Sai",
+    "lastName": "Agarwal",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2020,
+      "graduationYear": 2024,
+      "branch": "CSE",
+      "rollNumber": "086324CSE002",
+      "cgpa": 7.88
+    },
+    "professional": {
+      "currentCompany": "Swiggy",
+      "designation": "Software Engineer",
+      "currentSalary": 7.5,
+      "workType": "FULL_TIME",
+      "workLocation": "Ahmedabad, India",
+      "experienceYears": 1,
+      "skills": [
+        "MongoDB",
+        "Java"
+      ]
+    },
+    "contact": {
+      "phone": "+911525472273",
+      "address": {
+        "city": "Ahmedabad",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_sai_agarwal.jpeg",
+      "bio": "Sai is a dedicated Software Engineer at Swiggy with 1 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/sai-agarwal",
+      "github": "https://github.com/saiagarwal",
+      "portfolio": "https://saiagarwal.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": false,
+      "profileVerified": true
+    },
+    "createdAt": "2025-11-13T19:13:38.752Z",
+    "updatedAt": "2025-11-13T19:13:38.752Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "reyansh.mishra@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Reyansh",
+    "lastName": "Mishra",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2020,
+      "graduationYear": 2024,
+      "branch": "IT",
+      "rollNumber": "086324IT003",
+      "cgpa": 6.45
+    },
+    "professional": {
+      "currentCompany": "Ola",
+      "designation": "Product Engineer",
+      "currentSalary": 6.8,
+      "workType": "FULL_TIME",
+      "workLocation": "Chennai, India",
+      "experienceYears": 1,
+      "skills": [
+        "C++",
+        "Network Security",
+        "Cloud Computing",
+        "Database Management"
+      ]
+    },
+    "contact": {
+      "phone": "+914096704638",
+      "address": {
+        "city": "Chennai",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_reyansh_mishra.jpeg",
+      "bio": "Reyansh is a dedicated Product Engineer at Ola with 1 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/reyansh-mishra",
+      "github": "https://github.com/reyanshmishra",
+      "portfolio": "https://reyanshmishra.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": false,
+      "profileVerified": true
+    },
+    "createdAt": "2025-11-13T19:13:38.752Z",
+    "updatedAt": "2025-11-13T19:13:38.752Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "vihaan.agarwal@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Vihaan",
+    "lastName": "Agarwal",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2020,
+      "graduationYear": 2024,
+      "branch": "IT",
+      "rollNumber": "086324IT004",
+      "cgpa": 6.09
+    },
+    "professional": {
+      "currentCompany": "Flipkart",
+      "designation": "Software Engineer",
+      "currentSalary": 8.5,
+      "workType": "FULL_TIME",
+      "workLocation": "Pune, India",
+      "experienceYears": 1,
+      "skills": [
+        "System Administration",
+        "Network Security",
+        "Database Management",
+        "Java"
+      ]
+    },
+    "contact": {
+      "phone": "+911180886425",
+      "address": {
+        "city": "Pune",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_vihaan_agarwal.jpeg",
+      "bio": "Vihaan is a dedicated Software Engineer at Flipkart with 1 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/vihaan-agarwal",
+      "github": "https://github.com/vihaanagarwal",
+      "portfolio": "https://vihaanagarwal.dev"
+    },
+    "verification": {
+      "emailVerified": false,
+      "phoneVerified": false,
+      "profileVerified": true
+    },
+    "createdAt": "2025-11-13T19:13:38.752Z",
+    "updatedAt": "2025-11-13T19:13:38.752Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "diya.reddy@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Diya",
+    "lastName": "Reddy",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2020,
+      "graduationYear": 2024,
+      "branch": "IT",
+      "rollNumber": "086324IT005",
+      "cgpa": 9.86
+    },
+    "professional": {
+      "currentCompany": "Microsoft",
+      "designation": "Software Engineer",
+      "currentSalary": 12,
+      "workType": "FULL_TIME",
+      "workLocation": "Mumbai, India",
+      "experienceYears": 1,
+      "skills": [
+        "System Administration",
+        "Network Security",
+        "Database Management",
+        "C++"
+      ]
+    },
+    "contact": {
+      "phone": "+915673424560",
+      "address": {
+        "city": "Mumbai",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_diya_reddy.jpeg",
+      "bio": "Diya is a dedicated Software Engineer at Microsoft with 1 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/diya-reddy",
+      "github": "https://github.com/diyareddy",
+      "portfolio": "https://diyareddy.dev"
+    },
+    "verification": {
+      "emailVerified": false,
+      "phoneVerified": false,
+      "profileVerified": true
+    },
+    "createdAt": "2025-11-13T19:13:38.752Z",
+    "updatedAt": "2025-11-13T19:13:38.752Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "kabir.prasad@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Kabir",
+    "lastName": "Prasad",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2020,
+      "graduationYear": 2024,
+      "branch": "CSE",
+      "rollNumber": "086324CSE006",
+      "cgpa": 6.32
+    },
+    "professional": {
+      "currentCompany": "Paytm",
+      "designation": "Backend Developer",
+      "currentSalary": 7,
+      "workType": "FULL_TIME",
+      "workLocation": "Bangalore, India",
+      "experienceYears": 1,
+      "skills": [
+        "Node.js",
+        "MySQL",
+        "React",
+        "Java"
+      ]
+    },
+    "contact": {
+      "phone": "+911988467884",
+      "address": {
+        "city": "Bangalore",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_kabir_prasad.jpeg",
+      "bio": "Kabir is a dedicated Backend Developer at Paytm with 1 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/kabir-prasad",
+      "github": "https://github.com/kabirprasad",
+      "portfolio": "https://kabirprasad.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": true,
+      "profileVerified": true
+    },
+    "createdAt": "2025-11-13T19:13:38.752Z",
+    "updatedAt": "2025-11-13T19:13:38.752Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "vivaan.pandey@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Vivaan",
+    "lastName": "Pandey",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2020,
+      "graduationYear": 2024,
+      "branch": "IT",
+      "rollNumber": "086324IT007",
+      "cgpa": 8.42
+    },
+    "professional": {
+      "currentCompany": "Paytm",
+      "designation": "Backend Developer",
+      "currentSalary": 7,
+      "workType": "FULL_TIME",
+      "workLocation": "Gurgaon, India",
+      "experienceYears": 1,
+      "skills": [
+        "System Administration",
+        "C++"
+      ]
+    },
+    "contact": {
+      "phone": "+917665495120",
+      "address": {
+        "city": "Gurgaon",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_vivaan_pandey.jpeg",
+      "bio": "Vivaan is a dedicated Backend Developer at Paytm with 1 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/vivaan-pandey",
+      "github": "https://github.com/vivaanpandey",
+      "portfolio": "https://vivaanpandey.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": true,
+      "profileVerified": true
+    },
+    "createdAt": "2025-11-13T19:13:38.752Z",
+    "updatedAt": "2025-11-13T19:13:38.752Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "anika.patel@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Anika",
+    "lastName": "Patel",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2020,
+      "graduationYear": 2024,
+      "branch": "ECE",
+      "rollNumber": "086324ECE008",
+      "cgpa": 8.56
+    },
+    "professional": {
+      "currentCompany": "Flipkart",
+      "designation": "Software Engineer",
+      "currentSalary": 8.5,
+      "workType": "FULL_TIME",
+      "workLocation": "Chennai, India",
+      "experienceYears": 1,
+      "skills": [
+        "Verilog",
+        "Embedded Systems",
+        "Signal Processing"
+      ]
+    },
+    "contact": {
+      "phone": "+914873877422",
+      "address": {
+        "city": "Chennai",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_anika_patel.jpeg",
+      "bio": "Anika is a dedicated Software Engineer at Flipkart with 1 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/anika-patel",
+      "github": "https://github.com/anikapatel",
+      "portfolio": "https://anikapatel.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": false,
+      "profileVerified": false
+    },
+    "createdAt": "2025-11-13T19:13:38.752Z",
+    "updatedAt": "2025-11-13T19:13:38.752Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "kiara.arora@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Kiara",
+    "lastName": "Arora",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2020,
+      "graduationYear": 2024,
+      "branch": "CIVIL",
+      "rollNumber": "086324CIVIL009",
+      "cgpa": 8.37
+    },
+    "professional": {
+      "currentCompany": "Microsoft",
+      "designation": "Software Engineer",
+      "currentSalary": 12,
+      "workType": "FULL_TIME",
+      "workLocation": "Kolkata, India",
+      "experienceYears": 1,
+      "skills": [
+        "Structural Analysis",
+        "Surveying",
+        "Construction Management"
+      ]
+    },
+    "contact": {
+      "phone": "+919475078738",
+      "address": {
+        "city": "Kolkata",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_kiara_arora.jpeg",
+      "bio": "Kiara is a dedicated Software Engineer at Microsoft with 1 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/kiara-arora",
+      "github": "https://github.com/kiaraarora",
+      "portfolio": "https://kiaraarora.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": true,
+      "profileVerified": true
+    },
+    "createdAt": "2025-11-13T19:13:38.752Z",
+    "updatedAt": "2025-11-13T19:13:38.752Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "aadhya.kumar@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Aadhya",
+    "lastName": "Kumar",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2020,
+      "graduationYear": 2024,
+      "branch": "CSE",
+      "rollNumber": "086324CSE010",
+      "cgpa": 9.37
+    },
+    "professional": {
+      "currentCompany": "Google",
+      "designation": "Software Developer",
+      "currentSalary": 15,
+      "workType": "FULL_TIME",
+      "workLocation": "Pune, India",
+      "experienceYears": 1,
+      "skills": [
+        "Java",
+        "JavaScript",
+        "React",
+        "AWS"
+      ]
+    },
+    "contact": {
+      "phone": "+912048406387",
+      "address": {
+        "city": "Pune",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_aadhya_kumar.jpeg",
+      "bio": "Aadhya is a dedicated Software Developer at Google with 1 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/aadhya-kumar",
+      "github": "https://github.com/aadhyakumar",
+      "portfolio": "https://aadhyakumar.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": false,
+      "profileVerified": true
+    },
+    "createdAt": "2025-11-13T19:13:38.752Z",
+    "updatedAt": "2025-11-13T19:13:38.752Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "aadhya.rao@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Aadhya",
+    "lastName": "Rao",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2020,
+      "graduationYear": 2024,
+      "branch": "CSE",
+      "rollNumber": "086324CSE011",
+      "cgpa": 8.56
+    },
+    "professional": {
+      "currentCompany": "Ola",
+      "designation": "Product Engineer",
+      "currentSalary": 6.8,
+      "workType": "FULL_TIME",
+      "workLocation": "Coimbatore, India",
+      "experienceYears": 1,
+      "skills": [
+        "React",
+        "AWS",
+        "MongoDB"
+      ]
+    },
+    "contact": {
+      "phone": "+912669549042",
+      "address": {
+        "city": "Coimbatore",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_aadhya_rao.jpeg",
+      "bio": "Aadhya is a dedicated Product Engineer at Ola with 1 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/aadhya-rao",
+      "github": "https://github.com/aadhyarao",
+      "portfolio": "https://aadhyarao.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": true,
+      "profileVerified": false
+    },
+    "createdAt": "2025-11-13T19:13:38.752Z",
+    "updatedAt": "2025-11-13T19:13:38.752Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "ishaan.nair@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Ishaan",
+    "lastName": "Nair",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2020,
+      "graduationYear": 2024,
+      "branch": "CSE",
+      "rollNumber": "086324CSE012",
+      "cgpa": 9.27
+    },
+    "professional": {
+      "currentCompany": "Paytm",
+      "designation": "Backend Developer",
+      "currentSalary": 7,
+      "workType": "FULL_TIME",
+      "workLocation": "Hyderabad, India",
+      "experienceYears": 1,
+      "skills": [
+        "JavaScript",
+        "MySQL",
+        "React",
+        "MongoDB"
+      ]
+    },
+    "contact": {
+      "phone": "+915809950026",
+      "address": {
+        "city": "Hyderabad",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_ishaan_nair.jpeg",
+      "bio": "Ishaan is a dedicated Backend Developer at Paytm with 1 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/ishaan-nair",
+      "github": "https://github.com/ishaannair",
+      "portfolio": "https://ishaannair.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": true,
+      "profileVerified": true
+    },
+    "createdAt": "2025-11-13T19:13:38.752Z",
+    "updatedAt": "2025-11-13T19:13:38.752Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "pari.singh@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Pari",
+    "lastName": "Singh",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2020,
+      "graduationYear": 2024,
+      "branch": "CSE",
+      "rollNumber": "086324CSE013",
+      "cgpa": 8.6
+    },
+    "professional": {
+      "currentCompany": "Flipkart",
+      "designation": "Software Engineer",
+      "currentSalary": 8.5,
+      "workType": "FULL_TIME",
+      "workLocation": "Pune, India",
+      "experienceYears": 1,
+      "skills": [
+        "Java",
+        "AWS",
+        "MySQL",
+        "Python"
+      ]
+    },
+    "contact": {
+      "phone": "+913006895235",
+      "address": {
+        "city": "Pune",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_pari_singh.jpeg",
+      "bio": "Pari is a dedicated Software Engineer at Flipkart with 1 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/pari-singh",
+      "github": "https://github.com/parisingh",
+      "portfolio": "https://parisingh.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": true,
+      "profileVerified": true
+    },
+    "createdAt": "2025-11-13T19:13:38.752Z",
+    "updatedAt": "2025-11-13T19:13:38.752Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "aadhya.nair@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Aadhya",
+    "lastName": "Nair",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2020,
+      "graduationYear": 2024,
+      "branch": "CSE",
+      "rollNumber": "086324CSE014",
+      "cgpa": 7.44
+    },
+    "professional": {
+      "currentCompany": "Flipkart",
+      "designation": "Software Engineer",
+      "currentSalary": 8.5,
+      "workType": "FULL_TIME",
+      "workLocation": "Delhi, India",
+      "experienceYears": 1,
+      "skills": [
+        "AWS",
+        "Python",
+        "JavaScript",
+        "React"
+      ]
+    },
+    "contact": {
+      "phone": "+919951975285",
+      "address": {
+        "city": "Delhi",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_aadhya_nair.jpeg",
+      "bio": "Aadhya is a dedicated Software Engineer at Flipkart with 1 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/aadhya-nair",
+      "github": "https://github.com/aadhyanair",
+      "portfolio": "https://aadhyanair.dev"
+    },
+    "verification": {
+      "emailVerified": false,
+      "phoneVerified": true,
+      "profileVerified": true
+    },
+    "createdAt": "2025-11-13T19:13:38.753Z",
+    "updatedAt": "2025-11-13T19:13:38.753Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "shaurya.malhotra@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Shaurya",
+    "lastName": "Malhotra",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2020,
+      "graduationYear": 2024,
+      "branch": "EEE",
+      "rollNumber": "086324EEE015",
+      "cgpa": 6.43
+    },
+    "professional": {
+      "currentCompany": "Google",
+      "designation": "Software Developer",
+      "currentSalary": 15,
+      "workType": "FULL_TIME",
+      "workLocation": "Kolkata, India",
+      "experienceYears": 1,
+      "skills": [
+        "Electrical Design",
+        "AutoCAD",
+        "Control Systems",
+        "Power Systems",
+        "MATLAB"
+      ]
+    },
+    "contact": {
+      "phone": "+917801870270",
+      "address": {
+        "city": "Kolkata",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_shaurya_malhotra.jpeg",
+      "bio": "Shaurya is a dedicated Software Developer at Google with 1 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/shaurya-malhotra",
+      "github": "https://github.com/shauryamalhotra",
+      "portfolio": "https://shauryamalhotra.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": false,
+      "profileVerified": false
+    },
+    "createdAt": "2025-11-13T19:13:38.753Z",
+    "updatedAt": "2025-11-13T19:13:38.753Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "priya.sinha@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Priya",
+    "lastName": "Sinha",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2020,
+      "graduationYear": 2024,
+      "branch": "ECE",
+      "rollNumber": "086324ECE016",
+      "cgpa": 7.59
+    },
+    "professional": {
+      "currentCompany": "Microsoft",
+      "designation": "Software Engineer",
+      "currentSalary": 12,
+      "workType": "FULL_TIME",
+      "workLocation": "Noida, India",
+      "experienceYears": 1,
+      "skills": [
+        "Signal Processing",
+        "VLSI Design"
+      ]
+    },
+    "contact": {
+      "phone": "+918848801071",
+      "address": {
+        "city": "Noida",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_priya_sinha.jpeg",
+      "bio": "Priya is a dedicated Software Engineer at Microsoft with 1 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/priya-sinha",
+      "github": "https://github.com/priyasinha",
+      "portfolio": "https://priyasinha.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": true,
+      "profileVerified": true
+    },
+    "createdAt": "2025-11-13T19:13:38.753Z",
+    "updatedAt": "2025-11-13T19:13:38.753Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "ananya.jain@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Ananya",
+    "lastName": "Jain",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2020,
+      "graduationYear": 2024,
+      "branch": "CIVIL",
+      "rollNumber": "086324CIVIL017",
+      "cgpa": 9.95
+    },
+    "professional": {
+      "currentCompany": "Paytm",
+      "designation": "Backend Developer",
+      "currentSalary": 7,
+      "workType": "FULL_TIME",
+      "workLocation": "Kochi, India",
+      "experienceYears": 1,
+      "skills": [
+        "Construction Management",
+        "AutoCAD",
+        "Project Management"
+      ]
+    },
+    "contact": {
+      "phone": "+918485573195",
+      "address": {
+        "city": "Kochi",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_ananya_jain.jpeg",
+      "bio": "Ananya is a dedicated Backend Developer at Paytm with 1 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/ananya-jain",
+      "github": "https://github.com/ananyajain",
+      "portfolio": "https://ananyajain.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": false,
+      "profileVerified": false
+    },
+    "createdAt": "2025-11-13T19:13:38.753Z",
+    "updatedAt": "2025-11-13T19:13:38.753Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  },
+  {
+    "email": "kavya.agarwal@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Kavya",
+    "lastName": "Agarwal",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2020,
+      "graduationYear": 2024,
+      "branch": "MECH",
+      "rollNumber": "086324MECH018",
+      "cgpa": 7.28
+    },
+    "professional": {
+      "currentCompany": "Swiggy",
+      "designation": "Software Engineer",
+      "currentSalary": 7.5,
+      "workType": "FULL_TIME",
+      "workLocation": "Noida, India",
+      "experienceYears": 1,
+      "skills": [
+        "Thermodynamics",
+        "Machine Design",
+        "SolidWorks"
+      ]
+    },
+    "contact": {
+      "phone": "+919394451785",
+      "address": {
+        "city": "Noida",
+        "state": "India",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_kavya_agarwal.jpeg",
+      "bio": "Kavya is a dedicated Software Engineer at Swiggy with 1 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/kavya-agarwal",
+      "github": "https://github.com/kavyaagarwal",
+      "portfolio": "https://kavyaagarwal.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": false,
+      "profileVerified": true
+    },
+    "createdAt": "2025-11-13T19:13:38.753Z",
+    "updatedAt": "2025-11-13T19:13:38.753Z",
+    "_class": "com.piemr.gradsync.entity.mongodb.User"
+  }
+]

@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import BatchesSection from '@/components/BatchesSection'
+import FeaturedBatchCards from '@/components/FeaturedBatchCards'
 import { GraduationCap, Calendar, Users, TrendingUp } from 'lucide-react'
 
 export default function BatchesPage() {
@@ -82,6 +83,9 @@ export default function BatchesPage() {
           </motion.div>
         </div>
       </section>
+
+      {/* Featured Batch Cards */}
+      <FeaturedBatchCards />
 
       {/* Batches Section */}
       <BatchesSection showAll={true} />

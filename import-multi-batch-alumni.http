@@ -1,0 +1,289 @@
+### Import Multi-Batch Alumni Data (2023, 2024, 2025)
+### Run these requests in sequence to import alumni data for different batch years
+
+### Step 1: Login as Admin to get JWT token
+POST http://localhost:8080/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "admin@piemr.edu.in",
+  "password": "admin123"
+}
+
+### Step 2: Import 2023 Batch Alumni (Sample Data)
+POST http://localhost:8080/api/admin/alumni/bulk-import
+Content-Type: application/json
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
+
+[
+  {
+    "email": "aarav.sharma2023@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Aarav",
+    "lastName": "Sharma",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2019,
+      "graduationYear": 2023,
+      "branch": "CSE",
+      "rollNumber": "0863CSE001",
+      "cgpa": 8.5
+    },
+    "professional": {
+      "currentCompany": "TCS",
+      "designation": "Software Engineer",
+      "currentSalary": 3.5,
+      "workType": "FULL_TIME",
+      "workLocation": "Bangalore, India",
+      "experienceYears": 1,
+      "skills": ["Java", "Python", "JavaScript", "React"]
+    },
+    "contact": {
+      "phone": "+919876543210",
+      "address": {
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_aarav_sharma.jpeg",
+      "bio": "Aarav is a dedicated Software Engineer at TCS with 1 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/aarav-sharma",
+      "github": "https://github.com/aaravsharma",
+      "portfolio": "https://aaravsharma.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": false,
+      "profileVerified": true
+    }
+  },
+  {
+    "email": "priya.gupta2023@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Priya",
+    "lastName": "Gupta",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2019,
+      "graduationYear": 2023,
+      "branch": "IT",
+      "rollNumber": "0863IT002",
+      "cgpa": 9.1
+    },
+    "professional": {
+      "currentCompany": "Infosys",
+      "designation": "System Engineer",
+      "currentSalary": 4.0,
+      "workType": "FULL_TIME",
+      "workLocation": "Hyderabad, India",
+      "experienceYears": 1,
+      "skills": ["Java", "C++", "Database Management", "System Administration"]
+    },
+    "contact": {
+      "phone": "+919876543211",
+      "address": {
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_priya_gupta.jpeg",
+      "bio": "Priya is a dedicated System Engineer at Infosys with 1 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/priya-gupta",
+      "github": "https://github.com/priyagupta",
+      "portfolio": "https://priyagupta.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": true,
+      "profileVerified": true
+    }
+  }
+]
+
+### Step 3: Import 2024 Batch Alumni (Sample Data)
+POST http://localhost:8080/api/admin/alumni/bulk-import
+Content-Type: application/json
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
+
+[
+  {
+    "email": "vivaan.singh2024@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Vivaan",
+    "lastName": "Singh",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2020,
+      "graduationYear": 2024,
+      "branch": "CSE",
+      "rollNumber": "0863CSE001",
+      "cgpa": 9.2
+    },
+    "professional": {
+      "currentCompany": "Microsoft",
+      "designation": "Software Engineer",
+      "currentSalary": 12.0,
+      "workType": "FULL_TIME",
+      "workLocation": "Bangalore, India",
+      "experienceYears": 0,
+      "skills": ["Java", "Python", "JavaScript", "React", "Node.js", "Azure"]
+    },
+    "contact": {
+      "phone": "+919876543212",
+      "address": {
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_vivaan_singh.jpeg",
+      "bio": "Vivaan is a dedicated Software Engineer at Microsoft with 0 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/vivaan-singh",
+      "github": "https://github.com/vivaansingh",
+      "portfolio": "https://vivaansingh.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": false,
+      "profileVerified": true
+    }
+  },
+  {
+    "email": "ananya.patel2024@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Ananya",
+    "lastName": "Patel",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2020,
+      "graduationYear": 2024,
+      "branch": "ECE",
+      "rollNumber": "0863ECE002",
+      "cgpa": 8.8
+    },
+    "professional": {
+      "currentCompany": "Google",
+      "designation": "Software Developer",
+      "currentSalary": 15.0,
+      "workType": "FULL_TIME",
+      "workLocation": "Hyderabad, India",
+      "experienceYears": 0,
+      "skills": ["Python", "Machine Learning", "TensorFlow", "Data Analysis"]
+    },
+    "contact": {
+      "phone": "+919876543213",
+      "address": {
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_ananya_patel.jpeg",
+      "bio": "Ananya is a dedicated Software Developer at Google with 0 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/ananya-patel",
+      "github": "https://github.com/ananyapatel",
+      "portfolio": "https://ananyapatel.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": true,
+      "profileVerified": false
+    }
+  }
+]
+
+### Step 4: Import 2025 Batch Alumni (Sample Data)
+POST http://localhost:8080/api/admin/alumni/bulk-import
+Content-Type: application/json
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
+
+[
+  {
+    "email": "aditya.kumar2025@piemr.edu.in",
+    "password": "student123",
+    "firstName": "Aditya",
+    "lastName": "Kumar",
+    "role": "ALUMNI",
+    "status": "PENDING_VERIFICATION",
+    "batchInfo": {
+      "admissionYear": 2021,
+      "graduationYear": 2025,
+      "branch": "CSE",
+      "rollNumber": "0863CSE001",
+      "cgpa": 9.5
+    },
+    "professional": {
+      "currentCompany": "Meta",
+      "designation": "Software Engineer",
+      "currentSalary": 18.0,
+      "workType": "FULL_TIME",
+      "workLocation": "Bangalore, India",
+      "experienceYears": 0,
+      "skills": ["JavaScript", "React", "Node.js", "GraphQL", "MongoDB"]
+    },
+    "contact": {
+      "phone": "+919876543214",
+      "address": {
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "country": "India"
+      }
+    },
+    "profile": {
+      "profileImage": "http://localhost:8080/images/profiles/default_aditya_kumar.jpeg",
+      "bio": "Aditya is a dedicated Software Engineer at Meta with 0 years of experience in the technology industry."
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/aditya-kumar",
+      "github": "https://github.com/adityakumar",
+      "portfolio": "https://adityakumar.dev"
+    },
+    "verification": {
+      "emailVerified": true,
+      "phoneVerified": true,
+      "profileVerified": true
+    }
+  }
+]
+
+### Step 5: Verify 2023 Batch Import
+GET http://localhost:8080/api/alumni/batch/2023/CSE
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
+
+### Step 6: Verify 2024 Batch Import
+GET http://localhost:8080/api/alumni/batch/2024/CSE
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
+
+### Step 7: Verify 2025 Batch Import
+GET http://localhost:8080/api/alumni/batch/2025/CSE
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
+
+### Step 8: Get All Batches (should now include 2023, 2024, 2025)
+GET http://localhost:8080/api/batches
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
+
+### Step 9: Check Total Alumni Count
+GET http://localhost:8080/api/alumni?page=0&size=100
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
+
+### Step 10: Test Search Across All Batches
+GET http://localhost:8080/api/alumni/search?q=Software Engineer
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
